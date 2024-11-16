@@ -16,7 +16,7 @@ def main():
     vectorizer_A = CustomTfidfVectorizer() # 重命名为方法A了
     # X = vectorizer_A.fit_transform(dataset.data) # 暂时注释掉
 
-    # Vectorising with Fast Text # 下面开始是第二个方法
+    # Vectorising with Fast Text
     # Load previous vectorization file (if there is)
     if os.path.exists('vectorized_data.pkl'):
         with open('vectorized_data.pkl', 'rb') as f:
@@ -24,7 +24,8 @@ def main():
         print("Loaded vectorized data from file.")
     else:
     # Perform vectorization as before
-        vectorizer_B = CustomFastTextVectorizer(model_path='D:/mypython/KP/expKnowledgeProcessing/models/cc.en.300.bin')
+        vectorizer_B = CustomFastTextVectorizer(model_path='D:/mypython/KP/expKnowledgeProcessing/models/cc.en.300.bin') 
+                    # have to use absolute path otherwise bug appears i dont know why :(
         print("Vectorizing dataset...")
         X = vectorizer_B.fit_transform(dataset.data)
         with open('vectorized_data.pkl', 'wb') as f:
@@ -32,7 +33,7 @@ def main():
         print("Vectorization complete and data saved.")
 
     # Perform clustering
-    print("Performing KMeans clustering...") # 加了一些track代码进度的print
+    print("Performing KMeans clustering...") # to track the running process
     kmeans = DocumentKMeans(n_clusters=len(dataset.target_names))
     clusters = kmeans.fit_predict(X)
     print("Clustering complete.")
