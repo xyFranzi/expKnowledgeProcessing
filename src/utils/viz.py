@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+from sklearn.decomposition import TruncatedSVD
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
 class ClusterVisualizer:
     def __init__(self):
         """Initialize the visualizer"""
@@ -29,30 +34,33 @@ class ClusterVisualizer:
         plt.ylabel('Second SVD component')
         plt.show()
         
-    def plot_cluster_distribution(self, clusters):
+    def plot_cluster_distribution(self, clusters, title="Distribution of Documents Across Clusters"):
         """
         Plot the distribution of documents across clusters.
         
         Args:
             clusters: Cluster labels
+            title: Plot title
         """
         plt.figure(figsize=(10, 6))
         sns.countplot(x=clusters)
-        plt.title('Distribution of Documents Across Clusters')
+        plt.title(title)
         plt.xlabel('Cluster')
         plt.ylabel('Number of Documents')
         plt.show()
         
-    def plot_term_importance(self, cluster_terms, top_n=10):
+    def plot_term_importance(self, cluster_terms, top_n=10, title="Top Terms by Cluster"):
         """
         Plot top terms for each cluster.
         
         Args:
             cluster_terms: Dictionary mapping cluster IDs to lists of terms
             top_n: Number of top terms to show
+            title: Plot title
         """
         n_clusters = len(cluster_terms)
         fig, axes = plt.subplots(n_clusters, 1, figsize=(12, 4*n_clusters))
+        fig.suptitle(title)
         
         for i, (cluster_id, terms) in enumerate(cluster_terms.items()):
             terms = terms[:top_n]
@@ -68,22 +76,24 @@ class ClusterVisualizer:
         plt.tight_layout()
         plt.show()
 
-def visualize_clustering_results(X, clusters, cluster_terms):
+def visualize_clustering_results(X, clusters, cluster_terms=None, title="Clustering Results"):
     """
     Comprehensive visualization of clustering results.
     
     Args:
         X: Document-term matrix
         clusters: Cluster labels
-        cluster_terms: Dictionary mapping cluster IDs to lists of terms
+        cluster_terms: Dictionary mapping cluster IDs to lists of terms (optional)
+        title: Base title for the visualizations
     """
     visualizer = ClusterVisualizer()
     
     # Plot clusters in 2D
-    visualizer.plot_clusters_2d(X, clusters)
+    visualizer.plot_clusters_2d(X, clusters, title=f"{title} - 2D Visualization")
     
     # Plot distribution of documents across clusters
-    visualizer.plot_cluster_distribution(clusters)
+    visualizer.plot_cluster_distribution(clusters, title=f"{title} - Document Distribution")
     
-    # Plot top terms for each cluster
-    visualizer.plot_term_importance(cluster_terms)
+    # Plot top terms for each cluster if cluster_terms is provided
+    if cluster_terms:
+        visualizer.plot_term_importance(cluster_terms, title=f"{title} - Term Importance")

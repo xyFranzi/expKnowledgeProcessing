@@ -1,0 +1,8 @@
+=== Document Clustering Experiments Results ===
+
+
+TFIDF + K-means:
+NMI Score: 0.373
+ARI Score: 0.190
+
+Total execution time: 4.95 seconds
