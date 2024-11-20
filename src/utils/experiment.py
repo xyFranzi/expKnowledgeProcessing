@@ -8,10 +8,10 @@ class ExperimentManager:
     def __init__(self):
         self.pipelines = {}
         self.results = {}
-        self.n_clusters = None  # 添加这行
+        self.n_clusters = None  
         
-    def setup_experiments(self, n_clusters):  # 修改这里，通过参数传入
-        self.n_clusters = n_clusters  # 设置聚类数量
+    def setup_experiments(self, n_clusters):  
+        self.n_clusters = n_clusters  
         combinations = [
              ('tfidf', 'kmeans'),
            # ('tfidf', 'dbscan'),
@@ -25,8 +25,8 @@ class ExperimentManager:
         for vec_name, clust_name in combinations:
             name = f"{vec_name}_{clust_name}"
             self.pipelines[name] = DocumentClusteringPipeline(
-                vectorizer_name=vec_name,  # 修改这里
-                clusterer_name=clust_name,  # 修改这里
+                vectorizer_name=vec_name,  
+                clusterer_name=clust_name,  
                 n_clusters=n_clusters if clust_name == 'kmeans' else None
             )
 
@@ -53,7 +53,7 @@ class ExperimentManager:
             self._plot_term_importance()
     
     def _plot_scatter_clusters(self):
-        """绘制聚类散点图"""
+    
         n_experiments = len(self.results)
         cols = min(3, n_experiments)
         rows = (n_experiments + cols - 1) // cols
@@ -71,7 +71,7 @@ class ExperimentManager:
             ax.set_title(name)
             plt.colorbar(scatter, ax=ax)
             
-        # 处理多余的子图
+        
         for ax in axes[len(self.results):]:
             ax.remove()
             
@@ -79,7 +79,7 @@ class ExperimentManager:
         plt.show()
     
     def _plot_cluster_distributions(self):
-        """绘制聚类分布图"""
+        
         n_experiments = len(self.results)
         cols = min(3, n_experiments)
         rows = (n_experiments + cols - 1) // cols
@@ -97,7 +97,7 @@ class ExperimentManager:
             ax.set_xlabel("Cluster")
             ax.set_ylabel("Count")
             
-        # 处理多余的子图
+        
         for ax in axes[len(self.results):]:
             ax.remove()
             
@@ -105,7 +105,7 @@ class ExperimentManager:
         plt.show()
     
     def _plot_term_importance(self):
-        """绘制词语重要性图"""
+        
         for name, result in self.results.items():
             if 'cluster_terms' not in result:
                 continue
@@ -122,7 +122,7 @@ class ExperimentManager:
             
             for cluster_id, terms in cluster_terms.items():
                 ax = axes[cluster_id]
-                top_terms = terms[:10]  # 显示前10个词
+                top_terms = terms[:10]  
                 y_pos = np.arange(len(top_terms))
                 
                 ax.barh(y_pos, [1]*len(top_terms))
@@ -135,13 +135,13 @@ class ExperimentManager:
             plt.show()
     
     def compare_metrics(self):
-        """比较不同方法的评估指标"""
+        """Compare evaluation metrics of different methods"""
         metrics_df = pd.DataFrame({
             name: result['metrics'] 
             for name, result in self.results.items()
         })
         
-        # 添加可视化展示
+        # Add a visual display
         plt.figure(figsize=(12, 6))
         metrics_df.plot(kind='bar')
         plt.title("Clustering Metrics Comparison")
@@ -155,7 +155,7 @@ class ExperimentManager:
         return metrics_df
     
     def summarize_results(self):
-        """打印实验结果摘要"""
+        """Print summary of experimental results"""
         for name, result in self.results.items():
             print(f"\nExperiment: {name}")
             
