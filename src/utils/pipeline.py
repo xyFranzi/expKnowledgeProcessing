@@ -16,12 +16,12 @@ class DocumentClusteringPipeline:
         self.vectorizer_name = vectorizer_name
         self.clusterer_name = clusterer_name
         self.n_clusters = n_clusters
-        self.results = {}  # 存储中间结果
-        self.pca = PCA(n_components=2)  # 添加PCA用于降维
+        self.results = {}  
+        self.pca = PCA(n_components=2)  
         self.setup_components()
         
     def setup_components(self):
-        # 设置向量化方法
+        # Set vectorization method
         if self.vectorizer_name == 'tfidf':
             self.vectorizer = CustomTfidfVectorizer()
         elif self.vectorizer_name == 'fasttext':
@@ -32,7 +32,7 @@ class DocumentClusteringPipeline:
         elif self.vectorizer_name == 'minilm':
             self.vectorizer = CustomMiniLMVectorizer()
         
-        # 设置聚类方法
+        # Set clustering method
         if self.clusterer_name == 'kmeans':
             if self.n_clusters is None:
                 raise ValueError("n_clusters must be specified for KMeans clustering")
@@ -41,7 +41,7 @@ class DocumentClusteringPipeline:
             self.clusterer = DocumentDBSCAN()
     
     def process(self, documents):
-        # 存储原始数据集
+        # Store original data set
         self.results['original_dataset'] = documents
         
         # 向量化
@@ -64,8 +64,7 @@ class DocumentClusteringPipeline:
             
         self.results['vectors'] = vectors
 
-        # 降维用于可视化
-        # 检查vectors是否为稀疏矩阵，如果是则转换为密集矩阵
+        # Dimensionality reduction for visualization
         if hasattr(vectors, 'toarray'):
             dense_vectors = vectors.toarray()
         else:
@@ -74,11 +73,11 @@ class DocumentClusteringPipeline:
         reduced_vectors = self.pca.fit_transform(dense_vectors)
         self.results['reduced_vectors'] = reduced_vectors
 
-        # 聚类
+        # clustering
         clusters = self.clusterer.fit_predict(vectors)
         self.results['clusters'] = clusters
         
-        # 评估
+        # Evaluate
         metrics = self.evaluate(clusters)
         self.results['metrics'] = metrics
         
@@ -86,7 +85,7 @@ class DocumentClusteringPipeline:
 
     def evaluate(self, clusters):
         """
-        评估聚类结果，包括内部和外部评估指标
+        Evaluate clustering results, including internal and external evaluation metrics
         
         Returns:
             dict containing various evaluation metrics
@@ -94,27 +93,26 @@ class DocumentClusteringPipeline:
         true_labels = self.results['original_dataset'].target
         vectors = self.results['vectors']
         
-        # 确保向量是numpy数组格式
         if not isinstance(vectors, np.ndarray):
             vectors = vectors.toarray()
             
         metrics = {
-            # 外部评估指标（需要真实标签）
+            # External evaluation metrics (requires real labels)
             'nmi': normalized_mutual_info_score(true_labels, clusters),
             'ari': adjusted_rand_score(true_labels, clusters),
             
-            # 内部评估指标（不需要真实标签）
+            # Internal evaluation metrics (no real labels required)
             'silhouette': silhouette_score(vectors, clusters),
             'calinski': calinski_harabasz_score(vectors, clusters)
         }
         
-        # 分析聚类结果
+        # Analyze clustering results
         self.results['cluster_terms'] = self.get_cluster_terms_embeddings(
             self.results['original_dataset'].data,
             clusters
         )
         
-        # 找出代表性文档
+        # Find representative documents
         self.results['representative_docs'] = self.find_representative_documents(
             vectors,
             clusters,
@@ -125,13 +123,13 @@ class DocumentClusteringPipeline:
 
     def get_cluster_terms_embeddings(self, texts, clusters, top_n=10, max_features=1000):
         """
-        提取每个聚类的主要词语
-        
+        Extract the main words of each cluster
+
         Args:
-            texts: 原始文本列表
-            clusters: 聚类标签
-            top_n: 每个聚类返回的词语数量
-            max_features: 考虑的最大词语数量
+            texts: original text list
+            clusters: cluster labels
+            top_n: the number of words returned by each cluster
+            max_features: Maximum number of words considered
         
         Returns:
             Dictionary：{cluster_id: [term1, term2, ...]}
@@ -153,13 +151,13 @@ class DocumentClusteringPipeline:
 
     def find_representative_documents(self, X, clusters, documents, n_docs=5):
         """
-        找出每个聚类中最具代表性的文档
-        
+        Find the most representative documents in each cluster
+
         Args:
-            X: 文档的向量表示
-            clusters: 聚类标签
-            documents: 原始文档列表
-            n_docs: 每个聚类返回的文档数量
+            X: vector representation of the document
+            clusters: cluster labels
+            documents: original document list
+            n_docs: Number of documents returned for each cluster
         
         Returns:
             Dictionary：{cluster_id: [doc1, doc2, ...]}
@@ -168,18 +166,18 @@ class DocumentClusteringPipeline:
         representatives = {}
         
         for cluster_id in unique_clusters:
-            # 获取该聚类的文档
+            # Get the documents for this cluster
             cluster_mask = clusters == cluster_id
             cluster_embeddings = X[cluster_mask]
             cluster_docs = np.array(documents)[cluster_mask]
             
-            # 计算聚类中心
+            # Calculate cluster center
             centroid = np.mean(cluster_embeddings, axis=0)
             
-            # 计算相似度
+            # Calculate similarity
             similarities = cosine_similarity(cluster_embeddings, centroid.reshape(1, -1))
             
-            # 获取最相似的文档
+            # Get the most similar document
             top_indices = similarities.flatten().argsort()[-n_docs:][::-1]
             representatives[cluster_id] = cluster_docs[top_indices].tolist()
         
@@ -187,12 +185,12 @@ class DocumentClusteringPipeline:
 
     def analyze_clusters(self, kmeans, feature_names, n_terms=10):
         """
-        分析每个聚类的主要特征词（仅适用于K-means聚类）
+        Analyze the main feature words of each cluster (only applicable to K-means clustering)
         
         Args:
-            kmeans: 已训练的KMeans模型
-            feature_names: 特征名称列表
-            n_terms: 返回的词语数量
+            kmeans: trained KMeans model
+            feature_names: list of feature names
+            n_terms: Number of terms returned
         
         Returns:
             Dictionary：{cluster_id: [term1, term2, ...]}

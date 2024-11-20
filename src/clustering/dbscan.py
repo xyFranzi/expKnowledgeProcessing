@@ -16,7 +16,7 @@ class DocumentDBSCAN:
             eps=eps,
             min_samples=min_samples,
             metric=metric,
-            n_jobs=-1  # 使用所有CPU核心
+            n_jobs=-1  # Use all CPU cores
         )
         self.labels_ = None
         
@@ -51,10 +51,3 @@ class DocumentDBSCAN:
             'n_noise': list(self.labels_).count(-1),
             'core_samples_mask': self.dbscan.core_sample_indices_
         }
-
-# 使用示例：
-# dbscan = DocumentDBSCAN(eps=0.5, min_samples=5)
-# clusters = dbscan.fit_predict(X)
-# info = dbscan.get_cluster_info()
-# print(f"Number of clusters: {info['n_clusters']}")
-# print(f"Number of noise points: {info['n_noise']}")
