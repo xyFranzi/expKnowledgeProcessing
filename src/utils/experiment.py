@@ -13,12 +13,12 @@ class ExperimentManager:
     def setup_experiments(self, n_clusters):  # 修改这里，通过参数传入
         self.n_clusters = n_clusters  # 设置聚类数量
         combinations = [
-             ('tfidf', 'kmeans'),
+            #  ('tfidf', 'kmeans'),
            # ('tfidf', 'dbscan'),
-          # ('fasttext', 'kmeans'),
+          ('fasttext', 'kmeans'),
            # ('fasttext', 'dbscan'),
             #('minilm', 'dbscan'),
-            ('minilm', 'kmeans')
+            # ('minilm', 'kmeans')
            
         ]
         

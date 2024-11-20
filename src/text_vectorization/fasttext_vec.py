@@ -1,4 +1,3 @@
-# src/text_vectorization/fasttext_vectorizer.py
 import numpy as np
 import fasttext
 import fasttext.util

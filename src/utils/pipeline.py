@@ -8,6 +8,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from sklearn.decomposition import PCA
+import pickle
+import os
 
 class DocumentClusteringPipeline:
     def __init__(self, vectorizer_name, clusterer_name, n_clusters=None):
@@ -24,7 +26,8 @@ class DocumentClusteringPipeline:
             self.vectorizer = CustomTfidfVectorizer()
         elif self.vectorizer_name == 'fasttext':
             self.vectorizer = CustomFastTextVectorizer(
-                model_path='/Users/yue/Documents/code/expKnowledgeProcessing/models/cc.en.300.bin'
+                    # model_path='/Users/yue/Documents/code/expKnowledgeProcessing/models/cc.en.300.bin'
+                model_path='D:/mypython/KP/expKnowledgeProcessing/models/cc.en.300.bin'
             )
         elif self.vectorizer_name == 'minilm':
             self.vectorizer = CustomMiniLMVectorizer()
@@ -42,7 +45,23 @@ class DocumentClusteringPipeline:
         self.results['original_dataset'] = documents
         
         # 向量化
-        vectors = self.vectorizer.fit_transform(documents.data)
+        #  Load previous vectorization file (if there is)
+                
+        if self.vectorizer_name == 'fasttext':
+            if os.path.exists('vectorized_data.pkl'):
+                with open('vectorized_data.pkl', 'rb') as f:
+                    vectors = pickle.load(f)
+                print("Loaded vectorized data from file.")
+            else:
+            # Perform vectorization as before
+                print("Vectorizing dataset...")
+                vectors = self.vectorizer.fit_transform(documents.data)
+                with open('vectorized_data.pkl', 'wb') as f:
+                    pickle.dump(vectors, f)
+                print("Vectorization complete and data saved.")
+        else:
+            vectors = self.vectorizer.fit_transform(documents.data)
+            
         self.results['vectors'] = vectors
 
         # 降维用于可视化
@@ -116,7 +135,7 @@ class DocumentClusteringPipeline:
         
         Returns:
             Dictionary：{cluster_id: [term1, term2, ...]}
-        """
+        """ 
         count_vec = CountVectorizer(max_features=max_features, stop_words='english')
         X_count = count_vec.fit_transform(texts)
         feature_names = count_vec.get_feature_names_out()
