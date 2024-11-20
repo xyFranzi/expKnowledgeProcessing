@@ -1,0 +1,33 @@
+=== Document Clustering Experiments Results ===
+
+Evaluation Metrics:
+            minilm_kmeans
+nmi              0.530557
+ari              0.532025
+silhouette       0.065042
+calinski        80.643161
+
+
+=== MINILM_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 511 documents
+Cluster 1: 731 documents
+Cluster 2: 58 documents
+Cluster 3: 734 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+image, graphics, jpeg, file, data, use, images, software, edu, available
+
+Cluster 1:
+space, nasa, launch, like, edu, just, time, earth, data, orbit
+
+Cluster 2:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 3:
+god, people, don, jesus, just, think, does, say, know, like
+
+Total execution time: 30.55 seconds
