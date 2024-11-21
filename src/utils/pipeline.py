@@ -3,6 +3,7 @@ from src.text_vectorization.fasttext_vec import CustomFastTextVectorizer
 from src.text_vectorization.minilm_vec import CustomMiniLMVectorizer
 from src.clustering.kmeans import DocumentKMeans
 from src.clustering.dbscan import DocumentDBSCAN
+from src.clustering.hdbscan import DocumentHDBSCAN
 from sklearn.metrics import normalized_mutual_info_score, adjusted_rand_score, silhouette_score, calinski_harabasz_score
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -39,6 +40,8 @@ class DocumentClusteringPipeline:
             self.clusterer = DocumentKMeans(n_clusters=self.n_clusters)
         elif self.clusterer_name == 'dbscan':
             self.clusterer = DocumentDBSCAN()
+        elif self.clusterer_name == 'hdbscan':  # added HDBSCAN
+            self.clusterer = DocumentHDBSCAN()
     
     def process(self, documents):
         # Store original data set

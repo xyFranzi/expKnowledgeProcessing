@@ -1,0 +1,91 @@
+=== Document Clustering Experiments Results ===
+
+Evaluation Metrics:
+            tfidf_kmeans  tfidf_dbscan  fasttext_kmeans  minilm_kmeans
+nmi             0.394142      0.001391         0.027366       0.530557
+ari             0.244755      0.001483         0.025992       0.532025
+silhouette      0.007979     -0.245740         0.114783       0.065042
+calinski       10.084023      1.024069       226.355193      80.643166
+
+
+=== TFIDF_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 1078 documents
+Cluster 1: 485 documents
+Cluster 2: 275 documents
+Cluster 3: 196 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+don, think, just, people, like, know, time, say, does, said
+
+Cluster 1:
+image, graphics, edu, jpeg, file, files, software, data, use, images
+
+Cluster 2:
+space, nasa, launch, earth, data, orbit, satellite, shuttle, lunar, time
+
+Cluster 3:
+god, jesus, people, bible, does, believe, christian, don, say, just
+
+=== TFIDF_DBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 1968 documents
+Cluster 0: 66 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 0:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+=== FASTTEXT_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 927 documents
+Cluster 1: 953 documents
+Cluster 2: 76 documents
+Cluster 3: 78 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+space, people, image, edu, data, god, like, nasa, time, don
+
+Cluster 1:
+don, think, god, just, people, know, like, does, say, good
+
+Cluster 2:
+space, telescope, national, word, satellite, observatory, shuttle, nasa, list, center
+
+Cluster 3:
+den, p2, p3, p1, radius, edu, 000, 14, space, van
+
+=== MINILM_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 511 documents
+Cluster 1: 731 documents
+Cluster 2: 58 documents
+Cluster 3: 734 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+image, graphics, jpeg, file, data, use, images, software, edu, available
+
+Cluster 1:
+space, nasa, launch, like, edu, just, time, earth, data, orbit
+
+Cluster 2:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 3:
+god, people, don, jesus, just, think, does, say, know, like
+
+Total execution time: 136.69 seconds

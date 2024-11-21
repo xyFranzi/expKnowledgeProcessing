@@ -13,13 +13,15 @@ class ExperimentManager:
     def setup_experiments(self, n_clusters):  
         self.n_clusters = n_clusters  
         combinations = [
-            #  ('tfidf', 'kmeans'),
-           # ('tfidf', 'dbscan'),
-          ('fasttext', 'kmeans'),
-           # ('fasttext', 'dbscan'),
-            #('minilm', 'dbscan'),
-            # ('minilm', 'kmeans')
-           
+            ('tfidf', 'kmeans'),
+            ('tfidf', 'dbscan'),
+            ('tfidf', 'hdbscan'),
+            ('fasttext', 'kmeans'),
+            ('fasttext', 'dbscan'),
+            ('fasttext', 'hdbscan'),
+            ('minilm', 'kmeans'),
+            ('minilm', 'dbscan'),
+            ('minilm', 'hdbscan')  
         ]
         
         for vec_name, clust_name in combinations:
