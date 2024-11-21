@@ -1,0 +1,27 @@
+Experiment: minilm_hdbscan
+
+Clustering Metrics:
+nmi: 0.009
+ari: 0.005
+silhouette: 0.028
+calinski: 23.244
+
+Cluster Sizes:
+Cluster -1: 410 documents
+Cluster 0: 1567 documents
+Cluster 1: 7 documents
+Cluster 2: 50 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+like, just, know, time, don, space, people, larson, good, think
+
+Cluster 0:
+space, god, people, don, just, like, does, think, know, image
+
+Cluster 1:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 2:
+zip, father, flight, fit, fine, finally, final, files, file, figure

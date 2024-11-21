@@ -1,0 +1,19 @@
+Experiment: fasttext_dbscan
+
+Clustering Metrics:
+nmi: 0.005
+ari: 0.001
+silhouette: 0.523
+calinski: 57.538
+
+Cluster Sizes:
+Cluster -1: 91 documents
+Cluster 0: 1943 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+den, p3, p2, p1, van, radius, washington, value, street, new
+
+Cluster 0:
+space, people, god, don, like, just, does, know, think, time
