@@ -1,4 +1,5 @@
 from src.dimension_reduction.pca import CustomPCA
+from src.dimension_reduction.svd import CustomSVD
 from src.text_vectorization.tfidf import CustomTfidfVectorizer
 from src.text_vectorization.fasttext_vec import CustomFastTextVectorizer 
 from src.text_vectorization.minilm_vec import CustomMiniLMVectorizer
@@ -9,37 +10,45 @@ from sklearn.metrics import normalized_mutual_info_score, adjusted_rand_score, s
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
-from sklearn.decomposition import PCA
+from sklearn.decomposition import PCA, TruncatedSVD
 import pickle
 import os
 
 class DocumentClusteringPipeline:
-    def __init__(self, vectorizer_name, clusterer_name, n_clusters=None, n_components=None, variance_threshold=0.95):
-        """
-        Initialize the document clustering pipeline
+    def __init__(self, vectorizer_name, clusterer_name, dim_reduction='svd', n_clusters=None, n_components=None, variance_threshold=0.95):
+            """
+            Initialize the document clustering pipeline
+            
+            参数:
+                vectorizer_name (str): vectorization method ('tfidf', 'fasttext', 或 'minilm')
+                clusterer_name (str): clustering method ('kmeans', 'dbscan', 或 'hdbscan')
+                dim_reduction (str): dimensionality reduction method ('pca' or 'svd')
+                n_clusters (int, optional): Number of clusters for K-means clustering
+                n_components (int, optional): The number of dimensions for reduction
+                variance_threshold (float, optional): The variance threshold for automatic dimension selection
+            """
+            self.vectorizer_name = vectorizer_name
+            self.clusterer_name = clusterer_name
+            self.dim_reduction = dim_reduction
+            self.n_clusters = n_clusters
+            self.n_components = n_components
+            self.variance_threshold = variance_threshold
+            self.results = {}
+            
+            # Initialize visualization reducer
+            if self.dim_reduction == 'pca':
+                self.vis_reducer = PCA(n_components=2)
+            else:
+                self.vis_reducer = TruncatedSVD(n_components=2)
+            
+            # Initialize main dimension reducer
+            if self.n_components is not None:
+                self.reducer = CustomPCA(n_components=self.n_components) if dim_reduction == 'pca' else CustomSVD(n_components=self.n_components)
+            else:
+                self.reducer = None
+                
+            self.setup_components()  
         
-        参数:
-            vectorizer_name (str): vectorization method ('tfidf', 'fasttext', 或 'minilm')
-            clusterer_name (str): clustering method ('kmeans', 'dbscan', 或 'hdbscan')
-            n_clusters (int, optional): Number of clusters for K-means clustering. Can be None for DBSCAN and HDBSCAN
-            n_components (int, optional): The number of dimensions for PCA dimensionality reduction. If None, automatically select
-            variance_threshold (float, optional): The variance threshold when automatically selecting dimensions, the default is 0.95, which means 95% of the variance is retained
-        """
-        self.vectorizer_name = vectorizer_name
-        self.clusterer_name = clusterer_name
-        self.n_clusters = n_clusters
-        self.n_components = n_components
-        self.variance_threshold = variance_threshold
-        self.results = {}
-        self.pca_vis = PCA(n_components=2)# for visualization
-        
-        # If n_components is specified, initialize PCA
-        if self.n_components is not None:
-            self.pca = CustomPCA(n_components=self.n_components)
-        else:
-            self.pca = None  # Will be automatically set based on data in the process method
-        self.setup_components()   
-    
     def setup_components(self):
         # Set vectorization method
         if self.vectorizer_name == 'tfidf':
@@ -62,26 +71,30 @@ class DocumentClusteringPipeline:
             self.clusterer = DocumentHDBSCAN()
     
     def select_n_components(self, vectors):
-            """
-            Automatically select the number of dimensions for PCA dimensionality reduction
-            Minimum dimension required to reach threshold based on cumulative explained variance ratio
-            """
-            # If the vector is a sparse matrix, convert it to a dense matrix
-            if hasattr(vectors, 'toarray'):
-                vectors = vectors.toarray()
+        """
+        Automatically select the number of dimensions
+        """
+        # Convert to dense if needed
+        if hasattr(vectors, 'toarray'):
+            vectors = vectors.toarray()
                 
-            # First fit the data with full PCA
-            temp_pca = PCA()
-            temp_pca.fit(vectors)
-            
-            # Calculate cumulative variance ratio
-            cumsum = np.cumsum(temp_pca.explained_variance_ratio_)
-            
-            # Find the first dimension that exceeds the threshold
-            n_components = np.argmax(cumsum >= self.variance_threshold) + 1
-            
-            print(f"Selected {n_components} components (explaining {cumsum[n_components-1]:.2%} of variance)")
-            return n_components
+        # Fit with full dimensionality
+        if self.dim_reduction == 'pca':
+            temp_reducer = PCA()
+        else:
+            max_components = min(vectors.shape[0], vectors.shape[1])
+            temp_reducer = TruncatedSVD(n_components=max_components)
+        
+        temp_reducer.fit(vectors)
+        
+        # Calculate cumulative variance ratio
+        cumsum = np.cumsum(temp_reducer.explained_variance_ratio_)
+        
+        # Find first dimension exceeding threshold
+        n_components = np.argmax(cumsum >= self.variance_threshold) + 1
+        
+        print(f"Selected {n_components} components (explaining {cumsum[n_components-1]:.2%} of variance)")
+        return n_components
 
     def process(self, documents):
         # Store original dataset
@@ -114,24 +127,25 @@ class DocumentClusteringPipeline:
         if self.n_components is None:
             self.n_components = self.select_n_components(dense_vectors)
             
-        # Initialize PCA with selected dimensions
-        self.pca = CustomPCA(n_components=self.n_components)
+        # Initialize reducer with selected dimensions
+        self.reducer = CustomPCA(n_components=self.n_components) if self.dim_reduction == 'pca' else CustomSVD(n_components=self.n_components)
         
         # Dimensionality reduction for clustering
-        clustering_vectors = self.pca.fit_transform(dense_vectors)
+        clustering_vectors = self.reducer.fit_transform(vectors)
         self.results['reduced_vectors'] = clustering_vectors
         
         # Calculate the effect index of dimensionality reduction
-        explained_variance_ratio = self.pca.explained_variance_ratio_
+        explained_variance_ratio = self.reducer.explained_variance_ratio_
         cumulative_variance_ratio = np.sum(explained_variance_ratio)
         self.results['dim_reduction_metrics'] = {
             'n_components': self.n_components,
             'explained_variance_ratio': cumulative_variance_ratio,
             'component_variance_ratios': explained_variance_ratio.tolist()
         }
+       
         
         # Always do 2D reduction for visualization
-        vis_vectors = self.pca_vis.fit_transform(dense_vectors)
+        vis_vectors = self.vis_reducer.fit_transform(vectors)
         self.results['visualization_vectors'] = vis_vectors
 
         # Clustering on appropriate vectors
@@ -147,7 +161,8 @@ class DocumentClusteringPipeline:
     def evaluate(self, clusters):
         true_labels = self.results['original_dataset'].target
         vectors = self.results['reduced_vectors']  # Use reduced vectors for evaluation
-            
+        
+
         metrics = {
             'nmi': normalized_mutual_info_score(true_labels, clusters),
             'ari': adjusted_rand_score(true_labels, clusters),

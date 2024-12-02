@@ -1,0 +1,19 @@
+Experiment: minilm_dbscan
+
+Clustering Metrics:
+nmi: 0.001
+ari: 0.001
+silhouette: 0.048
+calinski: 61.798
+
+Cluster Sizes:
+Cluster -1: 1977 documents
+Cluster 0: 57 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 0:
+zip, father, flight, fit, fine, finally, final, files, file, figure

@@ -12,13 +12,27 @@ def load_dataset(categories=None, subset='train'):
         dataset object containing the texts and their labels
     """
     if categories is None:
+       
         categories = [
             'alt.atheism',
             'talk.religion.misc',
             'comp.graphics',
             'sci.space'
         ]
-    
+        '''
+        categories = [
+            # 科技类
+            'comp.graphics',
+            # 科学类
+            'sci.electronics',
+            # 政治类
+            'talk.politics.guns',
+            # 宗教类
+            'alt.atheism',
+            # 娱乐类
+            'rec.sport.baseball',
+        ]
+        '''
     dataset = fetch_20newsgroups(
         subset=subset,
         categories=categories,
