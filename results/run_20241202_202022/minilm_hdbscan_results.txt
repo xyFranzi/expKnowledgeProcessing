@@ -1,0 +1,103 @@
+Experiment: minilm_hdbscan
+
+Clustering Metrics:
+nmi: 0.242
+ari: 0.055
+silhouette: -0.079
+calinski: 19.299
+
+Cluster Sizes:
+Cluster -1: 1472 documents
+Cluster 0: 5 documents
+Cluster 1: 7 documents
+Cluster 2: 12 documents
+Cluster 3: 6 documents
+Cluster 4: 40 documents
+Cluster 5: 11 documents
+Cluster 6: 14 documents
+Cluster 7: 6 documents
+Cluster 8: 5 documents
+Cluster 9: 6 documents
+Cluster 10: 7 documents
+Cluster 11: 252 documents
+Cluster 12: 18 documents
+Cluster 13: 9 documents
+Cluster 14: 6 documents
+Cluster 15: 49 documents
+Cluster 16: 36 documents
+Cluster 17: 9 documents
+Cluster 18: 5 documents
+Cluster 19: 35 documents
+Cluster 20: 12 documents
+Cluster 21: 12 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, don, like, just, image, god, edu, time, know
+
+Cluster 0:
+space, idea, long, sky, like, dc, time, night, really, orbit
+
+Cluster 1:
+stage, know, used, version, don, does, addition, built, systems, long
+
+Cluster 2:
+graphics, comp, group, just, groups, like, newsgroup, don, hardware, ch
+
+Cluster 3:
+black, disk, center, stars, just, energy, plane, ray, data, far
+
+Cluster 4:
+space, moon, billion, cost, station, nasa, lunar, year, development, money
+
+Cluster 5:
+jupiter, 21, degrees, saturn, observations, au, times, 1993, planet, time
+
+Cluster 6:
+koresh, fbi, children, did, know, government, gas, point, evidence, dead
+
+Cluster 7:
+probe, space, mars, surface, lunar, earth, mission, orbit, moon, probes
+
+Cluster 8:
+software, process, shuttle, level, case, project, ve, ibm, flight, engineering
+
+Cluster 9:
+real, language, say, science, word, effect, problem, try, don, does
+
+Cluster 10:
+cview, file, files, disk, bit, data, directory, does, just, places
+
+Cluster 11:
+graphics, image, program, thanks, use, know, files, does, need, like
+
+Cluster 12:
+law, people, jesus, think, god, innocent, death, punishment, society, paul
+
+Cluster 13:
+people, love, christian, don, gay, like, christians, church, case, believe
+
+Cluster 14:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 15:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 16:
+moral, morality, think, don, people, right, objective, animals, society, does
+
+Cluster 17:
+ra, god, jesus, bible, christ, children, father, john, don, spirit
+
+Cluster 18:
+faith, jesus, bible, prove, just, biblical, true, did, does, passage
+
+Cluster 19:
+god, atheists, atheism, believe, does, argument, people, belief, atheist, religious
+
+Cluster 20:
+jim, context, articles, taking, argument, does, quote, read, conclusion, explain
+
+Cluster 21:
+thanks, number, original, right, question, nice, phone, knowledge, sound, free

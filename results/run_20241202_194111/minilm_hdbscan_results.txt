@@ -1,0 +1,67 @@
+Experiment: minilm_hdbscan
+
+Clustering Metrics:
+nmi: 0.263
+ari: 0.106
+silhouette: -0.010
+calinski: 32.170
+
+Cluster Sizes:
+Cluster -1: 1286 documents
+Cluster 0: 8 documents
+Cluster 1: 10 documents
+Cluster 2: 36 documents
+Cluster 3: 15 documents
+Cluster 4: 6 documents
+Cluster 5: 311 documents
+Cluster 6: 30 documents
+Cluster 7: 8 documents
+Cluster 8: 12 documents
+Cluster 9: 6 documents
+Cluster 10: 49 documents
+Cluster 11: 41 documents
+Cluster 12: 216 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, like, don, just, time, know, edu, think, nasa
+
+Cluster 0:
+ray, black, center, stars, disk, plane, just, energy, far, data
+
+Cluster 1:
+graphics, comp, group, just, like, groups, newsgroup, don, hardware, ch
+
+Cluster 2:
+space, earth, probe, mission, lunar, orbit, spacecraft, moon, mars, surface
+
+Cluster 3:
+koresh, fbi, did, children, government, know, gas, dead, evidence, people
+
+Cluster 4:
+degrees, times, day, year, planet, 90, sin, time, shows, mail
+
+Cluster 5:
+image, graphics, program, use, files, software, thanks, data, does, file
+
+Cluster 6:
+moon, lunar, cost, space, year, billion, just, money, low, base
+
+Cluster 7:
+ssf, space, nasa, center, work, cost, allen, people, like, year
+
+Cluster 8:
+people, think, punishment, innocent, society, death, person, question, kill, objective
+
+Cluster 9:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 10:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 11:
+moral, morality, think, don, people, right, objective, just, like, animals
+
+Cluster 12:
+god, people, atheism, believe, does, atheists, don, argument, just, jesus

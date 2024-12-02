@@ -1,0 +1,27 @@
+Experiment: fasttext_kmeans
+
+Clustering Metrics:
+nmi: 0.027
+ari: 0.026
+silhouette: 0.121
+calinski: 242.380
+
+Cluster Sizes:
+Cluster 0: 959 documents
+Cluster 1: 78 documents
+Cluster 2: 78 documents
+Cluster 3: 919 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+don, think, god, just, people, know, like, does, say, good
+
+Cluster 1:
+space, telescope, national, word, satellite, observatory, shuttle, nasa, list, center
+
+Cluster 2:
+den, p2, p3, p1, radius, edu, 000, 14, space, van
+
+Cluster 3:
+space, people, image, edu, data, god, like, nasa, time, don

@@ -1,0 +1,185 @@
+=== Document Clustering Experiments Results ===
+
+Evaluation Metrics:
+            tfidf_kmeans  tfidf_dbscan  tfidf_hdbscan  fasttext_kmeans  fasttext_dbscan  fasttext_hdbscan  minilm_kmeans  minilm_dbscan  minilm_hdbscan
+nmi             0.391930      0.001391       0.027165         0.027166         0.005413          0.007015       0.539501       0.001131        0.010751
+ari             0.230548      0.001483       0.002627         0.025821         0.000779          0.002845       0.536406       0.001252        0.006443
+silhouette      0.007775     -0.245856      -0.237913         0.120952         0.562930          0.468160       0.072212       0.048344        0.031274
+calinski       10.587689      1.001265       4.754318       242.380415        66.557556        187.999832      85.434704      61.800112       36.934509
+
+
+=== TFIDF_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 216 documents
+Cluster 1: 449 documents
+Cluster 2: 1079 documents
+Cluster 3: 290 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+god, people, jesus, bible, does, don, believe, say, just, christian
+
+Cluster 1:
+image, graphics, edu, jpeg, file, software, files, data, use, images
+
+Cluster 2:
+don, think, just, like, people, know, does, time, say, said
+
+Cluster 3:
+space, nasa, launch, earth, data, satellite, orbit, lunar, shuttle, moon
+
+=== TFIDF_DBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 1968 documents
+Cluster 0: 66 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 0:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+=== TFIDF_HDBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 1938 documents
+Cluster 0: 6 documents
+Cluster 1: 5 documents
+Cluster 2: 13 documents
+Cluster 3: 66 documents
+Cluster 4: 6 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 0:
+vision, ibm, mac, radius, edu, billion, good, space, ve, mark
+
+Cluster 1:
+god, satan, tells, recent, practice, months, agree, position, sorry, energy
+
+Cluster 2:
+said, bob, com, stay, away, god, believe, really, don, little
+
+Cluster 3:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 4:
+edu, wrong, mac, class, pay, programs, won, michael, university, sun
+
+=== FASTTEXT_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 959 documents
+Cluster 1: 78 documents
+Cluster 2: 78 documents
+Cluster 3: 919 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+don, think, god, just, people, know, like, does, say, good
+
+Cluster 1:
+space, telescope, national, word, satellite, observatory, shuttle, nasa, list, center
+
+Cluster 2:
+den, p2, p3, p1, radius, edu, 000, 14, space, van
+
+Cluster 3:
+space, people, image, edu, data, god, like, nasa, time, don
+
+=== FASTTEXT_DBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 74 documents
+Cluster 0: 1960 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+den, p2, p3, p1, van, radius, washington, value, street, new
+
+Cluster 0:
+space, people, god, don, like, just, does, know, think, time
+
+=== FASTTEXT_HDBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 131 documents
+Cluster 0: 1838 documents
+Cluster 1: 65 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+den, p3, p2, p1, radius, van, washington, mass, ve, space
+
+Cluster 0:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 1:
+com, zip, father, flight, fit, fine, finally, final, files, file
+
+=== MINILM_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 497 documents
+Cluster 1: 708 documents
+Cluster 2: 771 documents
+Cluster 3: 58 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+image, graphics, jpeg, file, use, data, software, program, images, files
+
+Cluster 1:
+space, nasa, launch, edu, like, data, earth, time, just, orbit
+
+Cluster 2:
+god, people, don, jesus, just, think, does, say, know, like
+
+Cluster 3:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+=== MINILM_DBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 1977 documents
+Cluster 0: 57 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 0:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+=== MINILM_HDBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 451 documents
+Cluster 0: 1524 documents
+Cluster 1: 59 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+like, just, space, time, don, people, know, think, larson, good
+
+Cluster 0:
+space, god, people, don, just, like, does, think, know, image
+
+Cluster 1:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Total execution time: 119.73 seconds

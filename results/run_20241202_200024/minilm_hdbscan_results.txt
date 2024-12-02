@@ -1,0 +1,91 @@
+Experiment: minilm_hdbscan
+
+Clustering Metrics:
+nmi: 0.258
+ari: 0.068
+silhouette: -0.061
+calinski: 22.766
+
+Cluster Sizes:
+Cluster -1: 1424 documents
+Cluster 0: 6 documents
+Cluster 1: 11 documents
+Cluster 2: 7 documents
+Cluster 3: 33 documents
+Cluster 4: 7 documents
+Cluster 5: 6 documents
+Cluster 6: 279 documents
+Cluster 7: 6 documents
+Cluster 8: 49 documents
+Cluster 9: 32 documents
+Cluster 10: 14 documents
+Cluster 11: 10 documents
+Cluster 12: 16 documents
+Cluster 13: 41 documents
+Cluster 14: 8 documents
+Cluster 15: 6 documents
+Cluster 16: 21 documents
+Cluster 17: 44 documents
+Cluster 18: 14 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, don, god, like, just, edu, time, think, know
+
+Cluster 0:
+space, sky, like, night, idea, just, really, don, long, near
+
+Cluster 1:
+graphics, comp, group, just, like, groups, newsgroup, hardware, ch, don
+
+Cluster 2:
+black, disk, stars, ray, center, energy, just, plane, different, don
+
+Cluster 3:
+probe, earth, orbit, space, mars, mission, moon, surface, lunar, software
+
+Cluster 4:
+stage, know, version, used, don, long, high, systems, require, big
+
+Cluster 5:
+cview, file, files, data, disk, directory, bit, does, just, places
+
+Cluster 6:
+image, graphics, program, use, files, software, data, thanks, know, does
+
+Cluster 7:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 8:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 9:
+moon, lunar, space, money, cost, year, billion, earth, just, base
+
+Cluster 10:
+fbi, koresh, did, children, know, government, gas, people, point, dead
+
+Cluster 11:
+space, station, ssf, billion, nasa, center, cost, development, dc, option
+
+Cluster 12:
+people, think, innocent, death, punishment, society, person, life, question, kill
+
+Cluster 13:
+moral, morality, think, don, people, objective, right, just, like, animals
+
+Cluster 14:
+people, love, christian, gay, don, church, like, christians, case, sin
+
+Cluster 15:
+christianity, christian, don, people, religion, god, just, life, social, consider
+
+Cluster 16:
+thanks, david, number, don, just, right, maybe, used, free, available
+
+Cluster 17:
+god, atheists, atheism, believe, argument, people, does, atheist, belief, religious
+
+Cluster 18:
+jim, context, articles, does, taking, did, read, conclusion, quote, argument

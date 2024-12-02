@@ -1,0 +1,23 @@
+Experiment: fasttext_hdbscan
+
+Clustering Metrics:
+nmi: 0.007
+ari: 0.003
+silhouette: 0.468
+calinski: 188.000
+
+Cluster Sizes:
+Cluster -1: 131 documents
+Cluster 0: 1838 documents
+Cluster 1: 65 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+den, p3, p2, p1, radius, van, washington, mass, ve, space
+
+Cluster 0:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 1:
+com, zip, father, flight, fit, fine, finally, final, files, file

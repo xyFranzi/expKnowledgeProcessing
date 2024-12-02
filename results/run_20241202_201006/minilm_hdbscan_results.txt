@@ -1,0 +1,95 @@
+Experiment: minilm_hdbscan
+
+Clustering Metrics:
+nmi: 0.242
+ari: 0.051
+silhouette: -0.074
+calinski: 21.023
+
+Cluster Sizes:
+Cluster -1: 1474 documents
+Cluster 0: 9 documents
+Cluster 1: 11 documents
+Cluster 2: 8 documents
+Cluster 3: 6 documents
+Cluster 4: 7 documents
+Cluster 5: 7 documents
+Cluster 6: 6 documents
+Cluster 7: 18 documents
+Cluster 8: 46 documents
+Cluster 9: 7 documents
+Cluster 10: 249 documents
+Cluster 11: 17 documents
+Cluster 12: 6 documents
+Cluster 13: 49 documents
+Cluster 14: 36 documents
+Cluster 15: 13 documents
+Cluster 16: 11 documents
+Cluster 17: 33 documents
+Cluster 18: 6 documents
+Cluster 19: 15 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, god, just, like, don, think, time, know, edu
+
+Cluster 0:
+space, sky, like, don, night, light, idea, just, launch, time
+
+Cluster 1:
+graphics, comp, group, just, groups, like, newsgroup, don, hardware, lot
+
+Cluster 2:
+software, process, level, shuttle, engineering, flight, dec, case, new, tools
+
+Cluster 3:
+probe, space, mars, surface, lunar, earth, mission, orbit, moon, probes
+
+Cluster 4:
+black, disk, stars, ray, center, energy, just, plane, different, don
+
+Cluster 5:
+jupiter, au, information, mark, 000, project, latest, thanks, edu, april
+
+Cluster 6:
+stage, know, version, used, don, does, systems, addition, second, uses
+
+Cluster 7:
+fbi, koresh, did, children, gas, government, know, people, like, dead
+
+Cluster 8:
+space, moon, billion, cost, year, lunar, station, nasa, just, money
+
+Cluster 9:
+cview, file, files, disk, bit, data, directory, does, just, places
+
+Cluster 10:
+image, jpeg, graphics, file, gif, color, images, use, files, program
+
+Cluster 11:
+people, punishment, think, innocent, death, person, society, life, kill, know
+
+Cluster 12:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 13:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 14:
+moral, morality, think, people, don, objective, right, animals, like, does
+
+Cluster 15:
+people, love, christian, don, god, gay, christians, church, want, like
+
+Cluster 16:
+jim, context, articles, taking, does, read, argument, quote, conclusion, explain
+
+Cluster 17:
+god, atheists, atheism, argument, believe, people, does, religious, atheist, belief
+
+Cluster 18:
+muslims, islam, islamic, muslim, statement, don, make, god, qur, clear
+
+Cluster 19:
+thanks, just, quote, concept, agree, oh, right, stated, argument, look

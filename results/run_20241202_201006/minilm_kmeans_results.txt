@@ -1,0 +1,27 @@
+Experiment: minilm_kmeans
+
+Clustering Metrics:
+nmi: 0.543
+ari: 0.543
+silhouette: 0.118
+calinski: 164.066
+
+Cluster Sizes:
+Cluster 0: 768 documents
+Cluster 1: 58 documents
+Cluster 2: 702 documents
+Cluster 3: 506 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+god, people, don, jesus, just, think, does, say, know, like
+
+Cluster 1:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 2:
+space, nasa, launch, edu, like, data, earth, just, time, orbit
+
+Cluster 3:
+image, graphics, jpeg, file, use, data, software, images, program, files

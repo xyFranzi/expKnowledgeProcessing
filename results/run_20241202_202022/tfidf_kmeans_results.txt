@@ -1,0 +1,27 @@
+Experiment: tfidf_kmeans
+
+Clustering Metrics:
+nmi: 0.307
+ari: 0.169
+silhouette: 0.114
+calinski: 78.652
+
+Cluster Sizes:
+Cluster 0: 1419 documents
+Cluster 1: 170 documents
+Cluster 2: 15 documents
+Cluster 3: 430 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+space, don, just, people, like, think, time, nasa, know, launch
+
+Cluster 1:
+god, jesus, people, bible, does, believe, say, christian, just, don
+
+Cluster 2:
+said, away, bob, stay, com, god, believe, people, don, just
+
+Cluster 3:
+image, graphics, edu, data, jpeg, file, images, files, ftp, software

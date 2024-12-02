@@ -1,0 +1,377 @@
+=== Document Clustering Experiments Results ===
+
+Evaluation Metrics:
+            tfidf_kmeans  tfidf_dbscan  tfidf_hdbscan  fasttext_kmeans  fasttext_dbscan  fasttext_hdbscan  minilm_kmeans  minilm_dbscan  minilm_hdbscan
+nmi             0.303308      0.011214       0.057297         0.027425         0.002872          0.007837       0.542811       0.125066        0.242207
+ari             0.159926     -0.000155       0.033089         0.026094         0.000699          0.002730       0.542608       0.001230        0.051263
+silhouette      0.119603      0.421872       0.060282         0.132554         0.612409          0.489485       0.117523      -0.133977       -0.073765
+calinski       78.536845     28.493429      28.620247       268.216801        77.975931        205.434824     164.066466      12.114039       21.022504
+
+
+=== TFIDF_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 399 documents
+Cluster 1: 204 documents
+Cluster 2: 1416 documents
+Cluster 3: 15 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+image, graphics, edu, data, jpeg, file, files, images, ftp, available
+
+Cluster 1:
+god, people, jesus, bible, does, believe, don, christian, say, just
+
+Cluster 2:
+space, just, don, like, think, people, time, nasa, know, launch
+
+Cluster 3:
+said, away, bob, stay, com, god, believe, people, don, just
+
+=== TFIDF_DBSCAN ===
+
+Cluster Distribution:
+Cluster 0: 2022 documents
+Cluster 1: 6 documents
+Cluster 2: 6 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 1:
+edu, wrong, mac, class, pay, programs, won, michael, university, sun
+
+Cluster 2:
+vision, ibm, mac, radius, edu, billion, good, space, ve, mark
+
+=== TFIDF_HDBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 1068 documents
+Cluster 0: 6 documents
+Cluster 1: 6 documents
+Cluster 2: 7 documents
+Cluster 3: 9 documents
+Cluster 4: 14 documents
+Cluster 5: 5 documents
+Cluster 6: 5 documents
+Cluster 7: 914 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, god, people, don, image, like, just, does, know, think
+
+Cluster 0:
+edu, wrong, mac, class, pay, programs, won, michael, university, sun
+
+Cluster 1:
+vision, ibm, mac, radius, edu, billion, good, space, ve, mark
+
+Cluster 2:
+god, tells, satan, evil, does, months, according, bobby, reasons, members
+
+Cluster 3:
+cview, file, files, bit, data, disk, directory, just, use, does
+
+Cluster 4:
+com, said, stay, bob, away, believe, god, really, little, don
+
+Cluster 5:
+koresh, did, fbi, evidence, government, children, evil, come, fact, face
+
+Cluster 6:
+mary, real, world, live, people, nasa, flight, perfect, don, ames
+
+Cluster 7:
+space, like, just, don, think, time, people, know, use, make
+
+=== FASTTEXT_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 926 documents
+Cluster 1: 76 documents
+Cluster 2: 76 documents
+Cluster 3: 956 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+space, people, image, edu, data, god, like, nasa, time, don
+
+Cluster 1:
+space, telescope, national, word, satellite, observatory, shuttle, nasa, list, center
+
+Cluster 2:
+den, p3, p2, p1, radius, edu, 000, 14, space, van
+
+Cluster 3:
+don, think, god, just, people, know, like, does, say, good
+
+=== FASTTEXT_DBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 53 documents
+Cluster 0: 1981 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+den, p2, p3, p1, van, radius, value, dr, sin, 10
+
+Cluster 0:
+space, people, god, don, like, just, does, know, think, time
+
+=== FASTTEXT_HDBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 116 documents
+Cluster 0: 65 documents
+Cluster 1: 1853 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+den, p2, p3, p1, radius, van, washington, ve, mass, value
+
+Cluster 0:
+com, zip, father, flight, fit, fine, finally, final, files, file
+
+Cluster 1:
+space, people, god, don, like, just, does, know, think, time
+
+=== MINILM_KMEANS ===
+
+Cluster Distribution:
+Cluster 0: 768 documents
+Cluster 1: 58 documents
+Cluster 2: 702 documents
+Cluster 3: 506 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+god, people, don, jesus, just, think, does, say, know, like
+
+Cluster 1:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 2:
+space, nasa, launch, edu, like, data, earth, just, time, orbit
+
+Cluster 3:
+image, graphics, jpeg, file, use, data, software, images, program, files
+
+=== MINILM_DBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 1759 documents
+Cluster 0: 5 documents
+Cluster 1: 57 documents
+Cluster 2: 19 documents
+Cluster 3: 5 documents
+Cluster 4: 19 documents
+Cluster 5: 7 documents
+Cluster 6: 20 documents
+Cluster 7: 12 documents
+Cluster 8: 6 documents
+Cluster 9: 9 documents
+Cluster 10: 7 documents
+Cluster 11: 13 documents
+Cluster 12: 9 documents
+Cluster 13: 12 documents
+Cluster 14: 5 documents
+Cluster 15: 7 documents
+Cluster 16: 8 documents
+Cluster 17: 3 documents
+Cluster 18: 5 documents
+Cluster 19: 5 documents
+Cluster 20: 7 documents
+Cluster 21: 7 documents
+Cluster 22: 5 documents
+Cluster 23: 8 documents
+Cluster 24: 5 documents
+Cluster 25: 4 documents
+Cluster 26: 6 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, don, like, just, god, time, know, think, image
+
+Cluster 0:
+rate, think, number, don, doubt, especially, claims, half, know, ago
+
+Cluster 1:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 2:
+moral, morality, don, think, animals, right, wrong, humans, does, people
+
+Cluster 3:
+law, god, jesus, people, christ, heaven, paul, just, come, end
+
+Cluster 4:
+god, atheism, atheists, argument, believe, religious, does, true, fallacy, example
+
+Cluster 5:
+moon, lunar, earth, money, base, military, low, space, high, good
+
+Cluster 6:
+image, file, files, program, format, read, display, bits, tiff, package
+
+Cluster 7:
+points, plane, point, line, center, radius, lines, algorithm, method, form
+
+Cluster 8:
+black, disk, center, stars, just, energy, plane, ray, data, far
+
+Cluster 9:
+graphics, group, just, groups, newsgroup, like, ch, think, reading, posts
+
+Cluster 10:
+john, matthew, mark, argument, evidence, jesus, version, original, know, known
+
+Cluster 11:
+moon, billion, year, lunar, space, idea, cost, like, way, just
+
+Cluster 12:
+people, innocent, think, society, punishment, death, person, kill, question, objective
+
+Cluster 13:
+3d, graphics, package, library, mac, need, think, just, use, routines
+
+Cluster 14:
+polygon, point, 100, inside, method, lines, outside, 50, test, ray
+
+Cluster 15:
+look, zip, fast, fit, fine, finally, final, files, file, figure
+
+Cluster 16:
+jim, context, articles, taking, does, quote, article, conclusion, argument, read
+
+Cluster 17:
+think, don, natural, objective, ll, homosexuality, morality, saying, agree, just
+
+Cluster 18:
+viewer, windows, thanks, advance, dos, ac, uk, know, mail, tell
+
+Cluster 19:
+ftp, files, does, program, gif, read, know, sure, group, anybody
+
+Cluster 20:
+stage, know, version, systems, used, don, launch, probably, long, does
+
+Cluster 21:
+cview, file, files, disk, data, bit, directory, does, just, places
+
+Cluster 22:
+koresh, children, fbi, did, dead, know, gas, people, come, look
+
+Cluster 23:
+mode, vesa, vga, support, windows, driver, card, write, work, know
+
+Cluster 24:
+god, satan, tells, recent, practice, months, agree, position, sorry, energy
+
+Cluster 25:
+image, advance, need, check, windows, screen, programs, processing, mac, file
+
+Cluster 26:
+card, driver, know, vesa, does, net, vga, windows, ftp, video
+
+=== MINILM_HDBSCAN ===
+
+Cluster Distribution:
+Cluster -1: 1474 documents
+Cluster 0: 9 documents
+Cluster 1: 11 documents
+Cluster 2: 8 documents
+Cluster 3: 6 documents
+Cluster 4: 7 documents
+Cluster 5: 7 documents
+Cluster 6: 6 documents
+Cluster 7: 18 documents
+Cluster 8: 46 documents
+Cluster 9: 7 documents
+Cluster 10: 249 documents
+Cluster 11: 17 documents
+Cluster 12: 6 documents
+Cluster 13: 49 documents
+Cluster 14: 36 documents
+Cluster 15: 13 documents
+Cluster 16: 11 documents
+Cluster 17: 33 documents
+Cluster 18: 6 documents
+Cluster 19: 15 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, god, just, like, don, think, time, know, edu
+
+Cluster 0:
+space, sky, like, don, night, light, idea, just, launch, time
+
+Cluster 1:
+graphics, comp, group, just, groups, like, newsgroup, don, hardware, lot
+
+Cluster 2:
+software, process, level, shuttle, engineering, flight, dec, case, new, tools
+
+Cluster 3:
+probe, space, mars, surface, lunar, earth, mission, orbit, moon, probes
+
+Cluster 4:
+black, disk, stars, ray, center, energy, just, plane, different, don
+
+Cluster 5:
+jupiter, au, information, mark, 000, project, latest, thanks, edu, april
+
+Cluster 6:
+stage, know, version, used, don, does, systems, addition, second, uses
+
+Cluster 7:
+fbi, koresh, did, children, gas, government, know, people, like, dead
+
+Cluster 8:
+space, moon, billion, cost, year, lunar, station, nasa, just, money
+
+Cluster 9:
+cview, file, files, disk, bit, data, directory, does, just, places
+
+Cluster 10:
+image, jpeg, graphics, file, gif, color, images, use, files, program
+
+Cluster 11:
+people, punishment, think, innocent, death, person, society, life, kill, know
+
+Cluster 12:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 13:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 14:
+moral, morality, think, people, don, objective, right, animals, like, does
+
+Cluster 15:
+people, love, christian, don, god, gay, christians, church, want, like
+
+Cluster 16:
+jim, context, articles, taking, does, read, argument, quote, conclusion, explain
+
+Cluster 17:
+god, atheists, atheism, argument, believe, people, does, religious, atheist, belief
+
+Cluster 18:
+muslims, islam, islamic, muslim, statement, don, make, god, qur, clear
+
+Cluster 19:
+thanks, just, quote, concept, agree, oh, right, stated, argument, look
+
+Total execution time: 88.05 seconds

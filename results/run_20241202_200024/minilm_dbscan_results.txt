@@ -1,0 +1,119 @@
+Experiment: minilm_dbscan
+
+Clustering Metrics:
+nmi: 0.123
+ari: 0.002
+silhouette: -0.128
+calinski: 12.483
+
+Cluster Sizes:
+Cluster -1: 1758 documents
+Cluster 0: 6 documents
+Cluster 1: 57 documents
+Cluster 2: 5 documents
+Cluster 3: 18 documents
+Cluster 4: 6 documents
+Cluster 5: 17 documents
+Cluster 6: 16 documents
+Cluster 7: 18 documents
+Cluster 8: 13 documents
+Cluster 9: 6 documents
+Cluster 10: 9 documents
+Cluster 11: 8 documents
+Cluster 12: 10 documents
+Cluster 13: 8 documents
+Cluster 14: 8 documents
+Cluster 15: 11 documents
+Cluster 16: 2 documents
+Cluster 17: 10 documents
+Cluster 18: 5 documents
+Cluster 19: 5 documents
+Cluster 20: 7 documents
+Cluster 21: 5 documents
+Cluster 22: 5 documents
+Cluster 23: 5 documents
+Cluster 24: 10 documents
+Cluster 25: 6 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, like, don, just, god, know, time, think, image
+
+Cluster 0:
+number, think, don, like, rate, running, know, especially, doubt, half
+
+Cluster 1:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 2:
+graphics, computer, package, method, source, code, help, ll, hardware, fax
+
+Cluster 3:
+moral, think, morality, don, animals, right, does, humans, society, people
+
+Cluster 4:
+law, god, jesus, people, christ, heaven, paul, just, come, don
+
+Cluster 5:
+god, atheism, atheists, argument, believe, religious, does, true, fallacy, example
+
+Cluster 6:
+moon, lunar, space, just, year, earth, billion, low, like, cost
+
+Cluster 7:
+image, file, program, read, files, tiff, display, bits, format, 24
+
+Cluster 8:
+points, plane, point, center, line, lines, radius, algorithm, form, p1
+
+Cluster 9:
+black, disk, center, stars, just, energy, plane, ray, data, far
+
+Cluster 10:
+graphics, group, just, groups, newsgroup, like, ch, think, reading, posts
+
+Cluster 11:
+jesus, john, matthew, mark, argument, passage, evidence, version, know, does
+
+Cluster 12:
+people, innocent, think, society, death, punishment, person, kill, objective, question
+
+Cluster 13:
+message, deleted, look, zip, fax, fbi, features, feel, field, figure
+
+Cluster 14:
+jim, context, articles, taking, does, quote, article, conclusion, argument, read
+
+Cluster 15:
+3d, graphics, package, library, mac, need, routines, just, think, software
+
+Cluster 16:
+don, natural, think, objective, just, homosexuality, ll, observations, provided, case
+
+Cluster 17:
+thanks, viewer, files, advance, windows, dos, 24, know, ac, software
+
+Cluster 18:
+number, phone, info, city, change, home, area, thanks, note, hope
+
+Cluster 19:
+ftp, files, does, program, gif, read, know, sure, group, anybody
+
+Cluster 20:
+cview, file, files, disk, data, bit, directory, does, just, places
+
+Cluster 21:
+koresh, children, fbi, did, dead, know, gas, people, come, look
+
+Cluster 22:
+morality, objective, moral, think, clear, animals, don, example, assuming, natural
+
+Cluster 23:
+stage, used, version, know, don, addition, launched, real, versions, long
+
+Cluster 24:
+mode, vesa, vga, support, windows, 256, write, card, colors, work
+
+Cluster 25:
+god, tells, satan, months, contains, thanks, able, couple, edu, energy

@@ -1,0 +1,23 @@
+Experiment: tfidf_dbscan
+
+Clustering Metrics:
+nmi: 0.011
+ari: -0.000
+silhouette: 0.413
+calinski: 27.660
+
+Cluster Sizes:
+Cluster 0: 2022 documents
+Cluster 1: 6 documents
+Cluster 2: 6 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 1:
+edu, wrong, mac, class, pay, programs, won, michael, university, sun
+
+Cluster 2:
+vision, ibm, mac, radius, edu, billion, good, space, ve, mark

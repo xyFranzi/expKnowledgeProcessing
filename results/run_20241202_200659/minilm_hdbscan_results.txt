@@ -1,0 +1,91 @@
+Experiment: minilm_hdbscan
+
+Clustering Metrics:
+nmi: 0.214
+ari: 0.018
+silhouette: -0.076
+calinski: 21.521
+
+Cluster Sizes:
+Cluster -1: 1536 documents
+Cluster 0: 10 documents
+Cluster 1: 11 documents
+Cluster 2: 37 documents
+Cluster 3: 8 documents
+Cluster 4: 6 documents
+Cluster 5: 14 documents
+Cluster 6: 27 documents
+Cluster 7: 9 documents
+Cluster 8: 7 documents
+Cluster 9: 5 documents
+Cluster 10: 15 documents
+Cluster 11: 6 documents
+Cluster 12: 49 documents
+Cluster 13: 149 documents
+Cluster 14: 43 documents
+Cluster 15: 36 documents
+Cluster 16: 23 documents
+Cluster 17: 30 documents
+Cluster 18: 13 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, don, like, god, just, image, edu, know, time
+
+Cluster 0:
+graphics, comp, group, just, like, groups, newsgroup, don, hardware, ch
+
+Cluster 1:
+data, center, ray, black, 000, stars, atmosphere, disk, jpl, plane
+
+Cluster 2:
+probe, space, earth, orbit, mission, mars, surface, software, lunar, spacecraft
+
+Cluster 3:
+order, god, later, period, western, term, likely, known, religion, sun
+
+Cluster 4:
+power, ssf, option, capability, used, stage, station, version, human, shuttle
+
+Cluster 5:
+koresh, fbi, children, did, know, government, people, gas, evidence, point
+
+Cluster 6:
+moon, lunar, cost, space, year, billion, just, money, base, low
+
+Cluster 7:
+ssf, space, center, cost, nasa, people, development, allen, work, like
+
+Cluster 8:
+cview, file, files, disk, bit, data, directory, does, just, places
+
+Cluster 9:
+graphics, computer, package, method, ll, program, help, siggraph, looking, think
+
+Cluster 10:
+people, think, innocent, punishment, death, society, person, life, kill, question
+
+Cluster 11:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 12:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 13:
+graphics, files, program, thanks, image, file, use, know, like, need
+
+Cluster 14:
+p2, den, p3, p1, points, radius, point, algorithm, line, plane
+
+Cluster 15:
+moral, morality, think, don, people, right, objective, animals, society, does
+
+Cluster 16:
+wrong, thanks, sun, david, belief, university, edu, don, knowledge, class
+
+Cluster 17:
+god, atheists, atheism, argument, believe, religious, does, belief, atheist, people
+
+Cluster 18:
+jim, context, articles, taking, does, did, conclusion, argument, read, quote

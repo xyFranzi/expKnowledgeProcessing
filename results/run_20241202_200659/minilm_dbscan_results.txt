@@ -1,0 +1,115 @@
+Experiment: minilm_dbscan
+
+Clustering Metrics:
+nmi: 0.130
+ari: 0.003
+silhouette: -0.115
+calinski: 13.080
+
+Cluster Sizes:
+Cluster -1: 1761 documents
+Cluster 0: 5 documents
+Cluster 1: 57 documents
+Cluster 2: 19 documents
+Cluster 3: 6 documents
+Cluster 4: 13 documents
+Cluster 5: 7 documents
+Cluster 6: 32 documents
+Cluster 7: 14 documents
+Cluster 8: 14 documents
+Cluster 9: 6 documents
+Cluster 10: 6 documents
+Cluster 11: 9 documents
+Cluster 12: 8 documents
+Cluster 13: 14 documents
+Cluster 14: 8 documents
+Cluster 15: 3 documents
+Cluster 16: 9 documents
+Cluster 17: 3 documents
+Cluster 18: 6 documents
+Cluster 19: 7 documents
+Cluster 20: 5 documents
+Cluster 21: 7 documents
+Cluster 22: 5 documents
+Cluster 23: 5 documents
+Cluster 24: 5 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, like, don, just, god, know, time, think, image
+
+Cluster 0:
+rate, think, number, don, doubt, especially, claims, half, know, ago
+
+Cluster 1:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 2:
+moral, morality, don, think, animals, humans, people, does, wrong, right
+
+Cluster 3:
+law, god, jesus, people, christ, heaven, paul, just, come, don
+
+Cluster 4:
+3d, graphics, package, mac, library, need, think, use, routines, just
+
+Cluster 5:
+moon, lunar, earth, money, base, military, low, space, high, good
+
+Cluster 6:
+image, program, file, files, read, display, format, use, thanks, windows
+
+Cluster 7:
+points, plane, point, center, line, lines, algorithm, radius, p1, surface
+
+Cluster 8:
+argument, god, fallacy, example, conclusion, true, atheism, does, exist, ad
+
+Cluster 9:
+black, disk, center, stars, just, energy, plane, ray, data, far
+
+Cluster 10:
+polygon, point, 100, inside, method, outside, algorithm, simple, use, problem
+
+Cluster 11:
+graphics, group, just, groups, newsgroup, like, ch, think, reading, posts
+
+Cluster 12:
+jesus, john, matthew, mark, argument, passage, evidence, version, know, does
+
+Cluster 13:
+moon, billion, year, lunar, idea, space, like, way, just, cost
+
+Cluster 14:
+people, innocent, think, society, death, punishment, person, kill, objective, question
+
+Cluster 15:
+algorithm, individual, siggraph, 92, thanks, think, mac, know, nice, source
+
+Cluster 16:
+jim, context, articles, taking, does, quote, conclusion, article, argument, did
+
+Cluster 17:
+think, objective, don, natural, ll, ones, general, observations, just, morality
+
+Cluster 18:
+ftp, files, program, does, know, read, gif, appreciated, jpeg, code
+
+Cluster 19:
+cview, file, files, disk, data, bit, directory, does, just, places
+
+Cluster 20:
+koresh, children, fbi, did, dead, know, gas, people, come, look
+
+Cluster 21:
+god, satan, evil, tells, created, free, happen, good, power, place
+
+Cluster 22:
+god, atheists, atheism, religious, religion, believe, people, atheist, does, alt
+
+Cluster 23:
+card, driver, vesa, net, know, video, windows, work, vga, available
+
+Cluster 24:
+mode, windows, driver, work, card, help, colors, bit, color, 24

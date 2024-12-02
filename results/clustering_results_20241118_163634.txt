@@ -1,4 +1,0 @@
-=== Document Clustering Experiments Results ===
-
-
-MINILM + K-means:

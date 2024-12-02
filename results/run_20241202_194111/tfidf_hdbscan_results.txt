@@ -1,0 +1,55 @@
+Experiment: tfidf_hdbscan
+
+Clustering Metrics:
+nmi: 0.051
+ari: 0.008
+silhouette: -0.122
+calinski: 22.681
+
+Cluster Sizes:
+Cluster -1: 1620 documents
+Cluster 0: 6 documents
+Cluster 1: 6 documents
+Cluster 2: 6 documents
+Cluster 3: 9 documents
+Cluster 4: 13 documents
+Cluster 5: 6 documents
+Cluster 6: 6 documents
+Cluster 7: 5 documents
+Cluster 8: 6 documents
+Cluster 9: 351 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, god, don, like, just, does, know, think, image
+
+Cluster 0:
+edu, wrong, mac, class, pay, programs, won, michael, university, sun
+
+Cluster 1:
+vision, ibm, mac, radius, edu, billion, good, space, ve, mark
+
+Cluster 2:
+god, tells, satan, months, contains, thanks, able, couple, edu, energy
+
+Cluster 3:
+cview, file, files, bit, data, disk, directory, just, use, does
+
+Cluster 4:
+said, bob, com, stay, away, god, really, little, don, just
+
+Cluster 5:
+moral, matter, morality, force, think, animals, don, people, humans, make
+
+Cluster 6:
+mary, world, real, perfect, nasa, live, people, don, ames, flight
+
+Cluster 7:
+koresh, did, fbi, ll, government, evidence, bit, message, come, face
+
+Cluster 8:
+satellite, data, launched, 30, course, 1993, space, 19, applications, sensing
+
+Cluster 9:
+van, like, edge, new, problem, way, use, idea, space, washington
