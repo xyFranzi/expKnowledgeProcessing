@@ -144,12 +144,51 @@ class ExperimentManager:
             for name, result in self.results.items()
         })
         
-        # Save the metrics dataframe as a CSV file
+        fig, ax1 = plt.subplots(figsize=(12, 6))
+        
+        width = 0.08
+        x = np.arange(4)
+        methods = metrics_df.columns
+        
+        colors = plt.cm.get_cmap('tab10')(np.linspace(0, 1, len(methods)))
+        
+        ax2 = ax1.twinx()
+        
+        for i, (method, color) in enumerate(zip(methods, colors)):
+            ax1.bar(x[:3] + i*width, 
+                    metrics_df[method][['nmi', 'ari', 'silhouette']], 
+                    width, 
+                    label=method,
+                    color=color)
+            
+            ax2.bar(x[3] + i*width, 
+                    metrics_df[method]['calinski'], 
+                    width,
+                    color=color)
+        
+        ax1.set_ylabel('Score (NMI, ARI, Silhouette)')
+        ax2.set_ylabel('Score (Calinski-Harabasz)')
+        
+        ax1.set_ylim(-0.3, 1.0)
+        ax2.set_ylim(-50, 250)  
+        
+        ax1.set_xticks(x + width * len(methods) / 2)
+        ax1.set_xticklabels(['NMI', 'ARI', 'Silhouette', 'Calinski'])
+        
+        plt.title('Clustering Metrics Comparison')
+        ax1.legend(bbox_to_anchor=(1.15, 1), loc='upper left')
+        
+        plt.tight_layout()
+        
         if self.result_folder:
             csv_path = os.path.join(self.result_folder, "metrics_comparison.csv")
             metrics_df.to_csv(csv_path)
+            plot_path = os.path.join(self.result_folder, "metrics_comparison.png")
+            plt.savefig(plot_path, bbox_inches='tight', dpi=300)
             print(f"Metrics comparison data saved to {csv_path}")
+            print(f"Plot saved to {plot_path}")
         
+        plt.show()
         return metrics_df
 
     def summarize_results(self):
