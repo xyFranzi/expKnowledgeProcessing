@@ -20,12 +20,15 @@ class ExperimentManager:
             ('tfidf', 'kmeans'),
             ('tfidf', 'dbscan'),
             ('tfidf', 'hdbscan'),
+            ('tfidf', 'birch'),
             ('fasttext', 'kmeans'),
             ('fasttext', 'dbscan'),
             ('fasttext', 'hdbscan'),
+            ('fasttext', 'birch'),
             ('minilm', 'kmeans'),
             ('minilm', 'dbscan'),
-            ('minilm', 'hdbscan')  
+            ('minilm', 'hdbscan'),
+            ('minilm', 'birch')    
         ]
         
         for vec_name, clust_name in combinations:

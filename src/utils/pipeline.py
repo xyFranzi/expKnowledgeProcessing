@@ -6,6 +6,7 @@ from src.text_vectorization.minilm_vec import CustomMiniLMVectorizer
 from src.clustering.kmeans import DocumentKMeans
 from src.clustering.dbscan import DocumentDBSCAN
 from src.clustering.hdbscan import DocumentHDBSCAN
+from src.clustering.birch import DocumentBirch
 from sklearn.metrics import normalized_mutual_info_score, adjusted_rand_score, silhouette_score, calinski_harabasz_score
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -55,7 +56,8 @@ class DocumentClusteringPipeline:
             self.vectorizer = CustomTfidfVectorizer()
         elif self.vectorizer_name == 'fasttext':
             self.vectorizer = CustomFastTextVectorizer(
-                model_path='/Users/yue/Documents/code/expKnowledgeProcessing/models/cc.en.300.bin'
+                # model_path='/Users/yue/Documents/code/expKnowledgeProcessing/models/cc.en.300.bin'
+                model_path='D:/mypython/KP/expKnowledgeProcessing/models/cc.en.300.bin'
             )
         elif self.vectorizer_name == 'minilm':
             self.vectorizer = CustomMiniLMVectorizer()
@@ -69,6 +71,11 @@ class DocumentClusteringPipeline:
             self.clusterer = DocumentDBSCAN()
         elif self.clusterer_name == 'hdbscan':
             self.clusterer = DocumentHDBSCAN()
+        elif self.clusterer_name == 'birch':  
+    # from src.clustering.birch import DocumentBirch
+            self.clusterer = DocumentBirch(n_clusters=self.n_clusters)
+        else:
+            raise ValueError(f"Unsupported clusterer: {self.clusterer_name}")
     
     def select_n_components(self, vectors):
         """
