@@ -6,6 +6,21 @@ from src.utils.pipeline import DocumentClusteringPipeline
 import os
 import shutil
 from datetime import datetime
+import time
+from functools import wraps
+
+def timer_decorator(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        execution_time = end_time - start_time
+        if hasattr(args[0], 'execution_times'):
+            args[0].execution_times[func.__name__] = execution_time
+        return result
+    return wrapper
+
 
 class ExperimentManager:
     def __init__(self):
@@ -13,20 +28,22 @@ class ExperimentManager:
         self.results = {}
         self.n_clusters = None  
         self.result_folder = None
-        
+        self.execution_times = {}
+
+    @timer_decorator    
     def setup_experiments(self, n_clusters):  
         self.n_clusters = n_clusters  
         combinations = [
             ('tfidf', 'kmeans'),
-            ('tfidf', 'dbscan'),
+            #('tfidf', 'dbscan'),
             ('tfidf', 'hdbscan'),
             ('tfidf', 'birch'),
             ('fasttext', 'kmeans'),
-            ('fasttext', 'dbscan'),
+            #('fasttext', 'dbscan'),
             ('fasttext', 'hdbscan'),
             ('fasttext', 'birch'),
             ('minilm', 'kmeans'),
-            ('minilm', 'dbscan'),
+            #('minilm', 'dbscan'),
             ('minilm', 'hdbscan'),
             ('minilm', 'birch')    
         ]
@@ -39,17 +56,42 @@ class ExperimentManager:
                 n_clusters=n_clusters if clust_name == 'kmeans' else None
             )
 
+    @timer_decorator
     def run_all(self, documents):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         self.result_folder = os.path.join("results", f"run_{timestamp}")
         os.makedirs(self.result_folder, exist_ok=True)
+        pipeline_times = {}
 
         for name, pipeline in self.pipelines.items():
             print(f"Running experiment: {name}")
+            start_time = time.time()
             result = pipeline.process(documents)
+            end_time = time.time()
+            pipeline_times[name] = end_time - start_time  
             self.results[name] = result
             self.save_text_results(name, result)
 
+        # Save the execution time of each pipeline
+        self.save_execution_times(pipeline_times)
+
+    def save_execution_times(self, pipeline_times):
+        """Save execution time to file"""
+        time_file_path = os.path.join(self.result_folder, "execution_times.txt")
+        with open(time_file_path, "w", encoding="utf-8") as file:
+            file.write("Method Execution Times:\n\n")
+            
+            # Record the execution time of management class methods
+            file.write("Manager Methods:\n")
+            for method, exec_time in self.execution_times.items():
+                file.write(f"{method}: {exec_time:.2f} seconds\n")
+            
+            # Record the execution time of each pipeline
+            file.write("\nPipeline Execution Times:\n")
+            for pipeline, exec_time in pipeline_times.items():
+                file.write(f"{pipeline}: {exec_time:.2f} seconds\n")
+
+    @timer_decorator
     def save_text_results(self, experiment_name, result):
         """Save experimental results as text file"""
         text_file_path = os.path.join(self.result_folder, f"{experiment_name}_results.txt")
@@ -69,6 +111,7 @@ class ExperimentManager:
                     file.write(f"\nCluster {cluster_id}:\n")
                     file.write(", ".join(terms[:10]) + "\n")
 
+    @timer_decorator
     def visualize_results(self):
         """Visualize all experimental results in one large image"""
         n_experiments = len(self.results)
@@ -140,6 +183,7 @@ class ExperimentManager:
         plt.savefig(metrics_path)
         plt.close()
 
+    @timer_decorator
     def compare_metrics(self):
         """Compare evaluation metrics of different methods and save the comparison plot."""
         metrics_df = pd.DataFrame({
@@ -194,6 +238,7 @@ class ExperimentManager:
         plt.show()
         return metrics_df
 
+    @timer_decorator
     def summarize_results(self):
         """Print and save a summary of experimental results, including a combined summary file."""
         combined_summary = []  # save all content of exp

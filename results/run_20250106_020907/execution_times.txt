@@ -1,0 +1,16 @@
+Method Execution Times:
+
+Manager Methods:
+setup_experiments: 19.70 seconds
+save_text_results: 0.00 seconds
+
+Pipeline Execution Times:
+tfidf_kmeans: 26.22 seconds
+tfidf_hdbscan: 37.92 seconds
+tfidf_birch: 76.55 seconds
+fasttext_kmeans: 5.23 seconds
+fasttext_hdbscan: 4.90 seconds
+fasttext_birch: 4.51 seconds
+minilm_kmeans: 10.24 seconds
+minilm_hdbscan: 7.90 seconds
+minilm_birch: 52.18 seconds

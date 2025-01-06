@@ -1,0 +1,6171 @@
+Experiment: minilm_birch
+
+Clustering Metrics:
+nmi: 0.305
+ari: 0.001
+silhouette: 0.056
+calinski: 3.431
+
+Cluster Sizes:
+Cluster 0: 1 documents
+Cluster 1: 1 documents
+Cluster 2: 1 documents
+Cluster 3: 3 documents
+Cluster 4: 1 documents
+Cluster 5: 1 documents
+Cluster 6: 1 documents
+Cluster 7: 1 documents
+Cluster 8: 2 documents
+Cluster 9: 2 documents
+Cluster 10: 3 documents
+Cluster 11: 1 documents
+Cluster 12: 2 documents
+Cluster 13: 1 documents
+Cluster 14: 1 documents
+Cluster 15: 1 documents
+Cluster 16: 1 documents
+Cluster 17: 1 documents
+Cluster 18: 1 documents
+Cluster 19: 1 documents
+Cluster 20: 2 documents
+Cluster 21: 1 documents
+Cluster 22: 4 documents
+Cluster 23: 1 documents
+Cluster 24: 1 documents
+Cluster 25: 2 documents
+Cluster 26: 1 documents
+Cluster 27: 1 documents
+Cluster 28: 1 documents
+Cluster 29: 1 documents
+Cluster 30: 1 documents
+Cluster 31: 1 documents
+Cluster 32: 1 documents
+Cluster 33: 1 documents
+Cluster 34: 1 documents
+Cluster 35: 1 documents
+Cluster 36: 1 documents
+Cluster 37: 1 documents
+Cluster 38: 1 documents
+Cluster 39: 2 documents
+Cluster 40: 1 documents
+Cluster 41: 2 documents
+Cluster 42: 1 documents
+Cluster 43: 1 documents
+Cluster 44: 1 documents
+Cluster 45: 1 documents
+Cluster 46: 1 documents
+Cluster 47: 1 documents
+Cluster 48: 1 documents
+Cluster 49: 1 documents
+Cluster 50: 2 documents
+Cluster 51: 2 documents
+Cluster 52: 1 documents
+Cluster 53: 2 documents
+Cluster 54: 1 documents
+Cluster 55: 2 documents
+Cluster 56: 1 documents
+Cluster 57: 2 documents
+Cluster 58: 1 documents
+Cluster 59: 2 documents
+Cluster 60: 1 documents
+Cluster 61: 1 documents
+Cluster 62: 1 documents
+Cluster 63: 2 documents
+Cluster 64: 1 documents
+Cluster 65: 1 documents
+Cluster 66: 1 documents
+Cluster 67: 2 documents
+Cluster 68: 1 documents
+Cluster 69: 1 documents
+Cluster 70: 2 documents
+Cluster 71: 1 documents
+Cluster 72: 1 documents
+Cluster 73: 2 documents
+Cluster 74: 1 documents
+Cluster 75: 2 documents
+Cluster 76: 1 documents
+Cluster 77: 1 documents
+Cluster 78: 1 documents
+Cluster 79: 1 documents
+Cluster 80: 1 documents
+Cluster 81: 1 documents
+Cluster 82: 1 documents
+Cluster 83: 1 documents
+Cluster 84: 1 documents
+Cluster 85: 1 documents
+Cluster 86: 1 documents
+Cluster 87: 1 documents
+Cluster 88: 1 documents
+Cluster 89: 1 documents
+Cluster 90: 1 documents
+Cluster 91: 1 documents
+Cluster 92: 2 documents
+Cluster 93: 3 documents
+Cluster 94: 1 documents
+Cluster 95: 1 documents
+Cluster 96: 2 documents
+Cluster 97: 1 documents
+Cluster 98: 2 documents
+Cluster 99: 2 documents
+Cluster 100: 2 documents
+Cluster 101: 1 documents
+Cluster 102: 1 documents
+Cluster 103: 1 documents
+Cluster 104: 1 documents
+Cluster 105: 1 documents
+Cluster 106: 1 documents
+Cluster 107: 1 documents
+Cluster 108: 1 documents
+Cluster 109: 1 documents
+Cluster 110: 1 documents
+Cluster 111: 2 documents
+Cluster 112: 1 documents
+Cluster 113: 1 documents
+Cluster 114: 1 documents
+Cluster 115: 1 documents
+Cluster 116: 1 documents
+Cluster 117: 2 documents
+Cluster 118: 1 documents
+Cluster 119: 1 documents
+Cluster 120: 1 documents
+Cluster 121: 1 documents
+Cluster 122: 1 documents
+Cluster 123: 1 documents
+Cluster 124: 1 documents
+Cluster 125: 3 documents
+Cluster 126: 1 documents
+Cluster 127: 2 documents
+Cluster 128: 1 documents
+Cluster 129: 1 documents
+Cluster 130: 2 documents
+Cluster 131: 3 documents
+Cluster 132: 1 documents
+Cluster 133: 1 documents
+Cluster 134: 1 documents
+Cluster 135: 1 documents
+Cluster 136: 1 documents
+Cluster 137: 1 documents
+Cluster 138: 2 documents
+Cluster 139: 2 documents
+Cluster 140: 1 documents
+Cluster 141: 1 documents
+Cluster 142: 1 documents
+Cluster 143: 1 documents
+Cluster 144: 1 documents
+Cluster 145: 1 documents
+Cluster 146: 1 documents
+Cluster 147: 1 documents
+Cluster 148: 1 documents
+Cluster 149: 1 documents
+Cluster 150: 1 documents
+Cluster 151: 1 documents
+Cluster 152: 1 documents
+Cluster 153: 1 documents
+Cluster 154: 1 documents
+Cluster 155: 1 documents
+Cluster 156: 2 documents
+Cluster 157: 3 documents
+Cluster 158: 1 documents
+Cluster 159: 1 documents
+Cluster 160: 1 documents
+Cluster 161: 1 documents
+Cluster 162: 1 documents
+Cluster 163: 1 documents
+Cluster 164: 1 documents
+Cluster 165: 1 documents
+Cluster 166: 1 documents
+Cluster 167: 2 documents
+Cluster 168: 1 documents
+Cluster 169: 2 documents
+Cluster 170: 1 documents
+Cluster 171: 3 documents
+Cluster 172: 1 documents
+Cluster 173: 2 documents
+Cluster 174: 1 documents
+Cluster 175: 1 documents
+Cluster 176: 1 documents
+Cluster 177: 1 documents
+Cluster 178: 1 documents
+Cluster 179: 1 documents
+Cluster 180: 1 documents
+Cluster 181: 1 documents
+Cluster 182: 1 documents
+Cluster 183: 1 documents
+Cluster 184: 2 documents
+Cluster 185: 1 documents
+Cluster 186: 1 documents
+Cluster 187: 1 documents
+Cluster 188: 1 documents
+Cluster 189: 1 documents
+Cluster 190: 1 documents
+Cluster 191: 2 documents
+Cluster 192: 1 documents
+Cluster 193: 2 documents
+Cluster 194: 2 documents
+Cluster 195: 1 documents
+Cluster 196: 2 documents
+Cluster 197: 1 documents
+Cluster 198: 1 documents
+Cluster 199: 1 documents
+Cluster 200: 1 documents
+Cluster 201: 1 documents
+Cluster 202: 1 documents
+Cluster 203: 1 documents
+Cluster 204: 3 documents
+Cluster 205: 1 documents
+Cluster 206: 1 documents
+Cluster 207: 1 documents
+Cluster 208: 2 documents
+Cluster 209: 1 documents
+Cluster 210: 1 documents
+Cluster 211: 1 documents
+Cluster 212: 1 documents
+Cluster 213: 1 documents
+Cluster 214: 1 documents
+Cluster 215: 1 documents
+Cluster 216: 2 documents
+Cluster 217: 1 documents
+Cluster 218: 1 documents
+Cluster 219: 1 documents
+Cluster 220: 1 documents
+Cluster 221: 1 documents
+Cluster 222: 1 documents
+Cluster 223: 2 documents
+Cluster 224: 1 documents
+Cluster 225: 2 documents
+Cluster 226: 2 documents
+Cluster 227: 1 documents
+Cluster 228: 1 documents
+Cluster 229: 1 documents
+Cluster 230: 1 documents
+Cluster 231: 1 documents
+Cluster 232: 1 documents
+Cluster 233: 1 documents
+Cluster 234: 1 documents
+Cluster 235: 1 documents
+Cluster 236: 1 documents
+Cluster 237: 1 documents
+Cluster 238: 1 documents
+Cluster 239: 1 documents
+Cluster 240: 2 documents
+Cluster 241: 1 documents
+Cluster 242: 2 documents
+Cluster 243: 2 documents
+Cluster 244: 1 documents
+Cluster 245: 3 documents
+Cluster 246: 1 documents
+Cluster 247: 1 documents
+Cluster 248: 2 documents
+Cluster 249: 1 documents
+Cluster 250: 1 documents
+Cluster 251: 1 documents
+Cluster 252: 1 documents
+Cluster 253: 1 documents
+Cluster 254: 1 documents
+Cluster 255: 1 documents
+Cluster 256: 2 documents
+Cluster 257: 1 documents
+Cluster 258: 1 documents
+Cluster 259: 1 documents
+Cluster 260: 1 documents
+Cluster 261: 2 documents
+Cluster 262: 2 documents
+Cluster 263: 1 documents
+Cluster 264: 2 documents
+Cluster 265: 3 documents
+Cluster 266: 1 documents
+Cluster 267: 1 documents
+Cluster 268: 1 documents
+Cluster 269: 1 documents
+Cluster 270: 1 documents
+Cluster 271: 1 documents
+Cluster 272: 1 documents
+Cluster 273: 1 documents
+Cluster 274: 1 documents
+Cluster 275: 2 documents
+Cluster 276: 1 documents
+Cluster 277: 1 documents
+Cluster 278: 1 documents
+Cluster 279: 1 documents
+Cluster 280: 1 documents
+Cluster 281: 1 documents
+Cluster 282: 1 documents
+Cluster 283: 1 documents
+Cluster 284: 1 documents
+Cluster 285: 1 documents
+Cluster 286: 1 documents
+Cluster 287: 1 documents
+Cluster 288: 1 documents
+Cluster 289: 1 documents
+Cluster 290: 2 documents
+Cluster 291: 2 documents
+Cluster 292: 1 documents
+Cluster 293: 1 documents
+Cluster 294: 1 documents
+Cluster 295: 1 documents
+Cluster 296: 1 documents
+Cluster 297: 1 documents
+Cluster 298: 1 documents
+Cluster 299: 1 documents
+Cluster 300: 2 documents
+Cluster 301: 1 documents
+Cluster 302: 1 documents
+Cluster 303: 1 documents
+Cluster 304: 2 documents
+Cluster 305: 1 documents
+Cluster 306: 2 documents
+Cluster 307: 2 documents
+Cluster 308: 1 documents
+Cluster 309: 2 documents
+Cluster 310: 2 documents
+Cluster 311: 1 documents
+Cluster 312: 2 documents
+Cluster 313: 1 documents
+Cluster 314: 1 documents
+Cluster 315: 2 documents
+Cluster 316: 2 documents
+Cluster 317: 1 documents
+Cluster 318: 2 documents
+Cluster 319: 1 documents
+Cluster 320: 1 documents
+Cluster 321: 2 documents
+Cluster 322: 3 documents
+Cluster 323: 1 documents
+Cluster 324: 1 documents
+Cluster 325: 1 documents
+Cluster 326: 1 documents
+Cluster 327: 1 documents
+Cluster 328: 1 documents
+Cluster 329: 1 documents
+Cluster 330: 1 documents
+Cluster 331: 1 documents
+Cluster 332: 1 documents
+Cluster 333: 1 documents
+Cluster 334: 1 documents
+Cluster 335: 1 documents
+Cluster 336: 1 documents
+Cluster 337: 1 documents
+Cluster 338: 1 documents
+Cluster 339: 1 documents
+Cluster 340: 1 documents
+Cluster 341: 1 documents
+Cluster 342: 2 documents
+Cluster 343: 1 documents
+Cluster 344: 6 documents
+Cluster 345: 1 documents
+Cluster 346: 1 documents
+Cluster 347: 1 documents
+Cluster 348: 1 documents
+Cluster 349: 1 documents
+Cluster 350: 1 documents
+Cluster 351: 1 documents
+Cluster 352: 2 documents
+Cluster 353: 1 documents
+Cluster 354: 1 documents
+Cluster 355: 1 documents
+Cluster 356: 1 documents
+Cluster 357: 1 documents
+Cluster 358: 2 documents
+Cluster 359: 1 documents
+Cluster 360: 1 documents
+Cluster 361: 1 documents
+Cluster 362: 2 documents
+Cluster 363: 1 documents
+Cluster 364: 2 documents
+Cluster 365: 1 documents
+Cluster 366: 1 documents
+Cluster 367: 1 documents
+Cluster 368: 1 documents
+Cluster 369: 1 documents
+Cluster 370: 1 documents
+Cluster 371: 1 documents
+Cluster 372: 1 documents
+Cluster 373: 1 documents
+Cluster 374: 1 documents
+Cluster 375: 1 documents
+Cluster 376: 1 documents
+Cluster 377: 1 documents
+Cluster 378: 1 documents
+Cluster 379: 1 documents
+Cluster 380: 1 documents
+Cluster 381: 1 documents
+Cluster 382: 1 documents
+Cluster 383: 1 documents
+Cluster 384: 1 documents
+Cluster 385: 1 documents
+Cluster 386: 1 documents
+Cluster 387: 1 documents
+Cluster 388: 1 documents
+Cluster 389: 1 documents
+Cluster 390: 1 documents
+Cluster 391: 1 documents
+Cluster 392: 2 documents
+Cluster 393: 1 documents
+Cluster 394: 2 documents
+Cluster 395: 2 documents
+Cluster 396: 1 documents
+Cluster 397: 1 documents
+Cluster 398: 1 documents
+Cluster 399: 1 documents
+Cluster 400: 1 documents
+Cluster 401: 1 documents
+Cluster 402: 1 documents
+Cluster 403: 1 documents
+Cluster 404: 1 documents
+Cluster 405: 1 documents
+Cluster 406: 1 documents
+Cluster 407: 1 documents
+Cluster 408: 1 documents
+Cluster 409: 2 documents
+Cluster 410: 1 documents
+Cluster 411: 1 documents
+Cluster 412: 1 documents
+Cluster 413: 1 documents
+Cluster 414: 1 documents
+Cluster 415: 1 documents
+Cluster 416: 1 documents
+Cluster 417: 1 documents
+Cluster 418: 2 documents
+Cluster 419: 1 documents
+Cluster 420: 3 documents
+Cluster 421: 1 documents
+Cluster 422: 2 documents
+Cluster 423: 1 documents
+Cluster 424: 1 documents
+Cluster 425: 1 documents
+Cluster 426: 1 documents
+Cluster 427: 1 documents
+Cluster 428: 1 documents
+Cluster 429: 1 documents
+Cluster 430: 1 documents
+Cluster 431: 1 documents
+Cluster 432: 1 documents
+Cluster 433: 1 documents
+Cluster 434: 1 documents
+Cluster 435: 2 documents
+Cluster 436: 1 documents
+Cluster 437: 1 documents
+Cluster 438: 1 documents
+Cluster 439: 1 documents
+Cluster 440: 2 documents
+Cluster 441: 2 documents
+Cluster 442: 1 documents
+Cluster 443: 1 documents
+Cluster 444: 1 documents
+Cluster 445: 1 documents
+Cluster 446: 2 documents
+Cluster 447: 2 documents
+Cluster 448: 1 documents
+Cluster 449: 1 documents
+Cluster 450: 1 documents
+Cluster 451: 1 documents
+Cluster 452: 1 documents
+Cluster 453: 1 documents
+Cluster 454: 1 documents
+Cluster 455: 1 documents
+Cluster 456: 1 documents
+Cluster 457: 1 documents
+Cluster 458: 1 documents
+Cluster 459: 1 documents
+Cluster 460: 1 documents
+Cluster 461: 1 documents
+Cluster 462: 3 documents
+Cluster 463: 1 documents
+Cluster 464: 1 documents
+Cluster 465: 2 documents
+Cluster 466: 1 documents
+Cluster 467: 1 documents
+Cluster 468: 1 documents
+Cluster 469: 1 documents
+Cluster 470: 1 documents
+Cluster 471: 2 documents
+Cluster 472: 1 documents
+Cluster 473: 1 documents
+Cluster 474: 2 documents
+Cluster 475: 1 documents
+Cluster 476: 1 documents
+Cluster 477: 1 documents
+Cluster 478: 1 documents
+Cluster 479: 1 documents
+Cluster 480: 1 documents
+Cluster 481: 1 documents
+Cluster 482: 1 documents
+Cluster 483: 1 documents
+Cluster 484: 1 documents
+Cluster 485: 1 documents
+Cluster 486: 1 documents
+Cluster 487: 1 documents
+Cluster 488: 1 documents
+Cluster 489: 1 documents
+Cluster 490: 1 documents
+Cluster 491: 1 documents
+Cluster 492: 2 documents
+Cluster 493: 1 documents
+Cluster 494: 1 documents
+Cluster 495: 1 documents
+Cluster 496: 1 documents
+Cluster 497: 1 documents
+Cluster 498: 2 documents
+Cluster 499: 3 documents
+Cluster 500: 1 documents
+Cluster 501: 1 documents
+Cluster 502: 1 documents
+Cluster 503: 1 documents
+Cluster 504: 1 documents
+Cluster 505: 1 documents
+Cluster 506: 1 documents
+Cluster 507: 1 documents
+Cluster 508: 1 documents
+Cluster 509: 1 documents
+Cluster 510: 1 documents
+Cluster 511: 1 documents
+Cluster 512: 1 documents
+Cluster 513: 1 documents
+Cluster 514: 1 documents
+Cluster 515: 1 documents
+Cluster 516: 1 documents
+Cluster 517: 1 documents
+Cluster 518: 1 documents
+Cluster 519: 1 documents
+Cluster 520: 1 documents
+Cluster 521: 1 documents
+Cluster 522: 1 documents
+Cluster 523: 1 documents
+Cluster 524: 1 documents
+Cluster 525: 1 documents
+Cluster 526: 1 documents
+Cluster 527: 1 documents
+Cluster 528: 1 documents
+Cluster 529: 2 documents
+Cluster 530: 1 documents
+Cluster 531: 1 documents
+Cluster 532: 1 documents
+Cluster 533: 1 documents
+Cluster 534: 1 documents
+Cluster 535: 1 documents
+Cluster 536: 1 documents
+Cluster 537: 1 documents
+Cluster 538: 1 documents
+Cluster 539: 2 documents
+Cluster 540: 1 documents
+Cluster 541: 1 documents
+Cluster 542: 2 documents
+Cluster 543: 1 documents
+Cluster 544: 1 documents
+Cluster 545: 1 documents
+Cluster 546: 1 documents
+Cluster 547: 2 documents
+Cluster 548: 1 documents
+Cluster 549: 1 documents
+Cluster 550: 2 documents
+Cluster 551: 1 documents
+Cluster 552: 1 documents
+Cluster 553: 2 documents
+Cluster 554: 1 documents
+Cluster 555: 1 documents
+Cluster 556: 1 documents
+Cluster 557: 2 documents
+Cluster 558: 2 documents
+Cluster 559: 1 documents
+Cluster 560: 1 documents
+Cluster 561: 2 documents
+Cluster 562: 1 documents
+Cluster 563: 2 documents
+Cluster 564: 1 documents
+Cluster 565: 1 documents
+Cluster 566: 1 documents
+Cluster 567: 1 documents
+Cluster 568: 1 documents
+Cluster 569: 2 documents
+Cluster 570: 2 documents
+Cluster 571: 2 documents
+Cluster 572: 1 documents
+Cluster 573: 1 documents
+Cluster 574: 2 documents
+Cluster 575: 2 documents
+Cluster 576: 1 documents
+Cluster 577: 1 documents
+Cluster 578: 1 documents
+Cluster 579: 1 documents
+Cluster 580: 1 documents
+Cluster 581: 1 documents
+Cluster 582: 1 documents
+Cluster 583: 1 documents
+Cluster 584: 1 documents
+Cluster 585: 1 documents
+Cluster 586: 1 documents
+Cluster 587: 1 documents
+Cluster 588: 1 documents
+Cluster 589: 1 documents
+Cluster 590: 2 documents
+Cluster 591: 2 documents
+Cluster 592: 5 documents
+Cluster 593: 2 documents
+Cluster 594: 1 documents
+Cluster 595: 1 documents
+Cluster 596: 1 documents
+Cluster 597: 2 documents
+Cluster 598: 1 documents
+Cluster 599: 2 documents
+Cluster 600: 2 documents
+Cluster 601: 1 documents
+Cluster 602: 1 documents
+Cluster 603: 1 documents
+Cluster 604: 1 documents
+Cluster 605: 1 documents
+Cluster 606: 3 documents
+Cluster 607: 1 documents
+Cluster 608: 1 documents
+Cluster 609: 1 documents
+Cluster 610: 1 documents
+Cluster 611: 1 documents
+Cluster 612: 1 documents
+Cluster 613: 1 documents
+Cluster 614: 1 documents
+Cluster 615: 1 documents
+Cluster 616: 2 documents
+Cluster 617: 1 documents
+Cluster 618: 1 documents
+Cluster 619: 4 documents
+Cluster 620: 2 documents
+Cluster 621: 2 documents
+Cluster 622: 3 documents
+Cluster 623: 1 documents
+Cluster 624: 1 documents
+Cluster 625: 1 documents
+Cluster 626: 1 documents
+Cluster 627: 2 documents
+Cluster 628: 1 documents
+Cluster 629: 1 documents
+Cluster 630: 1 documents
+Cluster 631: 1 documents
+Cluster 632: 1 documents
+Cluster 633: 1 documents
+Cluster 634: 1 documents
+Cluster 635: 1 documents
+Cluster 636: 1 documents
+Cluster 637: 1 documents
+Cluster 638: 1 documents
+Cluster 639: 1 documents
+Cluster 640: 1 documents
+Cluster 641: 1 documents
+Cluster 642: 1 documents
+Cluster 643: 1 documents
+Cluster 644: 2 documents
+Cluster 645: 1 documents
+Cluster 646: 1 documents
+Cluster 647: 1 documents
+Cluster 648: 2 documents
+Cluster 649: 2 documents
+Cluster 650: 1 documents
+Cluster 651: 1 documents
+Cluster 652: 1 documents
+Cluster 653: 2 documents
+Cluster 654: 1 documents
+Cluster 655: 1 documents
+Cluster 656: 1 documents
+Cluster 657: 1 documents
+Cluster 658: 1 documents
+Cluster 659: 1 documents
+Cluster 660: 1 documents
+Cluster 661: 1 documents
+Cluster 662: 1 documents
+Cluster 663: 1 documents
+Cluster 664: 1 documents
+Cluster 665: 2 documents
+Cluster 666: 2 documents
+Cluster 667: 1 documents
+Cluster 668: 1 documents
+Cluster 669: 1 documents
+Cluster 670: 4 documents
+Cluster 671: 1 documents
+Cluster 672: 2 documents
+Cluster 673: 3 documents
+Cluster 674: 1 documents
+Cluster 675: 1 documents
+Cluster 676: 1 documents
+Cluster 677: 1 documents
+Cluster 678: 1 documents
+Cluster 679: 2 documents
+Cluster 680: 1 documents
+Cluster 681: 1 documents
+Cluster 682: 1 documents
+Cluster 683: 1 documents
+Cluster 684: 1 documents
+Cluster 685: 1 documents
+Cluster 686: 2 documents
+Cluster 687: 1 documents
+Cluster 688: 1 documents
+Cluster 689: 1 documents
+Cluster 690: 1 documents
+Cluster 691: 1 documents
+Cluster 692: 1 documents
+Cluster 693: 1 documents
+Cluster 694: 1 documents
+Cluster 695: 1 documents
+Cluster 696: 1 documents
+Cluster 697: 2 documents
+Cluster 698: 2 documents
+Cluster 699: 1 documents
+Cluster 700: 2 documents
+Cluster 701: 1 documents
+Cluster 702: 1 documents
+Cluster 703: 1 documents
+Cluster 704: 1 documents
+Cluster 705: 1 documents
+Cluster 706: 1 documents
+Cluster 707: 1 documents
+Cluster 708: 1 documents
+Cluster 709: 1 documents
+Cluster 710: 1 documents
+Cluster 711: 1 documents
+Cluster 712: 1 documents
+Cluster 713: 1 documents
+Cluster 714: 2 documents
+Cluster 715: 1 documents
+Cluster 716: 2 documents
+Cluster 717: 1 documents
+Cluster 718: 1 documents
+Cluster 719: 1 documents
+Cluster 720: 1 documents
+Cluster 721: 1 documents
+Cluster 722: 2 documents
+Cluster 723: 3 documents
+Cluster 724: 1 documents
+Cluster 725: 1 documents
+Cluster 726: 2 documents
+Cluster 727: 1 documents
+Cluster 728: 1 documents
+Cluster 729: 5 documents
+Cluster 730: 1 documents
+Cluster 731: 1 documents
+Cluster 732: 1 documents
+Cluster 733: 1 documents
+Cluster 734: 1 documents
+Cluster 735: 1 documents
+Cluster 736: 1 documents
+Cluster 737: 1 documents
+Cluster 738: 1 documents
+Cluster 739: 1 documents
+Cluster 740: 1 documents
+Cluster 741: 2 documents
+Cluster 742: 1 documents
+Cluster 743: 1 documents
+Cluster 744: 1 documents
+Cluster 745: 1 documents
+Cluster 746: 1 documents
+Cluster 747: 1 documents
+Cluster 748: 1 documents
+Cluster 749: 2 documents
+Cluster 750: 1 documents
+Cluster 751: 2 documents
+Cluster 752: 1 documents
+Cluster 753: 1 documents
+Cluster 754: 1 documents
+Cluster 755: 3 documents
+Cluster 756: 1 documents
+Cluster 757: 1 documents
+Cluster 758: 1 documents
+Cluster 759: 1 documents
+Cluster 760: 1 documents
+Cluster 761: 1 documents
+Cluster 762: 2 documents
+Cluster 763: 2 documents
+Cluster 764: 1 documents
+Cluster 765: 1 documents
+Cluster 766: 1 documents
+Cluster 767: 1 documents
+Cluster 768: 1 documents
+Cluster 769: 2 documents
+Cluster 770: 1 documents
+Cluster 771: 1 documents
+Cluster 772: 1 documents
+Cluster 773: 1 documents
+Cluster 774: 1 documents
+Cluster 775: 1 documents
+Cluster 776: 1 documents
+Cluster 777: 1 documents
+Cluster 778: 1 documents
+Cluster 779: 1 documents
+Cluster 780: 1 documents
+Cluster 781: 2 documents
+Cluster 782: 1 documents
+Cluster 783: 1 documents
+Cluster 784: 1 documents
+Cluster 785: 1 documents
+Cluster 786: 1 documents
+Cluster 787: 1 documents
+Cluster 788: 1 documents
+Cluster 789: 1 documents
+Cluster 790: 1 documents
+Cluster 791: 1 documents
+Cluster 792: 1 documents
+Cluster 793: 1 documents
+Cluster 794: 2 documents
+Cluster 795: 1 documents
+Cluster 796: 1 documents
+Cluster 797: 1 documents
+Cluster 798: 1 documents
+Cluster 799: 2 documents
+Cluster 800: 1 documents
+Cluster 801: 2 documents
+Cluster 802: 1 documents
+Cluster 803: 1 documents
+Cluster 804: 2 documents
+Cluster 805: 1 documents
+Cluster 806: 1 documents
+Cluster 807: 1 documents
+Cluster 808: 2 documents
+Cluster 809: 1 documents
+Cluster 810: 1 documents
+Cluster 811: 1 documents
+Cluster 812: 1 documents
+Cluster 813: 1 documents
+Cluster 814: 1 documents
+Cluster 815: 1 documents
+Cluster 816: 1 documents
+Cluster 817: 2 documents
+Cluster 818: 2 documents
+Cluster 819: 1 documents
+Cluster 820: 1 documents
+Cluster 821: 2 documents
+Cluster 822: 1 documents
+Cluster 823: 1 documents
+Cluster 824: 1 documents
+Cluster 825: 1 documents
+Cluster 826: 1 documents
+Cluster 827: 1 documents
+Cluster 828: 1 documents
+Cluster 829: 1 documents
+Cluster 830: 2 documents
+Cluster 831: 2 documents
+Cluster 832: 1 documents
+Cluster 833: 2 documents
+Cluster 834: 2 documents
+Cluster 835: 1 documents
+Cluster 836: 3 documents
+Cluster 837: 2 documents
+Cluster 838: 1 documents
+Cluster 839: 2 documents
+Cluster 840: 1 documents
+Cluster 841: 1 documents
+Cluster 842: 2 documents
+Cluster 843: 1 documents
+Cluster 844: 2 documents
+Cluster 845: 2 documents
+Cluster 846: 1 documents
+Cluster 847: 1 documents
+Cluster 848: 3 documents
+Cluster 849: 1 documents
+Cluster 850: 1 documents
+Cluster 851: 1 documents
+Cluster 852: 1 documents
+Cluster 853: 3 documents
+Cluster 854: 1 documents
+Cluster 855: 1 documents
+Cluster 856: 1 documents
+Cluster 857: 1 documents
+Cluster 858: 1 documents
+Cluster 859: 1 documents
+Cluster 860: 1 documents
+Cluster 861: 1 documents
+Cluster 862: 1 documents
+Cluster 863: 1 documents
+Cluster 864: 1 documents
+Cluster 865: 1 documents
+Cluster 866: 1 documents
+Cluster 867: 1 documents
+Cluster 868: 1 documents
+Cluster 869: 1 documents
+Cluster 870: 2 documents
+Cluster 871: 1 documents
+Cluster 872: 2 documents
+Cluster 873: 2 documents
+Cluster 874: 2 documents
+Cluster 875: 3 documents
+Cluster 876: 1 documents
+Cluster 877: 2 documents
+Cluster 878: 1 documents
+Cluster 879: 1 documents
+Cluster 880: 1 documents
+Cluster 881: 2 documents
+Cluster 882: 1 documents
+Cluster 883: 1 documents
+Cluster 884: 1 documents
+Cluster 885: 2 documents
+Cluster 886: 1 documents
+Cluster 887: 1 documents
+Cluster 888: 1 documents
+Cluster 889: 1 documents
+Cluster 890: 1 documents
+Cluster 891: 1 documents
+Cluster 892: 1 documents
+Cluster 893: 1 documents
+Cluster 894: 1 documents
+Cluster 895: 1 documents
+Cluster 896: 2 documents
+Cluster 897: 2 documents
+Cluster 898: 2 documents
+Cluster 899: 1 documents
+Cluster 900: 1 documents
+Cluster 901: 2 documents
+Cluster 902: 1 documents
+Cluster 903: 2 documents
+Cluster 904: 2 documents
+Cluster 905: 1 documents
+Cluster 906: 2 documents
+Cluster 907: 1 documents
+Cluster 908: 1 documents
+Cluster 909: 1 documents
+Cluster 910: 3 documents
+Cluster 911: 1 documents
+Cluster 912: 1 documents
+Cluster 913: 1 documents
+Cluster 914: 1 documents
+Cluster 915: 1 documents
+Cluster 916: 1 documents
+Cluster 917: 1 documents
+Cluster 918: 1 documents
+Cluster 919: 1 documents
+Cluster 920: 1 documents
+Cluster 921: 1 documents
+Cluster 922: 1 documents
+Cluster 923: 1 documents
+Cluster 924: 1 documents
+Cluster 925: 1 documents
+Cluster 926: 1 documents
+Cluster 927: 2 documents
+Cluster 928: 3 documents
+Cluster 929: 1 documents
+Cluster 930: 1 documents
+Cluster 931: 3 documents
+Cluster 932: 1 documents
+Cluster 933: 1 documents
+Cluster 934: 2 documents
+Cluster 935: 2 documents
+Cluster 936: 1 documents
+Cluster 937: 1 documents
+Cluster 938: 2 documents
+Cluster 939: 1 documents
+Cluster 940: 2 documents
+Cluster 941: 1 documents
+Cluster 942: 1 documents
+Cluster 943: 1 documents
+Cluster 944: 1 documents
+Cluster 945: 2 documents
+Cluster 946: 1 documents
+Cluster 947: 1 documents
+Cluster 948: 1 documents
+Cluster 949: 1 documents
+Cluster 950: 1 documents
+Cluster 951: 1 documents
+Cluster 952: 1 documents
+Cluster 953: 1 documents
+Cluster 954: 2 documents
+Cluster 955: 1 documents
+Cluster 956: 1 documents
+Cluster 957: 1 documents
+Cluster 958: 1 documents
+Cluster 959: 1 documents
+Cluster 960: 2 documents
+Cluster 961: 2 documents
+Cluster 962: 1 documents
+Cluster 963: 1 documents
+Cluster 964: 2 documents
+Cluster 965: 1 documents
+Cluster 966: 2 documents
+Cluster 967: 1 documents
+Cluster 968: 1 documents
+Cluster 969: 2 documents
+Cluster 970: 1 documents
+Cluster 971: 1 documents
+Cluster 972: 2 documents
+Cluster 973: 1 documents
+Cluster 974: 1 documents
+Cluster 975: 2 documents
+Cluster 976: 2 documents
+Cluster 977: 1 documents
+Cluster 978: 1 documents
+Cluster 979: 3 documents
+Cluster 980: 2 documents
+Cluster 981: 1 documents
+Cluster 982: 2 documents
+Cluster 983: 1 documents
+Cluster 984: 1 documents
+Cluster 985: 2 documents
+Cluster 986: 1 documents
+Cluster 987: 1 documents
+Cluster 988: 2 documents
+Cluster 989: 1 documents
+Cluster 990: 1 documents
+Cluster 991: 2 documents
+Cluster 992: 1 documents
+Cluster 993: 1 documents
+Cluster 994: 1 documents
+Cluster 995: 1 documents
+Cluster 996: 2 documents
+Cluster 997: 2 documents
+Cluster 998: 1 documents
+Cluster 999: 1 documents
+Cluster 1000: 1 documents
+Cluster 1001: 1 documents
+Cluster 1002: 1 documents
+Cluster 1003: 1 documents
+Cluster 1004: 1 documents
+Cluster 1005: 1 documents
+Cluster 1006: 1 documents
+Cluster 1007: 1 documents
+Cluster 1008: 1 documents
+Cluster 1009: 2 documents
+Cluster 1010: 2 documents
+Cluster 1011: 1 documents
+Cluster 1012: 2 documents
+Cluster 1013: 1 documents
+Cluster 1014: 1 documents
+Cluster 1015: 1 documents
+Cluster 1016: 1 documents
+Cluster 1017: 1 documents
+Cluster 1018: 1 documents
+Cluster 1019: 2 documents
+Cluster 1020: 1 documents
+Cluster 1021: 1 documents
+Cluster 1022: 2 documents
+Cluster 1023: 1 documents
+Cluster 1024: 2 documents
+Cluster 1025: 1 documents
+Cluster 1026: 1 documents
+Cluster 1027: 1 documents
+Cluster 1028: 1 documents
+Cluster 1029: 1 documents
+Cluster 1030: 1 documents
+Cluster 1031: 1 documents
+Cluster 1032: 1 documents
+Cluster 1033: 1 documents
+Cluster 1034: 1 documents
+Cluster 1035: 1 documents
+Cluster 1036: 1 documents
+Cluster 1037: 1 documents
+Cluster 1038: 1 documents
+Cluster 1039: 1 documents
+Cluster 1040: 1 documents
+Cluster 1041: 1 documents
+Cluster 1042: 2 documents
+Cluster 1043: 1 documents
+Cluster 1044: 1 documents
+Cluster 1045: 1 documents
+Cluster 1046: 1 documents
+Cluster 1047: 1 documents
+Cluster 1048: 1 documents
+Cluster 1049: 1 documents
+Cluster 1050: 1 documents
+Cluster 1051: 3 documents
+Cluster 1052: 1 documents
+Cluster 1053: 3 documents
+Cluster 1054: 1 documents
+Cluster 1055: 1 documents
+Cluster 1056: 2 documents
+Cluster 1057: 2 documents
+Cluster 1058: 1 documents
+Cluster 1059: 2 documents
+Cluster 1060: 1 documents
+Cluster 1061: 1 documents
+Cluster 1062: 1 documents
+Cluster 1063: 3 documents
+Cluster 1064: 1 documents
+Cluster 1065: 2 documents
+Cluster 1066: 1 documents
+Cluster 1067: 1 documents
+Cluster 1068: 1 documents
+Cluster 1069: 1 documents
+Cluster 1070: 1 documents
+Cluster 1071: 1 documents
+Cluster 1072: 1 documents
+Cluster 1073: 1 documents
+Cluster 1074: 1 documents
+Cluster 1075: 1 documents
+Cluster 1076: 2 documents
+Cluster 1077: 1 documents
+Cluster 1078: 1 documents
+Cluster 1079: 1 documents
+Cluster 1080: 2 documents
+Cluster 1081: 1 documents
+Cluster 1082: 1 documents
+Cluster 1083: 2 documents
+Cluster 1084: 2 documents
+Cluster 1085: 1 documents
+Cluster 1086: 1 documents
+Cluster 1087: 1 documents
+Cluster 1088: 1 documents
+Cluster 1089: 2 documents
+Cluster 1090: 1 documents
+Cluster 1091: 1 documents
+Cluster 1092: 1 documents
+Cluster 1093: 1 documents
+Cluster 1094: 1 documents
+Cluster 1095: 1 documents
+Cluster 1096: 1 documents
+Cluster 1097: 1 documents
+Cluster 1098: 1 documents
+Cluster 1099: 1 documents
+Cluster 1100: 1 documents
+Cluster 1101: 1 documents
+Cluster 1102: 1 documents
+Cluster 1103: 1 documents
+Cluster 1104: 1 documents
+Cluster 1105: 1 documents
+Cluster 1106: 1 documents
+Cluster 1107: 1 documents
+Cluster 1108: 2 documents
+Cluster 1109: 1 documents
+Cluster 1110: 1 documents
+Cluster 1111: 2 documents
+Cluster 1112: 1 documents
+Cluster 1113: 2 documents
+Cluster 1114: 1 documents
+Cluster 1115: 2 documents
+Cluster 1116: 2 documents
+Cluster 1117: 1 documents
+Cluster 1118: 1 documents
+Cluster 1119: 2 documents
+Cluster 1120: 1 documents
+Cluster 1121: 2 documents
+Cluster 1122: 2 documents
+Cluster 1123: 1 documents
+Cluster 1124: 1 documents
+Cluster 1125: 1 documents
+Cluster 1126: 1 documents
+Cluster 1127: 1 documents
+Cluster 1128: 1 documents
+Cluster 1129: 1 documents
+Cluster 1130: 1 documents
+Cluster 1131: 1 documents
+Cluster 1132: 1 documents
+Cluster 1133: 5 documents
+Cluster 1134: 1 documents
+Cluster 1135: 1 documents
+Cluster 1136: 1 documents
+Cluster 1137: 1 documents
+Cluster 1138: 1 documents
+Cluster 1139: 2 documents
+Cluster 1140: 2 documents
+Cluster 1141: 1 documents
+Cluster 1142: 1 documents
+Cluster 1143: 2 documents
+Cluster 1144: 4 documents
+Cluster 1145: 2 documents
+Cluster 1146: 2 documents
+Cluster 1147: 1 documents
+Cluster 1148: 1 documents
+Cluster 1149: 3 documents
+Cluster 1150: 2 documents
+Cluster 1151: 2 documents
+Cluster 1152: 2 documents
+Cluster 1153: 1 documents
+Cluster 1154: 1 documents
+Cluster 1155: 4 documents
+Cluster 1156: 2 documents
+Cluster 1157: 1 documents
+Cluster 1158: 1 documents
+Cluster 1159: 1 documents
+Cluster 1160: 2 documents
+Cluster 1161: 1 documents
+Cluster 1162: 1 documents
+Cluster 1163: 1 documents
+Cluster 1164: 1 documents
+Cluster 1165: 1 documents
+Cluster 1166: 2 documents
+Cluster 1167: 1 documents
+Cluster 1168: 1 documents
+Cluster 1169: 1 documents
+Cluster 1170: 1 documents
+Cluster 1171: 1 documents
+Cluster 1172: 1 documents
+Cluster 1173: 1 documents
+Cluster 1174: 1 documents
+Cluster 1175: 1 documents
+Cluster 1176: 2 documents
+Cluster 1177: 1 documents
+Cluster 1178: 1 documents
+Cluster 1179: 1 documents
+Cluster 1180: 1 documents
+Cluster 1181: 1 documents
+Cluster 1182: 1 documents
+Cluster 1183: 1 documents
+Cluster 1184: 1 documents
+Cluster 1185: 1 documents
+Cluster 1186: 1 documents
+Cluster 1187: 1 documents
+Cluster 1188: 1 documents
+Cluster 1189: 2 documents
+Cluster 1190: 1 documents
+Cluster 1191: 5 documents
+Cluster 1192: 2 documents
+Cluster 1193: 1 documents
+Cluster 1194: 1 documents
+Cluster 1195: 1 documents
+Cluster 1196: 2 documents
+Cluster 1197: 1 documents
+Cluster 1198: 1 documents
+Cluster 1199: 1 documents
+Cluster 1200: 1 documents
+Cluster 1201: 1 documents
+Cluster 1202: 1 documents
+Cluster 1203: 1 documents
+Cluster 1204: 1 documents
+Cluster 1205: 1 documents
+Cluster 1206: 1 documents
+Cluster 1207: 1 documents
+Cluster 1208: 2 documents
+Cluster 1209: 3 documents
+Cluster 1210: 1 documents
+Cluster 1211: 1 documents
+Cluster 1212: 3 documents
+Cluster 1213: 2 documents
+Cluster 1214: 3 documents
+Cluster 1215: 1 documents
+Cluster 1216: 2 documents
+Cluster 1217: 2 documents
+Cluster 1218: 3 documents
+Cluster 1219: 1 documents
+Cluster 1220: 1 documents
+Cluster 1221: 1 documents
+Cluster 1222: 1 documents
+Cluster 1223: 1 documents
+Cluster 1224: 1 documents
+Cluster 1225: 1 documents
+Cluster 1226: 1 documents
+Cluster 1227: 1 documents
+Cluster 1228: 1 documents
+Cluster 1229: 2 documents
+Cluster 1230: 1 documents
+Cluster 1231: 1 documents
+Cluster 1232: 1 documents
+Cluster 1233: 1 documents
+Cluster 1234: 1 documents
+Cluster 1235: 1 documents
+Cluster 1236: 1 documents
+Cluster 1237: 1 documents
+Cluster 1238: 1 documents
+Cluster 1239: 1 documents
+Cluster 1240: 1 documents
+Cluster 1241: 1 documents
+Cluster 1242: 1 documents
+Cluster 1243: 2 documents
+Cluster 1244: 1 documents
+Cluster 1245: 2 documents
+Cluster 1246: 1 documents
+Cluster 1247: 2 documents
+Cluster 1248: 1 documents
+Cluster 1249: 1 documents
+Cluster 1250: 1 documents
+Cluster 1251: 1 documents
+Cluster 1252: 1 documents
+Cluster 1253: 1 documents
+Cluster 1254: 1 documents
+Cluster 1255: 1 documents
+Cluster 1256: 2 documents
+Cluster 1257: 2 documents
+Cluster 1258: 2 documents
+Cluster 1259: 3 documents
+Cluster 1260: 3 documents
+Cluster 1261: 1 documents
+Cluster 1262: 1 documents
+Cluster 1263: 3 documents
+Cluster 1264: 1 documents
+Cluster 1265: 2 documents
+Cluster 1266: 1 documents
+Cluster 1267: 1 documents
+Cluster 1268: 1 documents
+Cluster 1269: 2 documents
+Cluster 1270: 1 documents
+Cluster 1271: 1 documents
+Cluster 1272: 2 documents
+Cluster 1273: 1 documents
+Cluster 1274: 1 documents
+Cluster 1275: 1 documents
+Cluster 1276: 2 documents
+Cluster 1277: 1 documents
+Cluster 1278: 1 documents
+Cluster 1279: 1 documents
+Cluster 1280: 1 documents
+Cluster 1281: 1 documents
+Cluster 1282: 1 documents
+Cluster 1283: 1 documents
+Cluster 1284: 1 documents
+Cluster 1285: 1 documents
+Cluster 1286: 2 documents
+Cluster 1287: 1 documents
+Cluster 1288: 1 documents
+Cluster 1289: 1 documents
+Cluster 1290: 1 documents
+Cluster 1291: 2 documents
+Cluster 1292: 1 documents
+Cluster 1293: 1 documents
+Cluster 1294: 2 documents
+Cluster 1295: 2 documents
+Cluster 1296: 2 documents
+Cluster 1297: 2 documents
+Cluster 1298: 4 documents
+Cluster 1299: 1 documents
+Cluster 1300: 1 documents
+Cluster 1301: 2 documents
+Cluster 1302: 1 documents
+Cluster 1303: 1 documents
+Cluster 1304: 1 documents
+Cluster 1305: 1 documents
+Cluster 1306: 3 documents
+Cluster 1307: 1 documents
+Cluster 1308: 1 documents
+Cluster 1309: 1 documents
+Cluster 1310: 1 documents
+Cluster 1311: 1 documents
+Cluster 1312: 1 documents
+Cluster 1313: 1 documents
+Cluster 1314: 1 documents
+Cluster 1315: 1 documents
+Cluster 1316: 1 documents
+Cluster 1317: 1 documents
+Cluster 1318: 1 documents
+Cluster 1319: 1 documents
+Cluster 1320: 1 documents
+Cluster 1321: 1 documents
+Cluster 1322: 1 documents
+Cluster 1323: 1 documents
+Cluster 1324: 1 documents
+Cluster 1325: 1 documents
+Cluster 1326: 1 documents
+Cluster 1327: 1 documents
+Cluster 1328: 2 documents
+Cluster 1329: 1 documents
+Cluster 1330: 2 documents
+Cluster 1331: 2 documents
+Cluster 1332: 2 documents
+Cluster 1333: 1 documents
+Cluster 1334: 2 documents
+Cluster 1335: 1 documents
+Cluster 1336: 2 documents
+Cluster 1337: 2 documents
+Cluster 1338: 1 documents
+Cluster 1339: 1 documents
+Cluster 1340: 1 documents
+Cluster 1341: 2 documents
+Cluster 1342: 2 documents
+Cluster 1343: 1 documents
+Cluster 1344: 2 documents
+Cluster 1345: 1 documents
+Cluster 1346: 1 documents
+Cluster 1347: 1 documents
+Cluster 1348: 1 documents
+Cluster 1349: 2 documents
+Cluster 1350: 1 documents
+Cluster 1351: 3 documents
+Cluster 1352: 1 documents
+Cluster 1353: 1 documents
+Cluster 1354: 1 documents
+Cluster 1355: 1 documents
+Cluster 1356: 3 documents
+Cluster 1357: 1 documents
+Cluster 1358: 2 documents
+Cluster 1359: 1 documents
+Cluster 1360: 1 documents
+Cluster 1361: 1 documents
+Cluster 1362: 1 documents
+Cluster 1363: 1 documents
+Cluster 1364: 1 documents
+Cluster 1365: 1 documents
+Cluster 1366: 1 documents
+Cluster 1367: 1 documents
+Cluster 1368: 1 documents
+Cluster 1369: 1 documents
+Cluster 1370: 1 documents
+Cluster 1371: 1 documents
+Cluster 1372: 1 documents
+Cluster 1373: 1 documents
+Cluster 1374: 1 documents
+Cluster 1375: 1 documents
+Cluster 1376: 1 documents
+Cluster 1377: 2 documents
+Cluster 1378: 1 documents
+Cluster 1379: 1 documents
+Cluster 1380: 2 documents
+Cluster 1381: 1 documents
+Cluster 1382: 2 documents
+Cluster 1383: 1 documents
+Cluster 1384: 1 documents
+Cluster 1385: 1 documents
+Cluster 1386: 1 documents
+Cluster 1387: 1 documents
+Cluster 1388: 1 documents
+Cluster 1389: 1 documents
+Cluster 1390: 1 documents
+Cluster 1391: 1 documents
+Cluster 1392: 3 documents
+Cluster 1393: 1 documents
+Cluster 1394: 2 documents
+Cluster 1395: 1 documents
+Cluster 1396: 1 documents
+Cluster 1397: 1 documents
+Cluster 1398: 4 documents
+Cluster 1399: 2 documents
+Cluster 1400: 1 documents
+Cluster 1401: 2 documents
+Cluster 1402: 1 documents
+Cluster 1403: 3 documents
+Cluster 1404: 2 documents
+Cluster 1405: 1 documents
+Cluster 1406: 2 documents
+Cluster 1407: 1 documents
+Cluster 1408: 1 documents
+Cluster 1409: 1 documents
+Cluster 1410: 1 documents
+Cluster 1411: 1 documents
+Cluster 1412: 1 documents
+Cluster 1413: 2 documents
+Cluster 1414: 1 documents
+Cluster 1415: 1 documents
+Cluster 1416: 2 documents
+Cluster 1417: 4 documents
+Cluster 1418: 1 documents
+Cluster 1419: 1 documents
+Cluster 1420: 1 documents
+Cluster 1421: 1 documents
+Cluster 1422: 1 documents
+Cluster 1423: 58 documents
+Cluster 1424: 5 documents
+Cluster 1425: 1 documents
+Cluster 1426: 1 documents
+Cluster 1427: 1 documents
+Cluster 1428: 1 documents
+Cluster 1429: 1 documents
+Cluster 1430: 1 documents
+Cluster 1431: 1 documents
+Cluster 1432: 1 documents
+Cluster 1433: 2 documents
+Cluster 1434: 1 documents
+Cluster 1435: 1 documents
+Cluster 1436: 1 documents
+Cluster 1437: 2 documents
+Cluster 1438: 3 documents
+Cluster 1439: 1 documents
+Cluster 1440: 2 documents
+Cluster 1441: 1 documents
+Cluster 1442: 2 documents
+Cluster 1443: 1 documents
+Cluster 1444: 1 documents
+Cluster 1445: 1 documents
+Cluster 1446: 1 documents
+Cluster 1447: 2 documents
+Cluster 1448: 1 documents
+Cluster 1449: 1 documents
+Cluster 1450: 1 documents
+Cluster 1451: 2 documents
+Cluster 1452: 2 documents
+Cluster 1453: 1 documents
+Cluster 1454: 1 documents
+Cluster 1455: 1 documents
+Cluster 1456: 1 documents
+Cluster 1457: 1 documents
+Cluster 1458: 1 documents
+Cluster 1459: 1 documents
+Cluster 1460: 1 documents
+Cluster 1461: 1 documents
+Cluster 1462: 1 documents
+Cluster 1463: 1 documents
+Cluster 1464: 1 documents
+Cluster 1465: 2 documents
+Cluster 1466: 2 documents
+Cluster 1467: 1 documents
+Cluster 1468: 2 documents
+Cluster 1469: 1 documents
+Cluster 1470: 1 documents
+Cluster 1471: 1 documents
+Cluster 1472: 1 documents
+Cluster 1473: 1 documents
+Cluster 1474: 1 documents
+Cluster 1475: 1 documents
+Cluster 1476: 1 documents
+Cluster 1477: 1 documents
+Cluster 1478: 1 documents
+Cluster 1479: 1 documents
+Cluster 1480: 1 documents
+Cluster 1481: 1 documents
+Cluster 1482: 1 documents
+Cluster 1483: 3 documents
+Cluster 1484: 4 documents
+Cluster 1485: 2 documents
+Cluster 1486: 1 documents
+Cluster 1487: 2 documents
+Cluster 1488: 1 documents
+Cluster 1489: 1 documents
+Cluster 1490: 1 documents
+Cluster 1491: 1 documents
+Cluster 1492: 1 documents
+Cluster 1493: 2 documents
+Cluster 1494: 1 documents
+Cluster 1495: 1 documents
+Cluster 1496: 1 documents
+Cluster 1497: 1 documents
+Cluster 1498: 2 documents
+Cluster 1499: 1 documents
+Cluster 1500: 1 documents
+Cluster 1501: 1 documents
+Cluster 1502: 1 documents
+Cluster 1503: 2 documents
+Cluster 1504: 1 documents
+Cluster 1505: 1 documents
+Cluster 1506: 1 documents
+Cluster 1507: 1 documents
+Cluster 1508: 1 documents
+Cluster 1509: 1 documents
+Cluster 1510: 2 documents
+Cluster 1511: 1 documents
+Cluster 1512: 2 documents
+Cluster 1513: 2 documents
+Cluster 1514: 2 documents
+Cluster 1515: 2 documents
+Cluster 1516: 1 documents
+Cluster 1517: 1 documents
+Cluster 1518: 1 documents
+Cluster 1519: 1 documents
+Cluster 1520: 1 documents
+Cluster 1521: 1 documents
+Cluster 1522: 1 documents
+Cluster 1523: 1 documents
+Cluster 1524: 1 documents
+Cluster 1525: 1 documents
+Cluster 1526: 1 documents
+Cluster 1527: 1 documents
+Cluster 1528: 1 documents
+Cluster 1529: 3 documents
+Cluster 1530: 1 documents
+Cluster 1531: 2 documents
+Cluster 1532: 1 documents
+Cluster 1533: 2 documents
+Cluster 1534: 2 documents
+Cluster 1535: 1 documents
+Cluster 1536: 1 documents
+Cluster 1537: 1 documents
+Cluster 1538: 1 documents
+Cluster 1539: 1 documents
+
+Top Terms per Cluster:
+
+Cluster 0:
+mr, articles, answers, like, just, following, respond, questions, include, posts
+
+Cluster 1:
+mode, technical, details, program, knows, don, 40, standard, thanks, using
+
+Cluster 2:
+systems, unix, pc, input, specific, capability, care, interface, possible, user
+
+Cluster 3:
+think, especially, just, built, don, half, ago, fact, interested, years
+
+Cluster 4:
+spacecraft, require, mode, orbit, need, team, spent, time, control, available
+
+Cluster 5:
+life, like, don, line, people, mean, think, rights, just, right
+
+Cluster 6:
+doctrine, jesus, come, tell, life, lines, taken, buy, stated, god
+
+Cluster 7:
+potential, government, saying, makes, public, people, person, thing, punishment, sound
+
+Cluster 8:
+society, people, person, use, acceptable, innocent, members, member, killed, true
+
+Cluster 9:
+death, place, punishment, com, innocent, life, people, official, individual, usa
+
+Cluster 10:
+punishment, considered, imagine, shows, think, way, note, just, physical, things
+
+Cluster 11:
+hours, quite, life, good, final, assume, reason, people, talking, punishment
+
+Cluster 12:
+edu, good, bad, university, michael, class, programs, mac, pay, won
+
+Cluster 13:
+space, cost, asked, questions, time, make, people, little, wanted, lot
+
+Cluster 14:
+money, ll, government, need, doing, don, ago, major, want, ask
+
+Cluster 15:
+define, words, know, doesn, quite, word, need, death, look, isn
+
+Cluster 16:
+law, right, ames, matter, person, haven, course, physical, country, files
+
+Cluster 17:
+agree, zip, fast, fit, fine, finally, final, files, file, figure
+
+Cluster 18:
+described, didn, just, way, mean, does, people, time, faith, fact
+
+Cluster 19:
+year, multi, like, just, bit, try, aren, government, sure, billion
+
+Cluster 20:
+children, feel, dead, fbi, innocent, look, society, going, note, koresh
+
+Cluster 21:
+sure, death, imagine, does, trying, supposed, final, files, file, figure
+
+Cluster 22:
+people, think, innocent, death, society, person, objective, punishment, possible, yes
+
+Cluster 23:
+people, number, hand, care, rate, spent, consider, numbers, answer, far
+
+Cluster 24:
+changes, kill, mean, long, zip, figure, fbi, features, feel, field
+
+Cluster 25:
+services, care, add, example, types, costs, problem, mentioned, use, service
+
+Cluster 26:
+killed, agree, concept, kill, resources, type, don, punishment, actually, space
+
+Cluster 27:
+children, word, zip, follow, fit, fine, finally, final, files, file
+
+Cluster 28:
+punishment, hold, person, people, isn, lead, wrong, reason, father, fax
+
+Cluster 29:
+com, right, months, life, true, living, away, body, difference, ibm
+
+Cluster 30:
+country, short, death, shall, jim, home, memory, really, dead, charge
+
+Cluster 31:
+talking, explain, rights, file, fbi, features, feel, field, figure, zip
+
+Cluster 32:
+reference, little, jewish, interpretation, shall, supported, bible, makes, child, hand
+
+Cluster 33:
+individual, held, action, law, charge, taking, person, does, case, know
+
+Cluster 34:
+known, necessarily, especially, zip, father, fine, finally, final, files, file
+
+Cluster 35:
+follow, people, don, sorry, fit, fine, finally, final, files, file
+
+Cluster 36:
+time, issue, isn, false, die, feel, fax, fbi, features, field
+
+Cluster 37:
+definition, family, member, isn, killed, let, time, actually, person, problem
+
+Cluster 38:
+evidence, don, law, proof, let, hear, tell, said, public, haven
+
+Cluster 39:
+jesus, koresh, did, light, evil, satan, know, christian, spirit, david
+
+Cluster 40:
+virtual, reality, book, sorry, end, sort, maybe, note, hear, time
+
+Cluster 41:
+evil, bobby, muslims, according, islam, atheists, asked, satan, quote, tells
+
+Cluster 42:
+ago, suggest, free, wrong, claim, said, right, bobby, posts, talking
+
+Cluster 43:
+people, islamic, perfect, takes, rules, start, time, state, ground, looking
+
+Cluster 44:
+allah, 20, islam, maybe, said, accept, say, thinking, choice, time
+
+Cluster 45:
+book, islam, thought, religion, man, author, university, books, library, imagine
+
+Cluster 46:
+islam, learn, secular, people, christianity, basic, free, choice, called, won
+
+Cluster 47:
+true, guy, sure, make, mind, don, wasn, people, cause, makes
+
+Cluster 48:
+like, islamic, children, maybe, know, personal, atheists, said, don, women
+
+Cluster 49:
+muslim, islam, muslims, true, mean, example, does, read, based, say
+
+Cluster 50:
+christian, islamic, just, life, value, media, islam, way, press, recently
+
+Cluster 51:
+objective, morality, just, tells, tell, error, does, interpretation, actually, claim
+
+Cluster 52:
+muslims, tell, claim, quote, accept, think, don, post, just, did
+
+Cluster 53:
+law, islamic, islam, conclusion, agree, death, punishment, according, support, conversion
+
+Cluster 54:
+lds, church, people, true, little, like, prophet, did, time, various
+
+Cluster 55:
+sex, strong, like, think, argument, don, better, simply, given, statement
+
+Cluster 56:
+muslims, statement, islam, muslim, prophet, consider, holy, use, don, say
+
+Cluster 57:
+saw, allah, qur, thousands, prophet, look, long, holy, islam, number
+
+Cluster 58:
+going, stay, hope, today, arguments, qur, said, away, com, bob
+
+Cluster 59:
+sin, jesus, bible, reason, strong, note, specifically, places, took, men
+
+Cluster 60:
+posting, did, check, zip, fit, fine, finally, final, files, file
+
+Cluster 61:
+laws, usa, world, country, cheers, following, case, doing, islamic, words
+
+Cluster 62:
+islam, think, does, qur, islamic, say, history, muslims, anti, based
+
+Cluster 63:
+statements, make, islamic, islam, clear, life, personal, trying, talking, story
+
+Cluster 64:
+islamic, real, let, discussion, seriously, time, don, case, guy, wants
+
+Cluster 65:
+don, posting, long, care, islamic, read, know, person, work, kind
+
+Cluster 66:
+muslims, think, muslim, kind, practice, information, speak, don, far, allah
+
+Cluster 67:
+people, wouldn, true, sun, good, cheers, person, actually, involved, islamic
+
+Cluster 68:
+qur, try, think, women, approach, clearly, islam, bit, does, just
+
+Cluster 69:
+making, thread, course, law, post, tried, points, ve, islam, obvious
+
+Cluster 70:
+science, book, islam, bible, time, books, know, subject, good, used
+
+Cluster 71:
+religion, member, event, free, law, claims, religious, say, field, feel
+
+Cluster 72:
+muslims, argument, used, people, bad, situation, arguments, muslim, did, change
+
+Cluster 73:
+qur, islam, error, free, view, group, islamic, makes, human, muslim
+
+Cluster 74:
+rights, secular, world, fairly, don, case, people, said, making, international
+
+Cluster 75:
+homosexuality, islamic, question, view, like, group, say, came, really, discussion
+
+Cluster 76:
+group, secular, person, member, religious, think, ways, outside, sense, groups
+
+Cluster 77:
+ve, prophet, days, like, right, mass, think, hear, tells, tell
+
+Cluster 78:
+islamic, talk, services, really, american, international, islam, various, ve, according
+
+Cluster 79:
+original, matter, church, works, seriously, claim, don, read, point, come
+
+Cluster 80:
+help, 000, father, community, business, example, free, people, muslims, muslim
+
+Cluster 81:
+women, old, edu, say, year, don, men, stay, child, hard
+
+Cluster 82:
+book, statements, read, islam, view, claim, response, posted, fact, seen
+
+Cluster 83:
+com, opinion, followers, read, don, interpretation, question, religion, different, tell
+
+Cluster 84:
+book, faith, ll, muslim, worse, considered, accept, new, life, day
+
+Cluster 85:
+book, islamic, media, law, author, actions, islam, certainly, know, people
+
+Cluster 86:
+follow, make, does, muslims, wouldn, christian, christ, easy, say, like
+
+Cluster 87:
+speak, allah, saw, make, surely, truth, thought, words, morality, certainly
+
+Cluster 88:
+laws, land, islamic, islam, religion, life, law, muslim, rights, secular
+
+Cluster 89:
+care, obviously, don, islamic, sense, law, talking, islam, important, respect
+
+Cluster 90:
+words, life, physical, simply, allow, beliefs, support, islam, like, exactly
+
+Cluster 91:
+real, god, atheists, kent, apply, human, considered, rule, person, know
+
+Cluster 92:
+war, people, did, died, sure, like, know, news, military, charge
+
+Cluster 93:
+animals, kill, moral, think, mind, just, trying, morality, aren, objective
+
+Cluster 94:
+religion, likely, looks, kent, cheers, christianity, case, humans, willing, situation
+
+Cluster 95:
+deleted, statement, just, used, second, jim, useful, use, simple, authority
+
+Cluster 96:
+koresh, children, killed, innocent, wanted, really, told, taking, great, interpretation
+
+Cluster 97:
+man, child, children, good, did, people, life, world, government, person
+
+Cluster 98:
+wrong, death, saying, claim, don, does, sorry, according, false, atheism
+
+Cluster 99:
+jim, held, white, articles, past, does, black, driver, make, individual
+
+Cluster 100:
+think, agree, pretty, situation, stuff, level, don, different, fairly, acceptable
+
+Cluster 101:
+quite, example, things, don, running, question, couldn, having, islamic, sorry
+
+Cluster 102:
+western, world, save, answer, money, case, simple, pay, lot, rights
+
+Cluster 103:
+follow, christians, don, hell, heard, time, case, law, jewish, man
+
+Cluster 104:
+ones, evidence, say, make, hope, jews, humans, ii, dead, kill
+
+Cluster 105:
+saying, necessarily, talking, just, point, action, isn, consider, people, posting
+
+Cluster 106:
+assuming, people, likely, wouldn, punishment, know, muslims, ve, muslim, mentioned
+
+Cluster 107:
+acceptable, just, wrong, mean, innocent, think, don, cause, note, say
+
+Cluster 108:
+way, good, story, used, point, proof, spirit, western, doesn, send
+
+Cluster 109:
+majority, know, freedom, willing, agree, event, field, fbi, features, feel
+
+Cluster 110:
+moral, like, reason, file, fbi, features, feel, field, figure, zip
+
+Cluster 111:
+die, people, inside, actions, religious, christian, try, just, time, point
+
+Cluster 112:
+sure, trying, say, know, action, does, consider, fairly, features, explain
+
+Cluster 113:
+right, wrong, morality, actions, able, tell, thread, does, term, result
+
+Cluster 114:
+ideas, make, choose, feel, punishment, religion, current, religious, argument, statements
+
+Cluster 115:
+good, question, true, answer, child, hard, doing, self, truth, caused
+
+Cluster 116:
+animals, sure, reason, better, answer, set, question, just, good, different
+
+Cluster 117:
+000, religion, religions, say, list, war, command, people, standard, standards
+
+Cluster 118:
+ve, really, children, don, killed, kill, agree, guess, quite, people
+
+Cluster 119:
+don, people, religion, said, think, certainly, true, obvious, away, case
+
+Cluster 120:
+government, time, head, long, make, national, people, evidence, past, ones
+
+Cluster 121:
+run, cheers, case, know, followers, having, saw, kent, want, women
+
+Cluster 122:
+think, don, religion, remember, haven, just, christians, said, people, general
+
+Cluster 123:
+perfect, great, did, universe, makes, cause, feel, make, time, doesn
+
+Cluster 124:
+christian, michael, god, base, rules, christianity, interpretation, nature, meaning, secular
+
+Cluster 125:
+moral, objective, based, example, good, line, define, social, clear, morality
+
+Cluster 126:
+moral, like, based, doesn, kind, people, know, considered, air, quite
+
+Cluster 127:
+assuming, morality, truth, wrong, ask, given, correct, think, accept, say
+
+Cluster 128:
+sin, christian, people, order, bible, christians, jesus, person, claims, acceptable
+
+Cluster 129:
+moral, true, left, action, self, thought, claim, world, human, correct
+
+Cluster 130:
+morality, moral, code, christian, child, society, created, bible, man, children
+
+Cluster 131:
+moral, society, matter, morality, make, people, doesn, wrong, humans, choice
+
+Cluster 132:
+quote, let, men, life, god, matter, islamic, islam, allow, help
+
+Cluster 133:
+request, used, know, recently, believe, pay, like, includes, similar, christians
+
+Cluster 134:
+morality, god, objective, rules, people, jesus, shall, question, say, person
+
+Cluster 135:
+gay, people, understanding, international, person, personal, mind, group, god, program
+
+Cluster 136:
+humans, talking, information, original, doesn, guess, sense, morality, self, natural
+
+Cluster 137:
+people, sex, accept, morality, god, just, objective, alt, think, make
+
+Cluster 138:
+objective, freedom, morality, people, exist, say, lot, base, quite, guess
+
+Cluster 139:
+don, sex, think, natural, point, objective, isn, argument, homosexuality, claims
+
+Cluster 140:
+moral, morality, people, don, believe, saying, accept, just, bad, right
+
+Cluster 141:
+truth, thing, good, objective, people, come, belief, moral, said, true
+
+Cluster 142:
+morality, yes, entire, developed, natural, point, zip, figure, features, feel
+
+Cluster 143:
+just, accept, ve, maybe, makes, good, know, understanding, arguments, sense
+
+Cluster 144:
+people, love, say, practice, jesus, church, christians, does, problem, called
+
+Cluster 145:
+women, men, leave, different, islam, islamic, statement, just, religions, example
+
+Cluster 146:
+answer, fact, simply, people, far, language, position, sent, claim, does
+
+Cluster 147:
+society, necessary, don, question, people, freedom, morality, come, moral, right
+
+Cluster 148:
+ve, requires, does, pretty, moral, morality, natural, told, thread, think
+
+Cluster 149:
+moral, force, situation, time, people, actions, know, quite, claim, reasons
+
+Cluster 150:
+objective, isn, mind, aren, away, specific, changes, fine, action, necessary
+
+Cluster 151:
+choice, gay, know, like, mentioned, homosexuality, told, think, believe, story
+
+Cluster 152:
+talking, morality, objective, fbi, features, feel, field, figure, zip, father
+
+Cluster 153:
+say, tells, case, know, objective, cheers, don, rules, kent, systems
+
+Cluster 154:
+people, like, right, set, standard, moral, make, say, thinking, don
+
+Cluster 155:
+just, explain, away, theory, ll, apply, homosexuality, case, know, don
+
+Cluster 156:
+objective, morality, science, standard, human, sense, god, values, approach, physical
+
+Cluster 157:
+think, moral, animals, terms, definition, human, does, don, trying, humans
+
+Cluster 158:
+moral, doesn, ve, does, said, work, particular, morality, likely, beliefs
+
+Cluster 159:
+natural, morality, case, function, wish, oh, entirely, ones, exactly, going
+
+Cluster 160:
+men, talking, 1993, edu, thing, makes, navy, values, don, knows
+
+Cluster 161:
+moral, driver, time, nature, think, authority, list, animals, work, similar
+
+Cluster 162:
+objective, think, does, don, basis, basically, observations, problems, non, agree
+
+Cluster 163:
+animals, morality, think, came, completely, natural, self, necessary, need, needs
+
+Cluster 164:
+start, moral, speak, posting, human, evidence, different, morality, ago, think
+
+Cluster 165:
+agree, think, things, saying, reason, similar, effect, change, certain, real
+
+Cluster 166:
+sure, wrong, fast, fit, fine, finally, final, files, file, figure
+
+Cluster 167:
+homosexuality, history, evidence, subject, long, point, know, possible, time, making
+
+Cluster 168:
+place, alt, did, newsgroup, 20, recently, religious, make, atheism, file
+
+Cluster 169:
+didn, said, radio, message, clearly, local, children, probably, seen, file
+
+Cluster 170:
+states, support, basis, head, cause, child, people, obvious, guess, state
+
+Cluster 171:
+unless, god, does, way, didn, death, figure, fbi, features, feel
+
+Cluster 172:
+homosexuality, don, history, believe, long, think, make, read, know, sources
+
+Cluster 173:
+anti, doesn, don, people, jewish, hand, tell, term, man, acceptable
+
+Cluster 174:
+people, volume, just, look, feel, father, fax, fbi, features, zip
+
+Cluster 175:
+support, did, known, provided, technology, systems, oh, supported, yes, facility
+
+Cluster 176:
+right, years, come, yes, kill, think, land, history, ok, jewish
+
+Cluster 177:
+war, colors, black, file, fbi, features, feel, field, figure, final
+
+Cluster 178:
+war, world, jews, don, total, people, caused, ii, intended, look
+
+Cluster 179:
+generation, years, good, 100, example, laws, zip, fax, fbi, features
+
+Cluster 180:
+killed, far, thousands, freedom, consider, zip, feel, fax, fbi, features
+
+Cluster 181:
+million, 10, religion, area, 30, jews, recent, 20, imagine, quite
+
+Cluster 182:
+jews, used, christianity, true, anti, gave, set, rest, social, fax
+
+Cluster 183:
+got, going, just, 12, given, time, million, happen, matter, thing
+
+Cluster 184:
+jesus, faith, bible, god, matter, christian, claim, jewish, say, isn
+
+Cluster 185:
+hear, cause, isn, later, don, statement, way, know, does, atheist
+
+Cluster 186:
+man, want, yes, good, people, christian, ll, matter, got, don
+
+Cluster 187:
+actually, outside, high, father, fit, fine, finally, final, files, file
+
+Cluster 188:
+think, don, alt, statements, convert, time, actually, particular, try, death
+
+Cluster 189:
+like, looks, bit, stuff, bobby, oh, atheism, false, universe, maybe
+
+Cluster 190:
+perfect, satan, memory, say, didn, mentioned, lack, said, father, fax
+
+Cluster 191:
+atheists, list, bobby, don, quite, stay, example, result, believe, beliefs
+
+Cluster 192:
+argument, fallacy, conclusion, example, true, ad, false, valid, form, used
+
+Cluster 193:
+atheists, islam, say, course, using, needs, argument, acts, atheist, people
+
+Cluster 194:
+believe, exist, god, description, statements, object, atheist, following, does, seen
+
+Cluster 195:
+does, god, allah, just, exists, true, islam, aren, time, mean
+
+Cluster 196:
+claims, ve, peter, god, person, world, just, thing, nice, today
+
+Cluster 197:
+god, does, exist, believe, existence, belief, faith, say, gods, think
+
+Cluster 198:
+evidence, claims, jesus, seen, context, case, consider, looks, agree, meaning
+
+Cluster 199:
+evidence, human, group, accept, use, good, claims, claim, given, don
+
+Cluster 200:
+plane, physical, life, world, jesus, christians, sound, living, including, person
+
+Cluster 201:
+religious, beliefs, simply, feel, zip, fbi, features, field, figure, files
+
+Cluster 202:
+quite, similar, simply, exist, father, just, prove, does, features, fax
+
+Cluster 203:
+isn, think, atheism, deal, file, great, religion, thought, simple, final
+
+Cluster 204:
+atheism, god, atheist, strong, exist, believe, just, hard, people, faq
+
+Cluster 205:
+god, bible, given, question, interpretation, children, jews, important, better, book
+
+Cluster 206:
+god, love, believe, prove, evidence, called, really, going, think, unless
+
+Cluster 207:
+bobby, killed, god, law, believe, posts, version, earlier, man, atheist
+
+Cluster 208:
+god, exist, existence, definition, used, gods, does, say, exists, way
+
+Cluster 209:
+true, history, atheism, god, bible, used, century, obvious, known, point
+
+Cluster 210:
+gods, faith, evidence, knowledge, way, lack, atheist, belief, held, atheism
+
+Cluster 211:
+edu, god, cs, nasa, help, article, ask, people, don, gov
+
+Cluster 212:
+god, good, talk, doesn, hard, reason, faith, talking, isn, fact
+
+Cluster 213:
+hell, god, eternal, figure, fax, fbi, features, feel, field, zip
+
+Cluster 214:
+religion, good, really, isn, people, actually, provides, don, just, said
+
+Cluster 215:
+does, god, values, point, value, view, event, morality, things, think
+
+Cluster 216:
+read, argument, just, lord, good, book, need, basis, haven, isn
+
+Cluster 217:
+god, books, atheism, atheist, press, bible, people, history, religion, write
+
+Cluster 218:
+god, face, does, right, allah, say, thought, fact, suggest, allow
+
+Cluster 219:
+atheists, like, believe, newsgroup, saying, quote, way, atheism, wants, caused
+
+Cluster 220:
+wrong, sun, com, edu, couldn, lot, pay, knowledge, mac, atheism
+
+Cluster 221:
+bobby, allah, atheism, just, existence, posts, men, alt, said, false
+
+Cluster 222:
+god, code, individual, moral, laws, message, example, question, comes, morality
+
+Cluster 223:
+god, bible, doesn, reason, read, ve, human, religious, knows, come
+
+Cluster 224:
+agree, jews, religious, god, understand, won, atheists, sure, particular, follow
+
+Cluster 225:
+god, atheists, atheism, religious, religion, believe, atheist, people, does, christian
+
+Cluster 226:
+atheism, belief, god, strong, atheists, believe, exist, gods, existence, faq
+
+Cluster 227:
+com, statement, believe, accept, article, christians, robert, lord, reason, clear
+
+Cluster 228:
+different, experience, argument, common, lack, form, edu, ask, arguments, seen
+
+Cluster 229:
+belief, atheism, god, force, beliefs, alt, trying, don, try, christians
+
+Cluster 230:
+mean, god, does, religions, atheism, zip, features, feel, field, figure
+
+Cluster 231:
+god, exist, belief, existence, defined, better, way, object, think, certain
+
+Cluster 232:
+god, believe, said, away, time, com, know, tell, don, free
+
+Cluster 233:
+argument, did, things, evidence, people, message, read, seriously, jupiter, author
+
+Cluster 234:
+good, islam, believe, true, faith, definition, terms, say, sex, saying
+
+Cluster 235:
+does, church, coming, think, lot, second, difference, christ, land, lds
+
+Cluster 236:
+god, said, hear, word, zip, feel, fax, fbi, features, figure
+
+Cluster 237:
+christian, use, list, process, new, choose, religion, feel, fax, fbi
+
+Cluster 238:
+knowledge, people, god, good, bad, provided, interpretation, religion, children, work
+
+Cluster 239:
+don, probably, takes, aren, know, mentioned, just, guess, religion, away
+
+Cluster 240:
+people, thinking, atheists, majority, care, belief, value, believe, say, god
+
+Cluster 241:
+god, definition, given, possible, zip, field, fax, fbi, features, feel
+
+Cluster 242:
+christian, christ, jesus, say, believe, love, god, does, belief, don
+
+Cluster 243:
+hell, evil, idea, believe, choice, follow, good, free, ll, bible
+
+Cluster 244:
+people, evidence, belief, sex, time, seen, ve, atheism, happen, lack
+
+Cluster 245:
+god, jesus, ve, believe, peter, paul, like, come, open, good
+
+Cluster 246:
+believe, god, said, ok, bob, attempt, past, away, observations, make
+
+Cluster 247:
+life, working, gave, people, change, cheers, similar, jesus, scale, kent
+
+Cluster 248:
+people, just, don, religion, actions, thinking, social, christianity, american, want
+
+Cluster 249:
+sure, science, way, away, know, don, argument, interesting, nature, non
+
+Cluster 250:
+people, want, love, god, know, jesus, say, accept, simply, atheism
+
+Cluster 251:
+ve, wrong, know, atheists, statement, value, mention, people, figure, field
+
+Cluster 252:
+event, value, god, values, atheist, just, human, mind, thought, nature
+
+Cluster 253:
+religions, book, world, described, according, way, people, major, kill, 90
+
+Cluster 254:
+god, tells, energy, satan, agree, zip, field, fbi, features, feel
+
+Cluster 255:
+people, life, world, just, say, don, accept, like, good, great
+
+Cluster 256:
+religion, scientific, just, science, people, course, individual, agree, data, way
+
+Cluster 257:
+animals, humans, outside, isn, world, material, called, innocent, god, files
+
+Cluster 258:
+create, cheers, humans, religion, figure, don, make, life, kent, files
+
+Cluster 259:
+men, atheists, bad, good, long, say, didn, just, child, better
+
+Cluster 260:
+atheism, society, beliefs, does, community, way, means, exist, gods, mentioned
+
+Cluster 261:
+atheism, punishment, means, act, argument, atheist, atheists, god, like, set
+
+Cluster 262:
+life, know, good, don, say, better, jesus, god, ve, want
+
+Cluster 263:
+christians, children, religion, make, order, word, mind, including, small, cheers
+
+Cluster 264:
+religion, people, history, religious, point, make, reasons, just, bobby, groups
+
+Cluster 265:
+god, tells, satan, practice, position, statement, explain, file, figure, files
+
+Cluster 266:
+provide, services, check, addition, making, atheist, religious, faq, built, group
+
+Cluster 267:
+jewish, religions, live, long, convert, god, say, gods, away, knowledge
+
+Cluster 268:
+like, known, remember, right, comes, books, gods, thing, heaven, idea
+
+Cluster 269:
+russian, peter, started, thousands, later, christians, great, old, church, way
+
+Cluster 270:
+tell, actually, god, ll, choose, add, field, fbi, features, feel
+
+Cluster 271:
+values, built, response, religion, zip, features, fast, father, fax, fbi
+
+Cluster 272:
+life, want, christian, live, exist, dead, point, god, christians, got
+
+Cluster 273:
+thinking, atheists, value, new, way, lines, apply, care, know, ways
+
+Cluster 274:
+wouldn, wrong, longer, religions, tell, zip, feel, father, fax, fbi
+
+Cluster 275:
+bible, believe, think, say, didn, god, people, just, write, alt
+
+Cluster 276:
+yes, matter, 100, god, sin, fact, faith, human, features, feel
+
+Cluster 277:
+god, created, satan, happen, explain, idea, fine, choice, comes, know
+
+Cluster 278:
+course, belief, right, religion, possible, try, actually, just, thought, pretty
+
+Cluster 279:
+god, posts, able, contains, satan, does, tells, reasons, posted, ago
+
+Cluster 280:
+power, mean, non, able, nation, states, limited, god, country, want
+
+Cluster 281:
+god, satan, like, case, described, belief, evil, way, question, deleted
+
+Cluster 282:
+god, christian, say, know, faith, test, right, need, save, night
+
+Cluster 283:
+religious, right, stay, beliefs, just, said, say, science, provide, members
+
+Cluster 284:
+thing, information, like, tools, kent, purpose, think, exist, objective, religion
+
+Cluster 285:
+going, faith, high, authority, point, public, things, reason, religions, good
+
+Cluster 286:
+act, atheist, does, zip, fbi, flight, fit, fine, finally, final
+
+Cluster 287:
+wonder, remember, post, light, probably, father, fax, fbi, features, feel
+
+Cluster 288:
+university, michael, mac, won, pay, class, programs, agree, edu, fact
+
+Cluster 289:
+don, say, quote, sorry, article, care, complete, personal, different, sense
+
+Cluster 290:
+list, having, like, post, rule, second, say, alt, atheism, sorry
+
+Cluster 291:
+question, answer, post, later, atheists, context, reason, claim, asked, included
+
+Cluster 292:
+john, rest, hard, stay, bad, don, try, file, figure, fax
+
+Cluster 293:
+non, million, matthew, zip, father, fine, finally, final, files, file
+
+Cluster 294:
+god, satan, tells, recent, months, sorry, edu, thanks, couple, bobby
+
+Cluster 295:
+kind, known, ve, true, maybe, sense, figure, field, fast, features
+
+Cluster 296:
+maybe, base, zip, fax, flight, fit, fine, finally, final, files
+
+Cluster 297:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 298:
+look, zip, fast, fit, fine, finally, final, files, file, figure
+
+Cluster 299:
+happen, person, seriously, fast, fine, finally, final, files, file, figure
+
+Cluster 300:
+real, actually, don, isn, oh, mary, just, maybe, nasa, obvious
+
+Cluster 301:
+couple, god, got, ve, eternal, let, hell, set, box, features
+
+Cluster 302:
+try, make, words, mention, email, thanks, stop, little, thought, bit
+
+Cluster 303:
+koresh, sure, wasn, posted, robert, doing, good, david, final, files
+
+Cluster 304:
+bobby, don, believe, like, make, sure, past, love, group, times
+
+Cluster 305:
+lot, message, robert, father, fax, fbi, features, feel, field, far
+
+Cluster 306:
+public, reading, years, going, true, dc, use, number, communications, street
+
+Cluster 307:
+mr, don, religion, christ, isn, jesus, going, man, doing, bad
+
+Cluster 308:
+simply, good, people, christianity, long, let, live, sure, does, like
+
+Cluster 309:
+bit, just, run, read, copy, hand, perfect, ve, seriously, taken
+
+Cluster 310:
+christian, anti, did, love, better, obvious, christianity, comes, fact, example
+
+Cluster 311:
+new, line, know, look, course, actually, convert, christianity, area, people
+
+Cluster 312:
+news, reply, think, people, suggest, cheers, mail, ve, internet, months
+
+Cluster 313:
+christians, aren, robert, standards, zip, field, fbi, features, feel, file
+
+Cluster 314:
+use, 15, 40, choose, christian, apr, 22, 1993, religion, new
+
+Cluster 315:
+love, case, christian, point, god, christians, people, christianity, words, rules
+
+Cluster 316:
+report, christianity, note, mr, church, religion, people, information, christian, start
+
+Cluster 317:
+don, think, making, mode, way, group, actions, want, people, creation
+
+Cluster 318:
+lds, church, beliefs, christian, american, mormon, people, really, christ, christians
+
+Cluster 319:
+like, events, time, think, reality, really, kent, christians, world, days
+
+Cluster 320:
+bit, stay, course, making, atheist, make, having, said, isn, christians
+
+Cluster 321:
+secular, believe, did, christian, fbi, order, people, really, koresh, david
+
+Cluster 322:
+gay, people, says, church, sex, free, believe, time, like, used
+
+Cluster 323:
+usa, anti, work, lot, pretty, live, biblical, conversion, environment, agree
+
+Cluster 324:
+people, like, gay, church, love, christian, believe, change, rights, don
+
+Cluster 325:
+don, just, questions, people, atheists, feel, wish, ask, trying, talking
+
+Cluster 326:
+faith, write, love, actually, people, respect, story, religious, example, level
+
+Cluster 327:
+hope, list, post, going, far, coming, time, soon, don, 27
+
+Cluster 328:
+christian, time, understand, don, things, state, kent, come, cheers, know
+
+Cluster 329:
+think, christianity, people, jesus, government, country, majority, religion, don, just
+
+Cluster 330:
+christian, life, god, jesus, acts, second, just, tells, save, actions
+
+Cluster 331:
+don, order, complete, true, member, society, runs, groups, using, mean
+
+Cluster 332:
+christian, organization, national, includes, robert, conference, designed, american, ms, support
+
+Cluster 333:
+experience, like, right, note, haven, thanks, think, position, values, issue
+
+Cluster 334:
+deleted, future, jim, member, beliefs, just, feel, fax, fbi, features
+
+Cluster 335:
+jesus, jews, bible, passage, heard, says, saw, interesting, said, course
+
+Cluster 336:
+don, ve, attempt, tried, issues, christian, christianity, true, group, obvious
+
+Cluster 337:
+christianity, bits, trying, just, course, jesus, wants, following, times, way
+
+Cluster 338:
+make, great, tv, bad, doubt, truth, point, ve, just, good
+
+Cluster 339:
+don, ve, beliefs, posting, purpose, respect, try, file, figure, field
+
+Cluster 340:
+think, beliefs, old, sort, business, bit, fine, finally, final, files
+
+Cluster 341:
+posts, action, posted, using, user, seen, intended, group, groups, cause
+
+Cluster 342:
+jim, need, going, hard, sorry, lot, faith, alt, post, time
+
+Cluster 343:
+posting, article, file, articles, kill, interesting, day, large, days, question
+
+Cluster 344:
+jim, context, articles, taking, quote, article, conclusion, argument, read, does
+
+Cluster 345:
+atheist, religion, don, religious, got, finally, problem, atheists, ok, non
+
+Cluster 346:
+point, people, just, net, issue, don, really, instead, plan, actually
+
+Cluster 347:
+time, book, life, try, think, accept, things, places, people, special
+
+Cluster 348:
+lines, work, did, reading, said, pretty, com, stay, bob, given
+
+Cluster 349:
+look, want, really, run, far, know, people, come, way, turn
+
+Cluster 350:
+cheers, won, agree, kent, jews, field, fax, fbi, features, feel
+
+Cluster 351:
+say, taking, children, hope, sort, john, view, views, want, text
+
+Cluster 352:
+people, died, argument, look, just, question, ve, word, thousands, claims
+
+Cluster 353:
+things, hard, entire, saying, sort, computer, having, aren, said, trying
+
+Cluster 354:
+good, problem, write, articles, posting, know, make, stay, interested, second
+
+Cluster 355:
+said, living, university, speak, ve, comes, possibly, time, heaven, opinion
+
+Cluster 356:
+think, saw, original, people, posting, mentioned, end, help, news, thought
+
+Cluster 357:
+homosexuality, people, sex, social, family, arguments, children, context, means, really
+
+Cluster 358:
+bible, jesus, god, ra, lds, issue, doctrine, mormon, true, children
+
+Cluster 359:
+islam, know, think, leave, atheists, just, postings, evil, question, arguments
+
+Cluster 360:
+ll, thought, possibly, guy, know, fbi, david, obvious, koresh, radio
+
+Cluster 361:
+really, believe, technology, gay, ve, types, things, thing, having, atheists
+
+Cluster 362:
+discussion, wish, issue, group, live, control, specifically, don, trying, people
+
+Cluster 363:
+jesus, matthew, prophecy, people, said, david, lord, king, prophet, course
+
+Cluster 364:
+start, hand, just, instead, ve, today, right, david, don, self
+
+Cluster 365:
+think, problem, people, worse, goes, national, tool, things, don, oh
+
+Cluster 366:
+like, works, means, books, fall, discussion, think, completely, alt, com
+
+Cluster 367:
+organization, problem, idea, say, basis, religious, figure, fbi, features, feel
+
+Cluster 368:
+think, thread, anti, original, bit, thinking, bad, just, idea, charge
+
+Cluster 369:
+bible, christians, think, doing, does, good, people, told, science, purpose
+
+Cluster 370:
+wrong, won, michael, know, mac, pay, couldn, mentioned, talking, programs
+
+Cluster 371:
+robert, context, logic, articles, taking, lack, conclusion, evidence, think, did
+
+Cluster 372:
+kent, best, issues, statement, agree, thing, interesting, cheers, does, resources
+
+Cluster 373:
+board, life, course, say, come, time, things, area, don, self
+
+Cluster 374:
+atheism, alt, faq, edu, send, usenet, news, files, mail, answers
+
+Cluster 375:
+day, newsgroup, months, comp, posts, size, issue, ve, maybe, sorry
+
+Cluster 376:
+sources, point, source, posted, note, standards, authority, guess, necessarily, mr
+
+Cluster 377:
+mode, ll, sort, cheers, soon, makes, said, time, quite, maybe
+
+Cluster 378:
+time, original, read, understand, hope, question, man, couple, jim, copy
+
+Cluster 379:
+talk, post, follow, religion, thread, second, soon, week, tells, main
+
+Cluster 380:
+life, religion, taken, happy, day, discussion, human, feel, wouldn, mail
+
+Cluster 381:
+context, taking, explain, does, lack, quote, took, evidence, argument, error
+
+Cluster 382:
+atheism, com, thanks, communications, religious, created, creation, started, image, cut
+
+Cluster 383:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 384:
+like, time, sun, just, moon, earth, reality, make, world, people
+
+Cluster 385:
+think, oh, just, wrong, general, wouldn, zip, field, fbi, features
+
+Cluster 386:
+laws, zip, fast, fit, fine, finally, final, files, file, figure
+
+Cluster 387:
+stuff, posted, zip, fast, fine, finally, final, files, file, figure
+
+Cluster 388:
+bob, result, close, paul, box, act, features, feel, field, figure
+
+Cluster 389:
+says, group, true, reason, energy, position, spent, fairly, exploration, fine
+
+Cluster 390:
+argument, bit, quote, just, father, fine, finally, final, files, file
+
+Cluster 391:
+types, just, job, right, believe, news, know, people, course, come
+
+Cluster 392:
+just, order, ago, years, going, say, 100, original, argument, true
+
+Cluster 393:
+running, zip, follow, fit, fine, finally, final, files, file, figure
+
+Cluster 394:
+freedom, word, people, value, objective, meaning, mean, don, doesn, does
+
+Cluster 395:
+things, little, better, said, don, worse, think, like, thing, people
+
+Cluster 396:
+couldn, just, zip, father, fine, finally, final, files, file, figure
+
+Cluster 397:
+things, little, know, think, don, files, features, feel, field, figure
+
+Cluster 398:
+think, using, statement, ve, said, practice, position, explain, field, figure
+
+Cluster 399:
+going, question, answer, hear, christian, father, finally, final, files, file
+
+Cluster 400:
+right, thanks, zip, father, fit, fine, finally, final, files, file
+
+Cluster 401:
+plus, bit, sure, means, say, definition, said, example, don, need
+
+Cluster 402:
+isn, doesn, research, act, bad, people, case, way, non, night
+
+Cluster 403:
+sun, anti, way, evil, going, just, sky, force, course, say
+
+Cluster 404:
+material, mind, things, lord, sense, does, place, service, means, don
+
+Cluster 405:
+reason, paul, zip, father, fit, fine, finally, final, files, file
+
+Cluster 406:
+research, feel, post, father, fit, fine, finally, final, files, file
+
+Cluster 407:
+point, intended, order, thought, talking, zip, fbi, features, feel, field
+
+Cluster 408:
+provide, alt, kent, didn, know, study, interested, cheers, sex, feel
+
+Cluster 409:
+kent, cheers, follow, want, information, won, fbi, features, feel, field
+
+Cluster 410:
+american, does, good, tells, think, time, need, true, god, merely
+
+Cluster 411:
+better, stated, did, world, agree, file, features, feel, field, figure
+
+Cluster 412:
+hard, black, freedom, white, wasn, non, believe, finally, fine, final
+
+Cluster 413:
+bad, time, freedom, times, century, war, guess, willing, know, defense
+
+Cluster 414:
+concept, zip, fast, fit, fine, finally, final, files, file, figure
+
+Cluster 415:
+gas, world, ibm, deleted, guess, saw, aren, rest, difference, major
+
+Cluster 416:
+better, tool, test, follow, fit, fine, finally, final, files, file
+
+Cluster 417:
+expect, talk, fast, fit, fine, finally, final, files, file, figure
+
+Cluster 418:
+40, years, required, just, changes, specifically, didn, war, 50, various
+
+Cluster 419:
+state, words, women, long, says, change, personal, isn, means, carry
+
+Cluster 420:
+sex, don, think, say, isn, outside, earlier, humans, possible, defined
+
+Cluster 421:
+situation, certainly, religion, figure, fax, fbi, features, feel, field, zip
+
+Cluster 422:
+think, sex, family, cause, said, probably, society, far, hold, specifically
+
+Cluster 423:
+military, reason, mary, physics, navy, just, certainly, wasn, small, nasa
+
+Cluster 424:
+organizations, earth, mission, program, use, shall, information, service, environment, education
+
+Cluster 425:
+used, actions, board, maybe, field, fax, fbi, features, feel, figure
+
+Cluster 426:
+sex, interactive, short, zip, father, fax, fbi, features, feel, figure
+
+Cluster 427:
+think, good, large, certain, change, don, thousands, years, animals, fairly
+
+Cluster 428:
+like, sort, nice, just, memory, number, home, wouldn, said, field
+
+Cluster 429:
+person, men, mind, 1993, april, control, navy, human, actions, edu
+
+Cluster 430:
+lot, just, day, work, finally, final, files, fine, father, figure
+
+Cluster 431:
+hard, kent, early, provided, statement, agree, cheers, told, accept, life
+
+Cluster 432:
+man, interesting, women, important, wonder, considered, night, final, files, file
+
+Cluster 433:
+saying, little, know, thought, does, file, features, feel, field, figure
+
+Cluster 434:
+different, didn, care, completely, know, mind, sorry, probably, files, file
+
+Cluster 435:
+men, case, does, april, edu, makes, navy, love, thing, 1993
+
+Cluster 436:
+just, maybe, don, worse, people, rules, idea, ones, come, routines
+
+Cluster 437:
+try, new, zip, father, fit, fine, finally, final, files, file
+
+Cluster 438:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 439:
+think, sex, cause, argument, significant, saying, view, problems, just, western
+
+Cluster 440:
+long, know, yes, claim, said, actions, couldn, maybe, evidence, arc
+
+Cluster 441:
+tyre, people, city, considered, place, let, course, know, wanted, kent
+
+Cluster 442:
+story, hell, did, sources, real, fbi, work, guy, life, fact
+
+Cluster 443:
+check, time, support, wish, published, say, couldn, john, early, said
+
+Cluster 444:
+simply, know, hand, don, zip, figure, fbi, features, feel, field
+
+Cluster 445:
+time, long, fax, fbi, features, feel, field, figure, zip, father
+
+Cluster 446:
+ibm, vision, mac, edu, radius, questions, terms, thought, know, star
+
+Cluster 447:
+said, thinking, appreciated, question, known, quote, rocket, work, half, million
+
+Cluster 448:
+century, ok, wrong, file, fbi, features, feel, field, figure, zip
+
+Cluster 449:
+similar, said, sounds, fit, finally, final, files, file, figure, field
+
+Cluster 450:
+usenet, runs, ve, bbs, especially, non, postings, read, zip, feel
+
+Cluster 451:
+care, interesting, story, heard, zip, fbi, features, feel, field, figure
+
+Cluster 452:
+goes, person, memory, story, real, files, file, figure, father, field
+
+Cluster 453:
+theory, big, say, answer, make, sense, answers, question, didn, final
+
+Cluster 454:
+sound, probably, doesn, assume, great, guy, figure, features, feel, field
+
+Cluster 455:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 456:
+oh, just, follow, fit, fine, finally, final, files, file, figure
+
+Cluster 457:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 458:
+news, probably, article, fax, flight, fit, fine, finally, final, files
+
+Cluster 459:
+time, know, won, rest, happy, lord, set, stay, long, just
+
+Cluster 460:
+got, like, doing, files, evil, finally, final, fine, father, file
+
+Cluster 461:
+add, place, deleted, section, perfect, local, article, fairly, face, fit
+
+Cluster 462:
+use, sure, image, make, generally, text, certainly, article, john, say
+
+Cluster 463:
+hope, sent, claim, days, mail, jim, said, week, today, copy
+
+Cluster 464:
+hell, bobby, away, said, stay, mean, learn, bob, com, really
+
+Cluster 465:
+post, thread, lines, second, new, posts, long, issues, key, figure
+
+Cluster 466:
+possibly, came, wrote, mean, longer, zip, feel, fbi, features, field
+
+Cluster 467:
+address, alt, following, think, seen, hear, jim, posting, didn, fairly
+
+Cluster 468:
+lots, deleted, guy, stuff, figure, fax, fbi, features, feel, field
+
+Cluster 469:
+faq, mentioned, reading, don, tell, thanks, post, parts, posted, people
+
+Cluster 470:
+going, hope, ve, given, field, fax, fbi, features, feel, file
+
+Cluster 471:
+deleted, night, rest, nice, anybody, working, right, help, stuff, got
+
+Cluster 472:
+david, don, thought, read, files, features, feel, field, figure, file
+
+Cluster 473:
+like, low, stuff, general, old, text, actually, maybe, bit, didn
+
+Cluster 474:
+city, numbers, know, big, black, didn, nice, state, doesn, different
+
+Cluster 475:
+thanks, zip, father, fit, fine, finally, final, files, file, figure
+
+Cluster 476:
+going, did, pay, news, facility, fbi, follow, flight, fit, fine
+
+Cluster 477:
+come, like, send, just, seen, think, thing, features, fax, fbi
+
+Cluster 478:
+got, language, engineering, time, god, gives, fine, finally, final, files
+
+Cluster 479:
+right, hear, zip, fast, fine, finally, final, files, file, figure
+
+Cluster 480:
+dead, old, just, way, 20, bad, line, place, like, god
+
+Cluster 481:
+war, getting, trying, talking, religious, resolution, face, facility, fine, finally
+
+Cluster 482:
+late, standards, post, bit, thought, april, real, features, feel, field
+
+Cluster 483:
+like, people, coming, mind, allen, com, maybe, just, newsgroup, nice
+
+Cluster 484:
+community, report, started, white, attempt, past, paul, data, dr, just
+
+Cluster 485:
+did, ask, think, koresh, really, question, second, plan, government, pretty
+
+Cluster 486:
+better, edu, discussion, talk, space, fax, finally, final, fine, fit
+
+Cluster 487:
+called, object, standard, observatory, known, people, kind, course, edu, new
+
+Cluster 488:
+lines, response, space, article, allen, alt, wrote, edu, lost, scientific
+
+Cluster 489:
+problem, memory, yes, quote, meaning, error, known, real, area, feel
+
+Cluster 490:
+pub, news, problem, edu, ftp, cs, tar, field, fbi, features
+
+Cluster 491:
+issue, zip, far, fine, finally, final, files, file, figure, field
+
+Cluster 492:
+talking, com, used, sorry, language, mark, just, couldn, article, figure
+
+Cluster 493:
+scale, like, body, point, russian, days, mean, particular, history, tell
+
+Cluster 494:
+versions, did, read, different, zip, figure, fbi, features, feel, field
+
+Cluster 495:
+just, zip, fast, fine, finally, final, files, file, figure, field
+
+Cluster 496:
+22, far, 40, getting, 23, don, apr, working, ve, just
+
+Cluster 497:
+just, old, zip, father, fit, fine, finally, final, files, file
+
+Cluster 498:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 499:
+deleted, message, zip, figure, fax, fbi, features, feel, field, file
+
+Cluster 500:
+doubt, zip, followers, flight, fit, fine, finally, final, files, file
+
+Cluster 501:
+thanks, zip, father, fit, fine, finally, final, files, file, figure
+
+Cluster 502:
+details, like, asked, didn, really, zip, file, features, feel, field
+
+Cluster 503:
+object, year, unless, 1992, things, known, imaging, zip, features, feel
+
+Cluster 504:
+list, laws, years, course, written, know, prophet, post, agree, ago
+
+Cluster 505:
+working, quite, 1993, zip, field, fax, fbi, features, feel, file
+
+Cluster 506:
+kent, cheers, zip, father, fine, finally, final, files, file, figure
+
+Cluster 507:
+took, talk, going, thought, like, used, accepted, past, arguments, words
+
+Cluster 508:
+like, post, key, maybe, answer, zip, field, fbi, features, feel
+
+Cluster 509:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 510:
+nice, sound, zip, follow, fit, fine, finally, final, files, file
+
+Cluster 511:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 512:
+sure, nice, mind, idea, right, field, fbi, features, feel, file
+
+Cluster 513:
+think, output, explain, computer, try, figure, fbi, features, feel, field
+
+Cluster 514:
+better, try, language, maybe, work, facility, fact, fine, finally, final
+
+Cluster 515:
+hand, stay, com, said, bob, available, away, knowledge, posts, fbi
+
+Cluster 516:
+mode, state, report, zip, field, fax, fbi, features, feel, file
+
+Cluster 517:
+original, question, thanks, follow, fit, fine, finally, final, files, file
+
+Cluster 518:
+xv, zip, fast, fit, fine, finally, final, files, file, figure
+
+Cluster 519:
+instead, like, things, just, problems, finally, final, files, file, fast
+
+Cluster 520:
+values, small, zip, fast, fine, finally, final, files, file, figure
+
+Cluster 521:
+koresh, remember, today, zip, fax, fbi, features, feel, field, file
+
+Cluster 522:
+posted, faq, files, 30, days, zip, field, fbi, features, feel
+
+Cluster 523:
+ask, asked, shall, zip, fax, fit, fine, finally, final, files
+
+Cluster 524:
+stuff, deleted, time, alt, 50, say, ve, engineering, usenet, posted
+
+Cluster 525:
+use, words, define, fine, finally, final, files, file, fit, figure
+
+Cluster 526:
+posts, command, explain, interesting, thanks, field, fax, fbi, features, feel
+
+Cluster 527:
+home, edu, father, fit, fine, finally, final, files, file, figure
+
+Cluster 528:
+times, question, ve, fast, fine, finally, final, files, file, figure
+
+Cluster 529:
+hear, really, help, value, times, 24, reason, thought, written, fairly
+
+Cluster 530:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 531:
+real, life, zip, fast, fine, finally, final, files, file, figure
+
+Cluster 532:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 533:
+software, model, org, 20, capability, ibm, fax, com, institute, interested
+
+Cluster 534:
+perfect, time, god, evidence, humans, years, really, long, used, people
+
+Cluster 535:
+god, man, state, problem, created, moral, say, good, evil, answer
+
+Cluster 536:
+ve, creation, contains, bible, list, specifically, thought, agree, hope, usually
+
+Cluster 537:
+bible, tell, total, quote, just, logic, evidence, course, time, god
+
+Cluster 538:
+life, jesus, eternal, means, understand, idea, read, christianity, world, 16
+
+Cluster 539:
+humans, animals, says, created, creation, bible, does, god, text, earth
+
+Cluster 540:
+think, dead, just, know, heard, koresh, told, true, david, fall
+
+Cluster 541:
+say, god, did, humans, point, problem, conclusion, science, false, agree
+
+Cluster 542:
+mormon, believe, belief, jesus, robert, bible, did, creation, mean, word
+
+Cluster 543:
+humans, non, couldn, days, human, direct, physical, able, saying, didn
+
+Cluster 544:
+free, fall, nature, did, evil, perfect, fact, assume, bible, believe
+
+Cluster 545:
+god, natural, people, bad, say, majority, bible, human, creation, act
+
+Cluster 546:
+koresh, evidence, children, jim, like, thought, simply, 1993, evil, fbi
+
+Cluster 547:
+matthew, given, original, version, john, century, time, like, known, early
+
+Cluster 548:
+answers, finally, pay, exactly, accept, easy, heard, know, truth, possibly
+
+Cluster 549:
+posts, especially, read, alt, going, atheism, say, interesting, ones, fbi
+
+Cluster 550:
+lord, went, hear, 24, ii, said, david, number, say, file
+
+Cluster 551:
+sorry, read, does, flight, fine, finally, final, files, file, figure
+
+Cluster 552:
+word, written, provide, does, koresh, heard, know, asked, fbi, final
+
+Cluster 553:
+god, edu, right, power, quite, human, activities, try, isn, finally
+
+Cluster 554:
+ve, reading, say, little, doubt, writing, jim, said, father, fax
+
+Cluster 555:
+edge, 13, man, women, city, 20, lord, old, 21, god
+
+Cluster 556:
+science, holy, qur, problems, say, bible, away, scientific, read, did
+
+Cluster 557:
+religion, good, said, new, western, later, years, term, period, century
+
+Cluster 558:
+don, book, mormon, know, biblical, read, think, 21, taken, results
+
+Cluster 559:
+jews, god, mean, people, language, set, com, kent, word, figure
+
+Cluster 560:
+better, quote, father, fit, fine, finally, final, files, file, figure
+
+Cluster 561:
+qur, dr, interpretation, remember, original, orbit, time, note, nature, science
+
+Cluster 562:
+bible, later, complete, far, came, know, gives, fast, fine, finally
+
+Cluster 563:
+described, read, like, know, remember, don, quite, called, bit, got
+
+Cluster 564:
+mr, list, just, point, likely, long, think, bible, ad, running
+
+Cluster 565:
+way, zip, follow, fit, fine, finally, final, files, file, figure
+
+Cluster 566:
+read, article, email, koresh, don, thanks, know, just, newsgroup, going
+
+Cluster 567:
+order, words, members, does, quite, individual, later, man, law, example
+
+Cluster 568:
+moon, early, heard, elements, stuff, nature, final, finally, fbi, file
+
+Cluster 569:
+god, word, men, fine, thing, makes, navy, matter, prove, love
+
+Cluster 570:
+comes, little, really, later, stay, com, thing, kind, said, away
+
+Cluster 571:
+order, knowledge, organization, degrees, united, body, known, truth, groups, correct
+
+Cluster 572:
+sun, lord, mentioned, later, sure, day, nature, heaven, started, away
+
+Cluster 573:
+like, story, think, lot, exists, natural, sound, mean, just, saying
+
+Cluster 574:
+judas, greek, matthew, mr, word, reply, death, say, acts, does
+
+Cluster 575:
+text, far, copy, just, various, hard, deleted, material, little, version
+
+Cluster 576:
+quite, uses, say, mass, check, certainly, elements, david, won, idea
+
+Cluster 577:
+tyre, wrote, sorry, bible, assume, kent, stated, know, cheers, mentioned
+
+Cluster 578:
+tyre, don, city, times, source, lot, following, having, christian, small
+
+Cluster 579:
+bit, religion, quote, argument, draw, add, paul, high, group, greek
+
+Cluster 580:
+time, doesn, followers, flight, fit, fine, finally, final, files, file
+
+Cluster 581:
+11, universe, saw, creation, animals, qur, people, fall, moon, second
+
+Cluster 582:
+order, called, apparently, ve, love, response, true, books, law, interested
+
+Cluster 583:
+shall, seen, god, heard, received, things, father, fax, fbi, features
+
+Cluster 584:
+greek, goes, isn, christ, jesus, mean, correct, way, does, thought
+
+Cluster 585:
+god, bible, word, remember, christians, finally, final, files, file, figure
+
+Cluster 586:
+people, fact, wanted, jewish, point, argument, real, think, way, church
+
+Cluster 587:
+used, related, kent, cheers, current, hard, state, post, animals, faith
+
+Cluster 588:
+92, like, 12, shall, zip, figure, fbi, features, feel, field
+
+Cluster 589:
+exists, known, post, reading, remember, info, biblical, day, final, files
+
+Cluster 590:
+text, god, good, believe, tell, people, current, cs, versions, lord
+
+Cluster 591:
+tyre, people, read, said, did, king, says, example, satan, clearly
+
+Cluster 592:
+law, god, jesus, people, christ, heaven, paul, just, come, end
+
+Cluster 593:
+ra, god, jesus, bible, christ, children, john, father, spirit, faith
+
+Cluster 594:
+good, finally, mind, true, let, things, right, field, fbi, features
+
+Cluster 595:
+greek, word, field, mr, new, testament, books, matthew, meaning, order
+
+Cluster 596:
+god, heaven, does, faith, trying, far, father, children, place, say
+
+Cluster 597:
+jesus, holy, christ, authority, concept, believe, spirit, john, earth, make
+
+Cluster 598:
+bible, think, acts, don, matter, read, actually, finally, final, follow
+
+Cluster 599:
+ll, job, convert, god, sin, provide, david, oh, just, great
+
+Cluster 600:
+christians, want, required, jesus, cd, use, cheers, jewish, kent, search
+
+Cluster 601:
+christians, didn, ok, figure, beliefs, question, original, jesus, fine, finally
+
+Cluster 602:
+earth, place, job, flight, fit, fine, finally, final, files, file
+
+Cluster 603:
+10, public, post, 15, answer, posts, word, people, mind, edu
+
+Cluster 604:
+god, request, hand, new, think, left, bible, help, old, question
+
+Cluster 605:
+god, guess, society, christ, hold, just, think, hand, day, followers
+
+Cluster 606:
+john, position, wrote, death, lds, christ, jesus, point, discussion, don
+
+Cluster 607:
+received, believe, gave, god, power, field, fax, fbi, features, feel
+
+Cluster 608:
+days, like, says, holy, christians, people, day, problem, command, looks
+
+Cluster 609:
+people, bible, possibly, time, prophecy, think, christian, just, truth, written
+
+Cluster 610:
+jews, lot, won, christians, jesus, right, agree, christ, respect, point
+
+Cluster 611:
+know, cross, guy, anybody, took, love, wonder, god, years, files
+
+Cluster 612:
+bible, don, history, paper, think, cut, jewish, times, use, hand
+
+Cluster 613:
+god, shall, lord, good, christ, earth, things, heaven, know, wants
+
+Cluster 614:
+seen, face, god, man, shall, john, 30, hand, away, 23
+
+Cluster 615:
+bible, like, christianity, free, list, gods, fast, finally, final, files
+
+Cluster 616:
+comes, people, bible, god, years, king, john, jesus, reasonable, known
+
+Cluster 617:
+really, point, god, related, com, clear, possible, course, haven, case
+
+Cluster 618:
+mr, articles, finally, context, available, state, ok, statement, clearly, agree
+
+Cluster 619:
+mary, god, just, jesus, tells, think, story, gets, know, making
+
+Cluster 620:
+start, koresh, seen, david, make, interesting, lord, word, interested, christ
+
+Cluster 621:
+really, biblical, mark, things, matthew, john, argument, material, copy, away
+
+Cluster 622:
+passage, faith, jesus, long, biblical, prove, defined, don, far, christian
+
+Cluster 623:
+man, world, faith, claim, christian, century, earth, really, states, 18
+
+Cluster 624:
+day, came, jesus, god, life, word, study, holy, making, book
+
+Cluster 625:
+jesus, christianity, street, thought, christians, save, answer, bob, home, people
+
+Cluster 626:
+john, mark, matthew, text, evidence, does, argument, similar, order, original
+
+Cluster 627:
+bible, news, latest, koresh, writing, post, remember, running, don, office
+
+Cluster 628:
+jesus, john, punishment, point, obvious, hope, ask, death, dead, understand
+
+Cluster 629:
+people, don, true, just, time, set, real, life, christian, koresh
+
+Cluster 630:
+conclusion, god, jesus, statements, eternal, using, members, case, means, set
+
+Cluster 631:
+christians, jesus, want, said, feel, father, fax, fbi, features, field
+
+Cluster 632:
+good, news, bible, god, library, king, say, actually, haven, greek
+
+Cluster 633:
+probably, arguments, used, christianity, especially, source, today, matthew, second, century
+
+Cluster 634:
+bit, tell, probably, use, common, posting, usually, events, trying, matthew
+
+Cluster 635:
+god, father, heaven, shall, things, light, come, day, jesus, according
+
+Cluster 636:
+church, bible, john, hold, early, 11, read, paul, meaning, feel
+
+Cluster 637:
+jesus, think, takes, references, passage, century, history, testament, lack, christians
+
+Cluster 638:
+did, post, wrong, issue, certain, making, questions, think, feel, argument
+
+Cluster 639:
+does, don, killed, make, koresh, used, inside, think, followers, common
+
+Cluster 640:
+text, god, really, people, make, bible, fact, man, versions, pretty
+
+Cluster 641:
+faith, bible, correct, true, people, jesus, make, islam, did, willing
+
+Cluster 642:
+good, bible, quality, list, posted, taking, want, time, dr, said
+
+Cluster 643:
+today, certainly, children, love, jesus, sorry, events, complex, great, religion
+
+Cluster 644:
+ones, laws, society, sort, groups, social, surely, live, lead, rules
+
+Cluster 645:
+evidence, koresh, god, old, shall, fbi, children, need, think, saw
+
+Cluster 646:
+questions, good, let, lot, ask, know, finally, final, files, fine
+
+Cluster 647:
+secular, like, mary, looks, russian, john, zip, fax, fbi, features
+
+Cluster 648:
+truth, evidence, law, state, believe, explain, needs, certainly, require, issue
+
+Cluster 649:
+sex, humans, social, function, related, explain, laws, hand, homosexuality, way
+
+Cluster 650:
+products, years, need, make, knows, knowledge, start, don, post, taking
+
+Cluster 651:
+following, answer, choose, zip, fax, fit, fine, finally, final, files
+
+Cluster 652:
+sort, came, sound, does, heard, thinking, think, peter, theory, number
+
+Cluster 653:
+god, evidence, life, like, does, years, created, billion, know, code
+
+Cluster 654:
+true, statement, kent, states, considered, need, cheers, defined, define, meaning
+
+Cluster 655:
+material, nature, position, activities, world, free, self, deal, sense, lord
+
+Cluster 656:
+values, means, objective, contains, possible, individual, certain, views, second, reality
+
+Cluster 657:
+year, correct, logic, zip, file, fbi, features, feel, field, figure
+
+Cluster 658:
+know, certainly, couldn, wouldn, father, fine, finally, final, files, file
+
+Cluster 659:
+valid, second, individual, field, father, fax, fbi, features, feel, zip
+
+Cluster 660:
+graphics, postings, don, say, comp, agree, reason, want, takes, just
+
+Cluster 661:
+don, consider, zip, followers, flight, fit, fine, finally, final, files
+
+Cluster 662:
+rules, nature, god, definition, exist, exactly, universe, actually, mean, does
+
+Cluster 663:
+reason, pay, truth, things, aren, know, mac, love, objective, programs
+
+Cluster 664:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 665:
+god, jesus, eternal, called, valid, things, set, sound, isn, statement
+
+Cluster 666:
+things, language, exist, description, described, correct, defined, draw, merely, unless
+
+Cluster 667:
+truth, think, people, values, statement, difference, saying, second, way, does
+
+Cluster 668:
+written, believe, faith, bit, doing, question, makes, different, way, read
+
+Cluster 669:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 670:
+question, answer, said, universe, life, computer, times, number, king, time
+
+Cluster 671:
+recently, sense, little, just, makes, consider, seen, fbi, fast, father
+
+Cluster 672:
+science, say, false, just, theory, fact, truth, agree, think, point
+
+Cluster 673:
+science, objective, values, word, worth, time, use, based, world, value
+
+Cluster 674:
+good, sort, like, maybe, list, guy, different, really, time, child
+
+Cluster 675:
+don, takes, thing, space, took, second, agree, recently, happy, think
+
+Cluster 676:
+create, goes, did, light, present, just, using, interesting, example, exists
+
+Cluster 677:
+know, don, concept, certain, way, things, actually, reality, explain, man
+
+Cluster 678:
+god, evidence, existence, requires, seen, exist, say, faith, don, haven
+
+Cluster 679:
+far, unless, matter, human, doing, small, usually, humans, know, fact
+
+Cluster 680:
+cause, try, ll, agree, file, features, feel, field, figure, zip
+
+Cluster 681:
+don, gay, people, just, know, thought, care, position, involved, guy
+
+Cluster 682:
+fact, don, exist, think, things, couldn, person, hear, define, long
+
+Cluster 683:
+mean, got, hope, just, don, far, fax, finally, final, files
+
+Cluster 684:
+city, night, time, news, know, half, freedom, day, national, reasons
+
+Cluster 685:
+definition, exist, values, mean, results, work, does, expected, looks, doesn
+
+Cluster 686:
+objective, useful, say, like, knows, way, talk, far, told, doesn
+
+Cluster 687:
+space, time, say, comes, speak, view, hold, act, matter, large
+
+Cluster 688:
+try, deleted, science, tells, don, different, takes, think, want, high
+
+Cluster 689:
+make, figure, creation, ok, zip, fbi, features, feel, field, files
+
+Cluster 690:
+larson, theory, universe, physical, space, star, general, material, time, books
+
+Cluster 691:
+respond, spacecraft, free, gravity, earth, away, ago, idea, involved, concept
+
+Cluster 692:
+language, religions, religion, similar, supposed, effect, says, natural, does, uses
+
+Cluster 693:
+think, means, science, basis, values, explain, results, saying, mean, people
+
+Cluster 694:
+speed, reference, deleted, person, exactly, time, matter, makes, way, know
+
+Cluster 695:
+don, ll, think, compression, product, make, useful, believe, work, just
+
+Cluster 696:
+knowledge, ll, zip, figure, fax, fbi, features, feel, field, files
+
+Cluster 697:
+quote, think, just, quite, knowledge, sorry, big, degrees, worth, new
+
+Cluster 698:
+having, objective, based, doesn, just, material, attempt, mean, say, exist
+
+Cluster 699:
+making, world, follow, nasa, mac, don, small, perfect, real, people
+
+Cluster 700:
+theory, different, accept, people, idea, sorry, objective, merely, reality, observations
+
+Cluster 701:
+problem, language, unless, bad, experience, understanding, problems, trying, situation, context
+
+Cluster 702:
+theory, sort, zip, follow, fit, fine, finally, final, files, file
+
+Cluster 703:
+objective, did, claim, zip, fbi, features, feel, field, figure, file
+
+Cluster 704:
+long, imagine, don, human, society, start, soviet, objective, trying, control
+
+Cluster 705:
+theory, false, evidence, true, happen, things, ago, don, observations, makes
+
+Cluster 706:
+lost, nature, later, help, understand, terms, point, way, known, complex
+
+Cluster 707:
+energy, like, trying, really, having, costs, process, months, material, different
+
+Cluster 708:
+perfect, way, atheist, isn, laws, stay, going, thought, exist, final
+
+Cluster 709:
+ve, god, statement, says, say, hear, don, seen, large, science
+
+Cluster 710:
+values, objective, word, meaning, basis, moral, morality, fact, thing, scientific
+
+Cluster 711:
+evidence, real, seen, tell, really, does, won, aren, figure, file
+
+Cluster 712:
+edu, reply, zip, father, fit, fine, finally, final, files, file
+
+Cluster 713:
+complex, available, mean, information, point, net, images, data, fbi, features
+
+Cluster 714:
+images, planetary, mars, book, thanks, surface, don, spacecraft, space, great
+
+Cluster 715:
+van, dr, 10, 00, 16, 30, 25, 11, 14, 15
+
+Cluster 716:
+order, cross, called, long, interested, don, groups, point, term, memory
+
+Cluster 717:
+21, saturn, 1993, 20, 10, observations, telescope, 19, 30, 23
+
+Cluster 718:
+april, spacecraft, team, flight, data, payload, field, place, mars, memory
+
+Cluster 719:
+software, shuttle, flight, major, series, control, set, event, subject, features
+
+Cluster 720:
+called, new, object, zip, flight, fit, fine, finally, final, files
+
+Cluster 721:
+technical, propulsion, contains, reference, references, book, non, lots, files, file
+
+Cluster 722:
+xv, computer, answer, dos, time, cause, help, pub, use, edu
+
+Cluster 723:
+know, said, don, multi, uses, lot, western, rocket, small, long
+
+Cluster 724:
+new, check, directory, pub, 17, file, package, ray, site, version
+
+Cluster 725:
+cross, section, function, technical, point, rule, area, read, idea, field
+
+Cluster 726:
+earth, 10, press, body, planetary, available, software, astronomical, references, map
+
+Cluster 727:
+sun, like, write, run, trying, using, program, station, screen, know
+
+Cluster 728:
+launch, commercial, difficult, think, need, ways, actually, rules, office, complex
+
+Cluster 729:
+degrees, times, 90, day, time, sin, planet, year, program, algorithm
+
+Cluster 730:
+point, distance, zip, follow, fit, fine, finally, final, files, file
+
+Cluster 731:
+launch, come, help, launched, range, day, days, does, interested, group
+
+Cluster 732:
+probably, really, kent, time, say, spent, case, don, doing, just
+
+Cluster 733:
+command, believe, looking, thanks, know, possible, source, sets, orbital, let
+
+Cluster 734:
+navy, reality, virtual, visualization, scientific, 1993, center, robert, materials, author
+
+Cluster 735:
+sun, stars, 100, list, trying, currently, know, arc, kind, way
+
+Cluster 736:
+software, working, posting, knowledge, looking, systems, test, engineering, key, special
+
+Cluster 737:
+heard, level, mac, ibm, care, different, ve, radius, edu, vision
+
+Cluster 738:
+stage, used, version, versions, believe, launches, fit, today, add, low
+
+Cluster 739:
+thing, look, kind, saw, ll, kill, ideas, looking, pretty, possibly
+
+Cluster 740:
+available, control, thanks, matter, week, numbers, source, material, need, necessary
+
+Cluster 741:
+jupiter, au, 000, orbital, figure, given, sorry, major, 90, key
+
+Cluster 742:
+00, 18, convert, great, time, thanks, systems, ra, point, orbit
+
+Cluster 743:
+code, com, set, does, ftp, time, functions, working, want, site
+
+Cluster 744:
+dc, explain, net, thanks, actually, lots, sorry, email, faq, talk
+
+Cluster 745:
+help, accepted, does, send, zip, fax, fine, finally, final, files
+
+Cluster 746:
+edu, com, cs, books, uk, au, computer, paul, gov, john
+
+Cluster 747:
+built, got, sun, simply, defined, needed, work, different, field, fax
+
+Cluster 748:
+news, orbit, information, server, old, distance, tv, today, program, planet
+
+Cluster 749:
+edu, phone, latest, university, program, address, van, software, physics, things
+
+Cluster 750:
+articles, hi, point, xv, nice, animation, head, 25, zip, figure
+
+Cluster 751:
+problem, months, used, people, method, base, points, parts, programming, center
+
+Cluster 752:
+built, interesting, sounds, different, question, long, launch, file, figure, files
+
+Cluster 753:
+line, pictures, look, father, fit, fine, finally, final, files, file
+
+Cluster 754:
+moon, nasa, gov, orbit, long, earth, means, provide, does, reason
+
+Cluster 755:
+gas, need, know, payload, work, flight, make, control, does, size
+
+Cluster 756:
+high, power, long, technology, source, solar, big, required, today, times
+
+Cluster 757:
+major, lost, sound, wasn, doesn, guess, thanks, zip, features, feel
+
+Cluster 758:
+000, 100, 200, 14, 13, 300, usa, 12, 15, titan
+
+Cluster 759:
+course, question, later, base, 13, features, feel, field, figure, zip
+
+Cluster 760:
+space, class, planetary, science, nasa, payload, shuttle, include, field, united
+
+Cluster 761:
+lunar, model, models, space, new, tv, world, network, control, people
+
+Cluster 762:
+interested, published, cheers, provide, history, think, claim, evidence, quite, statement
+
+Cluster 763:
+software, process, level, engineering, mind, defined, control, use, ve, heard
+
+Cluster 764:
+space, telescope, national, word, satellite, observatory, shuttle, nasa, center, list
+
+Cluster 765:
+time, space, people, want, big, 100, living, km, assume, physical
+
+Cluster 766:
+better, usually, does, job, important, expected, fact, exploration, fine, finally
+
+Cluster 767:
+launch, stage, mass, built, second, flight, satellite, 21, orbit, vehicle
+
+Cluster 768:
+numbers, phone, correct, wrong, file, fbi, features, feel, field, figure
+
+Cluster 769:
+vehicle, dc, orbit, engines, delta, think, ve, given, assume, project
+
+Cluster 770:
+use, thread, probably, orbit, possible, post, feel, fax, fbi, features
+
+Cluster 771:
+jupiter, important, old, ve, add, possible, said, satellites, mention, thing
+
+Cluster 772:
+make, hours, difference, given, small, change, want, maybe, haven, know
+
+Cluster 773:
+wanted, telescope, observatory, price, single, type, posted, mr, project, mass
+
+Cluster 774:
+fit, times, orbit, series, gave, ll, terms, thought, just, good
+
+Cluster 775:
+mass, km, earth, radius, ve, orbit, energy, distance, sun, mr
+
+Cluster 776:
+unless, error, think, 300, don, able, going, fact, feel, flight
+
+Cluster 777:
+did, think, goes, high, does, atmosphere, just, thought, space, actually
+
+Cluster 778:
+order, long, says, finally, question, course, hi, solar, author, reading
+
+Cluster 779:
+greek, jupiter, body, usually, form, used, expect, like, file, files
+
+Cluster 780:
+need, don, good, just, thought, orbiter, know, size, zip, features
+
+Cluster 781:
+solar, small, space, project, lunar, power, example, guy, missions, concept
+
+Cluster 782:
+engines, rockets, class, size, rocket, society, model, user, events, pretty
+
+Cluster 783:
+sure, far, know, number, human, anybody, right, field, features, feel
+
+Cluster 784:
+venus, report, 1993, mission, significant, april, project, end, activities, provides
+
+Cluster 785:
+shuttle, things, mail, post, program, launch, time, class, low, cross
+
+Cluster 786:
+use, just, thought, version, orbital, rocket, features, father, fax, fbi
+
+Cluster 787:
+design, space, station, used, orbit, control, mark, nasa, shuttle, gov
+
+Cluster 788:
+thought, maybe, hand, built, area, fuel, question, thing, save, dc
+
+Cluster 789:
+cause, land, nasa, orbiter, like, shuttle, went, systems, happen, day
+
+Cluster 790:
+just, require, don, dc, words, effort, quite, want, course, aren
+
+Cluster 791:
+good, world, say, hard, actually, facility, fax, fit, explain, fine
+
+Cluster 792:
+need, model, high, power, hardware, models, just, basically, rockets, situation
+
+Cluster 793:
+shuttle, mission, solar, said, guess, mentioned, small, meaning, maybe, need
+
+Cluster 794:
+sort, difficult, able, new, gas, air, like, american, scientific, force
+
+Cluster 795:
+flight, actually, speed, note, mary, generally, just, wanted, quite, people
+
+Cluster 796:
+define, just, using, time, com, haven, look, way, aren, used
+
+Cluster 797:
+support, structure, 000, section, payload, 40, let, area, cross, 200
+
+Cluster 798:
+big, state, plane, addition, bob, difference, exactly, file, feel, field
+
+Cluster 799:
+moon, space, year, work, talk, developed, memory, 25, spirit, base
+
+Cluster 800:
+dc, just, like, high, edu, thing, way, know, don, russian
+
+Cluster 801:
+base, moon, think, way, rocket, world, lunar, mars, value, earth
+
+Cluster 802:
+way, money, going, problem, did, tried, fairly, zip, field, fbi
+
+Cluster 803:
+let, reasonable, old, money, come, rockets, don, rights, idea, program
+
+Cluster 804:
+titan, programs, generation, ii, old, based, buy, second, actually, able
+
+Cluster 805:
+just, space, station, home, complete, problems, point, case, site, quality
+
+Cluster 806:
+satellites, million, big, satellite, western, russian, hardware, years, launch, space
+
+Cluster 807:
+moon, new, idea, university, basic, like, team, human, send, having
+
+Cluster 808:
+probably, systems, like, lot, russian, launch, market, using, looks, better
+
+Cluster 809:
+resources, wonder, need, maybe, involved, feel, father, fax, fbi, features
+
+Cluster 810:
+suggest, work, message, apollo, ago, program, posted, idea, nasa, heard
+
+Cluster 811:
+orbit, lunar, fuel, takes, couldn, end, plan, actually, want, time
+
+Cluster 812:
+buy, lines, shall, russian, want, couple, cost, says, copy, environment
+
+Cluster 813:
+launches, mars, just, problem, launch, problems, satellite, basically, titan, don
+
+Cluster 814:
+required, money, note, reference, company, took, moon, common, human, set
+
+Cluster 815:
+flight, make, concept, deal, expect, thing, 27, human, took, far
+
+Cluster 816:
+display, stuff, does, especially, longer, possibly, like, wasn, quite, files
+
+Cluster 817:
+don, recent, good, article, know, week, wanted, thanks, heard, mean
+
+Cluster 818:
+institute, information, russian, aerospace, technology, design, known, education, 27, report
+
+Cluster 819:
+lot, models, space, fast, fine, finally, final, files, file, figure
+
+Cluster 820:
+effort, reasons, astronaut, white, post, station, lead, head, today, washington
+
+Cluster 821:
+spacecraft, mode, mission, gets, radio, funding, earth, contact, signal, time
+
+Cluster 822:
+spacecraft, earth, tells, assume, search, hear, hours, don, attempt, signal
+
+Cluster 823:
+goes, space, sources, night, news, haven, say, thing, effect, net
+
+Cluster 824:
+fuel, probe, sun, interested, just, lunar, objects, earth, makes, said
+
+Cluster 825:
+years, little, space, build, generation, built, rocket, ve, didn, team
+
+Cluster 826:
+aerospace, going, heard, zip, fbi, features, feel, field, figure, file
+
+Cluster 827:
+like, conference, didn, space, gave, small, member, running, members, sense
+
+Cluster 828:
+nasa, gov, jpl, data, funding, looking, sorry, mean, just, think
+
+Cluster 829:
+force, 15, air, gov, systems, flight, space, save, article, control
+
+Cluster 830:
+00, lunar, 30, program, 10, low, washington, cost, conference, scientific
+
+Cluster 831:
+probe, mars, lunar, surface, probes, moon, space, mission, orbit, earth
+
+Cluster 832:
+moon, got, mission, taking, thing, end, article, actually, want, just
+
+Cluster 833:
+like, shuttle, got, sort, going, small, mission, taking, unfortunately, short
+
+Cluster 834:
+level, software, shuttle, like, means, groups, large, ibm, maybe, actually
+
+Cluster 835:
+space, men, years, maybe, days, day, likely, flight, ll, commercial
+
+Cluster 836:
+software, known, launch, expected, just, things, code, sorry, right, tell
+
+Cluster 837:
+software, flight, tools, people, process, level, feel, development, care, things
+
+Cluster 838:
+space, shuttle, face, nasa, mars, sources, launch, 000, time, mission
+
+Cluster 839:
+things, office, space, getting, exploration, position, does, new, great, nasa
+
+Cluster 840:
+large, ok, think, need, making, titan, today, know, send, guess
+
+Cluster 841:
+program, dead, saturn, today, moon, runs, went, nasa, space, just
+
+Cluster 842:
+space, shuttle, better, idea, astronaut, lost, maybe, make, way, object
+
+Cluster 843:
+16, 23, including, apr, subject, group, 93, night, org, hardware
+
+Cluster 844:
+probe, sent, communications, earth, time, just, does, real, don, command
+
+Cluster 845:
+space, program, hope, like, includes, history, wanted, sounds, thanks, copy
+
+Cluster 846:
+dr, space, station, nasa, technology, mr, university, mit, astro, international
+
+Cluster 847:
+shuttle, having, early, rest, advanced, really, mean, guess, trying, imagine
+
+Cluster 848:
+claim, war, evidence, time, support, really, sci, space, exploration, finally
+
+Cluster 849:
+russian, article, think, space, station, nasa, white, sent, making, power
+
+Cluster 850:
+space, problem, aerospace, soviet, getting, received, material, ll, fax, station
+
+Cluster 851:
+sun, nasa, gov, surface, american, way, simple, problems, complex, agency
+
+Cluster 852:
+data, things, probe, board, plan, earth, access, hear, heard, says
+
+Cluster 853:
+space, air, signal, good, like, command, application, pretty, objects, major
+
+Cluster 854:
+shuttle, space, nasa, launch, 14, orbit, new, 21, missions, satellite
+
+Cluster 855:
+did, university, year, like, merely, said, happen, does, nasa, included
+
+Cluster 856:
+reports, right, going, people, need, today, soon, allen, isn, public
+
+Cluster 857:
+mission, space, flight, time, telescope, shuttle, center, missions, said, april
+
+Cluster 858:
+space, technical, end, longer, cost, driver, area, possible, future, applications
+
+Cluster 859:
+launch, space, satellite, commercial, market, satellites, year, data, services, launches
+
+Cluster 860:
+space, year, aerospace, news, society, box, technical, international, activities, dc
+
+Cluster 861:
+space, result, job, mark, think, sci, making, shows, phone, kill
+
+Cluster 862:
+1993, business, universe, 23, april, jpl, zip, field, feel, figure
+
+Cluster 863:
+technical, space, sci, education, day, said, member, guy, following, plus
+
+Cluster 864:
+astronaut, nasa, space, mission, military, program, shuttle, physical, applications, flight
+
+Cluster 865:
+mission, doing, data, science, reasons, long, don, told, run, jpl
+
+Cluster 866:
+shuttle, propulsion, space, launch, program, ideas, send, need, thanks, current
+
+Cluster 867:
+space, jpl, 23, universe, 1993, april, international, project, fax, fbi
+
+Cluster 868:
+fact, nasa, space, payload, rocket, commercial, deal, anonymous, use, simply
+
+Cluster 869:
+space, didn, build, generation, better, new, little, cost, program, rocket
+
+Cluster 870:
+lunar, orbit, moon, like, using, gravity, mention, memory, doing, mission
+
+Cluster 871:
+imaging, real, assume, image, know, near, don, doing, hope, guess
+
+Cluster 872:
+satellite, orbital, data, power, orbit, results, objects, launched, signal, km
+
+Cluster 873:
+sun, venus, near, question, elements, spacecraft, point, figure, interesting, think
+
+Cluster 874:
+satellite, course, data, remote, applications, sensing, new, 19, april, users
+
+Cluster 875:
+mercury, orbit, theory, sun, inside, planet, explain, came, exactly, physics
+
+Cluster 876:
+data, real, gravity, time, orbit, need, moon, short, files, fax
+
+Cluster 877:
+university, latest, dr, near, lunar, does, guy, read, interesting, solar
+
+Cluster 878:
+astronomy, book, 50, post, world, telescope, address, accepted, access, mail
+
+Cluster 879:
+space, generation, week, interesting, know, dr, night, star, black, saw
+
+Cluster 880:
+astronomy, earth, data, used, long, science, source, second, satellite, time
+
+Cluster 881:
+know, satellites, possible, exactly, space, need, time, radio, hardware, think
+
+Cluster 882:
+earth, gov, nasa, like, left, planet, ago, image, right, orbit
+
+Cluster 883:
+think, remember, thought, day, long, known, hours, point, message, called
+
+Cluster 884:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 885:
+year, solar, think, data, late, long, early, space, know, reading
+
+Cluster 886:
+nasa, follow, question, guy, right, answer, center, gov, space, files
+
+Cluster 887:
+venus, elements, require, sun, let, orbit, father, fax, fbi, features
+
+Cluster 888:
+plane, disk, stars, able, 10, high, sources, said, mass, satellite
+
+Cluster 889:
+observatory, ray, send, maybe, probe, century, info, project, files, file
+
+Cluster 890:
+time, believe, ago, jupiter, spent, satellite, years, final, finally, fine
+
+Cluster 891:
+april, spacecraft, km, command, range, degrees, hours, 22, mission, 1993
+
+Cluster 892:
+apollo, space, area, worth, zip, field, fbi, features, feel, file
+
+Cluster 893:
+like, having, seen, say, time, sky, mean, gets, view, far
+
+Cluster 894:
+nasa, books, similar, book, question, planet, saturn, number, jupiter, special
+
+Cluster 895:
+venus, end, data, degrees, week, spacecraft, problem, days, process, april
+
+Cluster 896:
+satellite, orbit, position, latest, plane, goes, 23, soon, know, user
+
+Cluster 897:
+know, stage, does, addition, don, systems, titan, new, probably, support
+
+Cluster 898:
+years, seen, life, seriously, don, quite, just, job, edu, contains
+
+Cluster 899:
+defense, organization, just, space, point, work, agency, signal, exist, fairly
+
+Cluster 900:
+free, thought, satellite, data, carry, know, possible, features, bad, dead
+
+Cluster 901:
+space, know, shows, does, exactly, far, rate, today, available, speed
+
+Cluster 902:
+space, launched, product, dc, rocket, launches, available, buy, model, second
+
+Cluster 903:
+merely, thought, sun, total, earlier, didn, ll, systems, 15, flight
+
+Cluster 904:
+launched, satellite, 30, 1993, launch, western, space, date, rocket, russian
+
+Cluster 905:
+1993, universe, 23, april, jpl, field, fbi, features, feel, figure
+
+Cluster 906:
+sgi, years, pretty, systems, money, period, end, buy, means, certainly
+
+Cluster 907:
+long, far, away, way, think, didn, files, feel, field, figure
+
+Cluster 908:
+gravity, like, description, ideas, probe, spacecraft, sounds, feel, fax, fbi
+
+Cluster 909:
+want, test, tv, exactly, carry, really, zip, field, features, feel
+
+Cluster 910:
+just, black, stars, ray, energy, far, edge, star, local, fairly
+
+Cluster 911:
+probe, space, titan, earth, launch, orbiter, jupiter, atmosphere, mission, orbit
+
+Cluster 912:
+earth, based, sure, observations, came, image, different, orbit, ll, won
+
+Cluster 913:
+satellite, free, mass, proof, designed, space, satellites, technical, power, body
+
+Cluster 914:
+maybe, act, christian, zip, expected, fine, finally, final, files, file
+
+Cluster 915:
+flight, question, 25, hear, heard, based, speed, ago, military, months
+
+Cluster 916:
+known, live, better, went, team, spacecraft, space, action, science, sun
+
+Cluster 917:
+energy, distance, expected, does, form, know, answer, ray, ok, figure
+
+Cluster 918:
+sure, yes, place, launched, know, pretty, don, took, figure, features
+
+Cluster 919:
+supposed, solar, explain, father, fit, fine, finally, final, files, file
+
+Cluster 920:
+like, info, edu, just, mr, don, zip, figure, fbi, features
+
+Cluster 921:
+got, star, tell, father, fit, fine, finally, final, files, file
+
+Cluster 922:
+lost, spacecraft, performance, hope, let, second, zip, feel, fax, fbi
+
+Cluster 923:
+nasa, military, hand, force, air, second, test, did, make, didn
+
+Cluster 924:
+sure, rest, figure, sounds, imagine, couple, like, face, facility, fine
+
+Cluster 925:
+certainly, possible, held, long, tv, white, know, large, idea, old
+
+Cluster 926:
+animation, available, images, ftp, approach, 1993, using, taken, ames, space
+
+Cluster 927:
+gas, non, right, air, say, 200, fuel, allow, hours, today
+
+Cluster 928:
+fbi, did, know, government, start, koresh, evidence, set, don, saw
+
+Cluster 929:
+involved, news, wrong, guess, mercury, zip, fax, fbi, features, feel
+
+Cluster 930:
+gas, think, gets, times, hold, course, nature, vehicle, reason, remember
+
+Cluster 931:
+needed, better, comes, idea, 10, cause, large, longer, long, structure
+
+Cluster 932:
+time, shuttle, read, exactly, mention, various, ideas, plane, hear, having
+
+Cluster 933:
+described, early, cs, took, does, date, field, soon, 50, engineering
+
+Cluster 934:
+test, vehicle, remember, hard, 40, 50, flight, said, think, ve
+
+Cluster 935:
+mass, concept, atmosphere, products, spacecraft, going, things, jim, thanks, using
+
+Cluster 936:
+just, building, supposed, set, fbi, especially, hand, actually, guess, way
+
+Cluster 937:
+things, like, certain, actually, god, unless, missions, com, home, space
+
+Cluster 938:
+tool, launch, space, april, told, said, like, nasa, long, shuttle
+
+Cluster 939:
+scale, air, key, world, force, tried, question, earlier, plane, course
+
+Cluster 940:
+koresh, children, fbi, did, plan, gas, didn, government, according, people
+
+Cluster 941:
+tyre, said, people, articles, mercury, news, mentioned, killed, place, city
+
+Cluster 942:
+air, gas, km, 50, 100, long, test, space, useful, 200
+
+Cluster 943:
+don, war, military, people, make, necessary, world, position, didn, perfect
+
+Cluster 944:
+ames, takes, mary, think, way, don, real, perfect, land, people
+
+Cluster 945:
+koresh, society, point, god, day, video, gas, fbi, evidence, like
+
+Cluster 946:
+children, press, unfortunately, did, said, religious, government, self, evidence, set
+
+Cluster 947:
+question, answers, know, pretty, yes, order, did, didn, tell, short
+
+Cluster 948:
+day, deleted, know, word, days, fbi, started, way, second, search
+
+Cluster 949:
+order, using, think, doubt, 30, sounds, high, talking, higher, bit
+
+Cluster 950:
+called, finally, large, gas, caused, longer, air, low, orbit, needed
+
+Cluster 951:
+evidence, probably, know, far, real, related, having, events, different, did
+
+Cluster 952:
+fbi, faith, make, search, mean, unless, come, face, good, reason
+
+Cluster 953:
+line, process, taken, stuff, attempt, think, figure, fbi, features, feel
+
+Cluster 954:
+killed, koresh, got, message, way, hard, says, ll, rest, wanted
+
+Cluster 955:
+like, just, guess, based, launch, zip, feel, fax, fbi, features
+
+Cluster 956:
+structure, strong, higher, form, rockets, space, major, makes, network, provided
+
+Cluster 957:
+tell, man, did, gas, maybe, ad, ago, analysis, argument, note
+
+Cluster 958:
+going, ray, kill, people, zip, field, fax, fbi, features, feel
+
+Cluster 959:
+oh, lost, think, mark, earth, source, non, near, ve, lunar
+
+Cluster 960:
+sky, like, idea, didn, people, believe, environment, look, long, thought
+
+Cluster 961:
+really, space, 16, orbit, city, nasa, night, new, observations, fast
+
+Cluster 962:
+things, problems, cause, space, possible, fit, finally, final, files, file
+
+Cluster 963:
+early, did, lot, work, systems, didn, military, think, mary, fine
+
+Cluster 964:
+rockets, 50, rocket, ad, power, high, people, total, flight, using
+
+Cluster 965:
+space, propulsion, lunar, design, power, available, rocket, nasa, systems, satellite
+
+Cluster 966:
+elements, current, bbs, 15, available, 93, 23, shuttle, software, sets
+
+Cluster 967:
+center, different, models, universe, data, don, radius, number, earth, way
+
+Cluster 968:
+real, question, say, define, just, think, don, reality, word, interesting
+
+Cluster 969:
+power, space, lunar, ca, society, energy, source, materials, national, solar
+
+Cluster 970:
+research, law, stuff, ibm, algorithm, merely, science, said, don, data
+
+Cluster 971:
+zip, past, use, used, moon, input, posted, program, area, public
+
+Cluster 972:
+like, radio, sky, rules, majority, light, don, right, night, 90
+
+Cluster 973:
+station, radio, high, space, guess, imagine, project, heard, large, didn
+
+Cluster 974:
+place, read, near, heard, ago, just, new, finally, final, features
+
+Cluster 975:
+sci, space, bit, posting, just, 30, days, news, subject, fairly
+
+Cluster 976:
+mac, ibm, edu, vision, radius, good, completely, environment, idea, space
+
+Cluster 977:
+satellites, like, satellite, 13, think, library, called, matter, usa, model
+
+Cluster 978:
+data, sensing, remote, images, nasa, use, ideas, types, potential, areas
+
+Cluster 979:
+space, like, remember, does, long, program, product, nasa, power, sense
+
+Cluster 980:
+nasa, subject, book, does, memory, involved, space, ago, works, reference
+
+Cluster 981:
+organization, does, opinion, energy, views, science, research, did, didn, flight
+
+Cluster 982:
+space, market, time, don, launch, probably, 15, light, orbit, like
+
+Cluster 983:
+object, planet, orbit, observatory, program, advance, tv, new, wasn, thanks
+
+Cluster 984:
+files, image, images, gif, want, use, send, ll, include, directory
+
+Cluster 985:
+space, list, sci, posts, nasa, email, shuttle, news, edu, astro
+
+Cluster 986:
+information, thread, person, wasn, thanks, question, final, mark, article, ray
+
+Cluster 987:
+nasa, research, dr, gov, graphics, oh, center, think, child, field
+
+Cluster 988:
+space, idea, thing, earth, want, orbit, time, low, don, seen
+
+Cluster 989:
+use, ve, running, good, got, guess, picture, place, seen, material
+
+Cluster 990:
+wants, cause, object, set, ago, matter, venus, majority, run, sky
+
+Cluster 991:
+images, gif, 1993, maps, data, image, public, satellite, office, space
+
+Cluster 992:
+information, send, university, help, data, current, mail, earth, net, edu
+
+Cluster 993:
+thing, hear, idea, really, sound, project, long, dr, make, comes
+
+Cluster 994:
+space, big, cause, ones, stars, days, published, article, final, files
+
+Cluster 995:
+great, ll, end, working, general, air, national, space, life, time
+
+Cluster 996:
+virtual, reality, far, really, just, seen, run, interesting, project, mail
+
+Cluster 997:
+space, nasa, edu, faq, com, planetary, 14, 1993, apr, gov
+
+Cluster 998:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 999:
+gif, include, map, object, color, simple, thanks, colors, tell, ve
+
+Cluster 1000:
+nasa, space, really, april, launch, help, night, moon, 93, 16
+
+Cluster 1001:
+space, files, related, check, create, think, know, maybe, mean, don
+
+Cluster 1002:
+space, solar, world, project, paper, book, file, similar, think, asked
+
+Cluster 1003:
+sci, don, world, groups, case, doesn, david, small, people, perfect
+
+Cluster 1004:
+just, oh, sci, kill, astro, man, satellites, jupiter, good, bad
+
+Cluster 1005:
+launch, space, nasa, orbit, example, payload, organizations, orbital, public, program
+
+Cluster 1006:
+like, ago, article, subject, going, people, certainly, news, space, really
+
+Cluster 1007:
+quite, just, local, self, lot, ago, computer, 3d, matter, used
+
+Cluster 1008:
+moon, story, use, worse, future, lot, multi, agency, search, images
+
+Cluster 1009:
+space, nasa, center, research, washington, flight, dc, information, shuttle, jpl
+
+Cluster 1010:
+space, edu, request, email, sci, message, posts, mark, send, wants
+
+Cluster 1011:
+yes, fast, fit, fine, finally, final, files, file, figure, field
+
+Cluster 1012:
+space, address, days, official, email, hi, thanks, 93, following, specifically
+
+Cluster 1013:
+michael, error, email, early, completely, 50, 60, sorry, tv, user
+
+Cluster 1014:
+office, apply, home, note, number, area, hope, data, change, code
+
+Cluster 1015:
+contact, media, fax, international, local, source, book, zip, feel, fbi
+
+Cluster 1016:
+ve, received, lot, ll, 30, mail, 16, maybe, site, later
+
+Cluster 1017:
+going, like, need, capability, fax, fit, fine, finally, final, files
+
+Cluster 1018:
+ago, years, national, space, air, display, figure, fbi, features, feel
+
+Cluster 1019:
+thanks, posting, necessary, lot, news, sorry, directly, right, interested, kind
+
+Cluster 1020:
+washington, street, dc, new, news, times, national, tv, box, time
+
+Cluster 1021:
+ve, like, time, months, looking, past, hear, feel, fbi, features
+
+Cluster 1022:
+russian, machine, cost, com, high, user, institute, email, space, save
+
+Cluster 1023:
+number, available, thanks, phone, free, zip, files, field, figure, file
+
+Cluster 1024:
+yes, phone, interested, information, address, email, number, follow, like, getting
+
+Cluster 1025:
+gov, reason, function, edu, john, email, earth, send, contact, address
+
+Cluster 1026:
+yes, group, soon, create, don, oh, alt, like, better, given
+
+Cluster 1027:
+box, contact, zip, father, fit, fine, finally, final, files, file
+
+Cluster 1028:
+engineering, certain, exactly, place, hi, thanks, know, early, knows, mail
+
+Cluster 1029:
+thanks, work, just, did, needed, zip, fbi, features, feel, field
+
+Cluster 1030:
+send, address, cs, paul, reading, knows, email, book, edu, list
+
+Cluster 1031:
+mail, possible, address, information, advance, thanks, email, post, zip, features
+
+Cluster 1032:
+creation, doctrine, book, willing, mail, hear, thanks, love, soon, need
+
+Cluster 1033:
+quite, bit, community, volume, models, easily, number, read, ideas, multi
+
+Cluster 1034:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 1035:
+vga, card, say, does, place, need, phone, video, know, number
+
+Cluster 1036:
+good, dr, phone, city, fax, fit, fine, finally, final, files
+
+Cluster 1037:
+space, launch, shuttle, tell, pay, people, entirely, mail, wants, currently
+
+Cluster 1038:
+love, buy, advance, imagine, hi, mark, copy, thanks, mail, willing
+
+Cluster 1039:
+email, anybody, price, send, edu, capability, looking, sound, sounds, features
+
+Cluster 1040:
+book, information, send, idea, just, internet, organizations, database, available, holy
+
+Cluster 1041:
+institute, knowledge, research, systems, engineering, job, technology, science, working, virtual
+
+Cluster 1042:
+thanks, got, contact, help, ll, mail, people, features, feel, field
+
+Cluster 1043:
+past, post, cut, does, read, meaning, think, possible, instead, taken
+
+Cluster 1044:
+list, come, faq, read, zip, figure, fbi, features, feel, field
+
+Cluster 1045:
+postings, does, like, bits, alt, know, anybody, field, fbi, features
+
+Cluster 1046:
+internet, public, sci, address, space, mark, software, mail, org, free
+
+Cluster 1047:
+astronomy, accepted, date, available, know, number, space, new, access, 20
+
+Cluster 1048:
+series, technical, volume, just, quicktime, reasonable, new, inside, facility, fact
+
+Cluster 1049:
+space, sci, 92, number, usenet, read, group, 93, 13, mark
+
+Cluster 1050:
+edu, internet, concept, pub, delta, gif, spirit, image, thanks, cs
+
+Cluster 1051:
+stay, said, bob, com, away, ideas, info, little, material, small
+
+Cluster 1052:
+long, think, thought, main, called, lots, display, started, area, field
+
+Cluster 1053:
+nasa, data, available, ftp, space, information, gov, anonymous, images, directory
+
+Cluster 1054:
+shuttle, program, nasa, space, mail, office, reasons, post, need, net
+
+Cluster 1055:
+know, available, necessary, try, pictures, don, open, public, worth, sure
+
+Cluster 1056:
+know, copy, library, following, let, siggraph, thanks, like, event, lot
+
+Cluster 1057:
+edu, graphics, pub, mail, send, ray, 128, 3d, ftp, server
+
+Cluster 1058:
+post, add, easy, nice, deleted, way, large, paper, figure, features
+
+Cluster 1059:
+siggraph, university, material, form, 93, research, conference, information, send, fax
+
+Cluster 1060:
+tell, like, post, address, ftp, mail, copy, feel, fbi, features
+
+Cluster 1061:
+aerospace, pay, make, zip, fbi, features, feel, field, figure, file
+
+Cluster 1062:
+ftp, states, data, archive, united, services, zip, features, fax, fbi
+
+Cluster 1063:
+map, maps, site, know, thanks, does, ftp, advance, library, line
+
+Cluster 1064:
+address, jupiter, images, pub, info, correct, library, site, ca, edu
+
+Cluster 1065:
+nasa, ames, gov, arc, directory, things, edu, pub, space, earth
+
+Cluster 1066:
+mark, graphics, days, mail, thanks, site, copy, search, info, posted
+
+Cluster 1067:
+data, available, ftp, edu, image, graphics, pub, sgi, package, software
+
+Cluster 1068:
+useful, map, hi, interesting, type, direct, zip, feel, fax, fbi
+
+Cluster 1069:
+directory, virtual, public, sorry, fit, finally, final, files, file, figure
+
+Cluster 1070:
+database, program, knows, called, mail, ll, know, data, don, group
+
+Cluster 1071:
+like, ago, wasn, space, known, sorry, look, course, pretty, fbi
+
+Cluster 1072:
+got, soon, ac, uk, date, fine, finally, final, files, file
+
+Cluster 1073:
+project, information, interesting, send, current, shall, help, appreciated, field, figure
+
+Cluster 1074:
+ftp, does, russian, spacecraft, know, images, ago, thanks, site, moon
+
+Cluster 1075:
+observations, planet, moon, problems, taken, lunar, special, currently, telescope, object
+
+Cluster 1076:
+lunar, earth, moon, small, high, just, low, materials, know, use
+
+Cluster 1077:
+time, exist, zip, father, fit, fine, finally, final, files, file
+
+Cluster 1078:
+technology, ssf, think, basic, support, defense, design, does, doesn, research
+
+Cluster 1079:
+atmosphere, data, research, jpl, flight, 000, payload, program, nasa, facility
+
+Cluster 1080:
+face, mars, like, life, currently, quite, probably, high, half, potential
+
+Cluster 1081:
+big, months, little, didn, mercury, thought, built, old, saw, 12
+
+Cluster 1082:
+com, world, consider, energy, public, plan, space, 93, satellites, term
+
+Cluster 1083:
+space, station, matter, exploration, program, technology, sense, people, physics, sure
+
+Cluster 1084:
+sky, just, light, like, man, don, space, getting, really, night
+
+Cluster 1085:
+billion, good, say, radius, mac, team, hand, space, vision, apollo
+
+Cluster 1086:
+state, better, died, wasn, doubt, performance, father, cost, mind, systems
+
+Cluster 1087:
+copy, lunar, data, moon, david, office, act, don, mail, local
+
+Cluster 1088:
+mars, life, face, buy, heard, does, sound, deal, look, save
+
+Cluster 1089:
+longer, sun, orbit, gets, just, century, assuming, distance, past, term
+
+Cluster 1090:
+moon, lunar, changes, large, fast, said, km, ll, say, orbit
+
+Cluster 1091:
+questions, answer, response, contact, willing, happen, mail, basic, situation, looking
+
+Cluster 1092:
+true, guess, stuff, long, bit, money, seriously, planetary, time, think
+
+Cluster 1093:
+finally, leave, lots, trying, know, university, edu, physics, want, believe
+
+Cluster 1094:
+going, clear, quite, astro, hours, sky, states, service, available, years
+
+Cluster 1095:
+data, like, solar, orbit, operations, left, quote, doing, complex, mentioned
+
+Cluster 1096:
+plan, mark, gov, org, going, thanks, maybe, address, cross, space
+
+Cluster 1097:
+line, like, pay, moon, told, doesn, land, look, field, features
+
+Cluster 1098:
+expect, wouldn, close, view, does, come, given, far, final, files
+
+Cluster 1099:
+solar, problem, references, assuming, higher, non, know, doesn, low, air
+
+Cluster 1100:
+space, agency, country, life, government, just, military, includes, needs, thought
+
+Cluster 1101:
+good, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 1102:
+moon, lunar, fuel, field, issues, know, runs, satellite, earth, quite
+
+Cluster 1103:
+article, current, like, work, funding, things, news, military, science, just
+
+Cluster 1104:
+exactly, heard, sort, zip, father, fine, finally, final, files, file
+
+Cluster 1105:
+different, total, zip, father, fit, fine, finally, final, files, file
+
+Cluster 1106:
+used, technology, sorry, state, allow, outside, given, far, final, files
+
+Cluster 1107:
+billion, mission, simply, old, mars, million, lunar, bad, main, easily
+
+Cluster 1108:
+cost, yes, think, spent, right, answer, money, seriously, value, war
+
+Cluster 1109:
+scale, company, known, costs, buy, old, heard, uses, things, million
+
+Cluster 1110:
+things, 30, true, mary, hard, long, longer, look, real, days
+
+Cluster 1111:
+nasa, allen, people, problem, work, costs, lack, wrong, apollo, know
+
+Cluster 1112:
+say, data, 20, example, think, taking, getting, exactly, figure, market
+
+Cluster 1113:
+right, just, moon, stop, space, basically, mars, think, little, said
+
+Cluster 1114:
+supposed, said, better, money, potential, actually, fax, fbi, features, feel
+
+Cluster 1115:
+people, objective, know, accept, deal, values, given, does, happen, tell
+
+Cluster 1116:
+way, basically, make, 00, reality, want, earth, just, current, space
+
+Cluster 1117:
+funding, science, paper, doing, ssf, programs, apollo, major, interested, nasa
+
+Cluster 1118:
+couple, government, cost, assuming, talk, files, features, feel, field, figure
+
+Cluster 1119:
+answer, asked, money, having, lunar, making, time, cost, love, know
+
+Cluster 1120:
+like, don, people, year, aren, think, bit, multi, government, pretty
+
+Cluster 1121:
+funding, nasa, people, money, trying, rocket, big, agency, gets, science
+
+Cluster 1122:
+study, happy, doing, billion, cost, just, little, oh, way, engineering
+
+Cluster 1123:
+people, general, think, official, spacecraft, plan, fast, lots, series, apparently
+
+Cluster 1124:
+return, money, thing, free, make, different, instead, taking, choice, islamic
+
+Cluster 1125:
+try, likely, think, thought, come, development, followers, flight, fit, fine
+
+Cluster 1126:
+spent, years, future, funding, current, going, science, missions, seen, possible
+
+Cluster 1127:
+earth, deleted, space, mean, air, international, true, history, thought, business
+
+Cluster 1128:
+people, right, trying, change, kind, quite, wants, want, thing, support
+
+Cluster 1129:
+wanted, wouldn, zip, fast, fine, finally, final, files, file, figure
+
+Cluster 1130:
+government, market, change, easily, case, knows, claim, people, perfect, argument
+
+Cluster 1131:
+actually, developed, similar, source, think, thought, near, 50, don, does
+
+Cluster 1132:
+scale, systems, kent, working, islamic, small, human, cheers, sure, actually
+
+Cluster 1133:
+moon, lunar, military, base, space, earth, good, money, think, just
+
+Cluster 1134:
+sure, stage, run, laws, long, using, likely, files, file, figure
+
+Cluster 1135:
+space, station, earth, maybe, ideas, material, based, makes, hard, people
+
+Cluster 1136:
+kind, make, maybe, anybody, solar, true, resources, file, files, figure
+
+Cluster 1137:
+state, require, really, study, oh, people, needed, exist, products, advanced
+
+Cluster 1138:
+quite, using, industry, saw, making, majority, control, public, isn, situation
+
+Cluster 1139:
+just, power, research, real, world, project, high, using, perfect, issue
+
+Cluster 1140:
+ssf, center, development, dc, billion, year, used, library, money, spent
+
+Cluster 1141:
+shuttle, basically, big, control, need, able, things, specific, getting, father
+
+Cluster 1142:
+better, state, think, don, really, costs, fairly, faith, flight, fit
+
+Cluster 1143:
+rights, group, files, nice, time, quite, 50, away, don, doing
+
+Cluster 1144:
+idea, moon, billion, nasa, space, time, people, know, lunar, just
+
+Cluster 1145:
+people, year, way, talking, sets, box, change, small, live, large
+
+Cluster 1146:
+new, price, built, right, space, cost, long, 20, project, entire
+
+Cluster 1147:
+design, gets, means, problems, air, used, new, think, things, great
+
+Cluster 1148:
+commercial, space, nasa, certainly, sky, know, possible, involved, structure, idea
+
+Cluster 1149:
+station, space, option, russian, billion, nasa, cost, technology, program, use
+
+Cluster 1150:
+certain, space, just, like, government, work, nasa, use, make, deal
+
+Cluster 1151:
+launch, instead, use, want, allen, entirely, lunar, seriously, just, facility
+
+Cluster 1152:
+accept, control, able, non, nasa, moon, left, remember, apollo, maybe
+
+Cluster 1153:
+million, let, 20, mercury, fuel, systems, return, idea, way, low
+
+Cluster 1154:
+simple, got, just, rockets, complex, space, station, option, basically, base
+
+Cluster 1155:
+development, think, working, allen, people, assume, make, market, lot, costs
+
+Cluster 1156:
+process, want, white, issue, stay, ago, use, used, reason, little
+
+Cluster 1157:
+large, just, gov, long, space, rate, way, low, don, specific
+
+Cluster 1158:
+launch, know, space, people, typical, government, used, multi, institute, rockets
+
+Cluster 1159:
+true, laws, actually, needed, provide, note, longer, way, nasa, technical
+
+Cluster 1160:
+launch, commercial, going, doesn, don, rate, technical, make, satellites, actually
+
+Cluster 1161:
+government, big, apollo, way, hard, doing, costs, base, project, technology
+
+Cluster 1162:
+expect, long, point, area, time, market, space, think, want, specifically
+
+Cluster 1163:
+com, moon, mission, billion, lunar, surface, cost, year, make, return
+
+Cluster 1164:
+space, project, build, does, funding, going, idea, think, people, nasa
+
+Cluster 1165:
+long, term, understand, earth, don, range, value, programs, lot, post
+
+Cluster 1166:
+rockets, rocket, 000, model, heard, national, organization, ve, area, launches
+
+Cluster 1167:
+small, organization, large, probably, means, society, non, total, events, planetary
+
+Cluster 1168:
+dc, money, year, support, open, news, speak, just, questions, sources
+
+Cluster 1169:
+development, new, assume, specific, launch, send, need, costs, want, objective
+
+Cluster 1170:
+space, ssf, shuttle, mars, cost, research, satellites, earth, commercial, life
+
+Cluster 1171:
+cost, launch, moon, getting, low, orbit, launches, money, new, bit
+
+Cluster 1172:
+space, people, person, talk, uk, problem, clearly, send, environment, ground
+
+Cluster 1173:
+fuel, use, want, don, power, given, simply, national, point, materials
+
+Cluster 1174:
+think, bad, products, low, nasa, don, doubt, world, case, caused
+
+Cluster 1175:
+option, ssf, power, capability, station, orbiter, human, shuttle, 20, orbit
+
+Cluster 1176:
+moon, lunar, year, cost, dc, low, single, surface, probably, like
+
+Cluster 1177:
+cost, costs, paper, don, funding, low, trying, space, build, company
+
+Cluster 1178:
+space, make, ground, sources, remember, allen, orbit, facility, source, fuel
+
+Cluster 1179:
+dc, said, technology, approach, stage, program, space, government, orbital, rocket
+
+Cluster 1180:
+orbital, sure, like, place, 300, just, good, use, km, person
+
+Cluster 1181:
+development, orbital, start, flight, assuming, launch, project, cost, took, date
+
+Cluster 1182:
+new, computer, technology, higher, actually, article, times, fit, project, certainly
+
+Cluster 1183:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 1184:
+used, works, fine, machine, objects, built, easy, faith, flight, fit
+
+Cluster 1185:
+com, zip, father, flight, fit, fine, finally, final, files, file
+
+Cluster 1186:
+nasa, mr, research, center, dr, university, 00, design, contact, includes
+
+Cluster 1187:
+heard, program, doesn, functions, zip, fax, fbi, features, feel, figure
+
+Cluster 1188:
+nice, possibly, thinking, doubt, self, consider, atmosphere, venus, idea, degrees
+
+Cluster 1189:
+book, compression, typical, source, speed, systems, used, claim, interested, hours
+
+Cluster 1190:
+good, written, know, thanks, point, seen, class, articles, pretty, library
+
+Cluster 1191:
+plane, points, center, point, line, radius, algorithm, check, does, right
+
+Cluster 1192:
+hi, fast, polygon, looking, edu, help, copy, file, think, time
+
+Cluster 1193:
+program, start, trying, advance, thanks, using, appreciated, know, kind, given
+
+Cluster 1194:
+image, processing, got, digital, graphics, available, people, today, idea, usually
+
+Cluster 1195:
+method, points, looking, screen, little, basically, seen, tell, merely, heard
+
+Cluster 1196:
+den, p2, p3, p1, radius, sin, 60, 17, define, time
+
+Cluster 1197:
+25, postscript, looks, better, display, like, line, doing, lines, using
+
+Cluster 1198:
+lines, technical, understanding, code, simple, anybody, image, post, member, point
+
+Cluster 1199:
+functions, ask, advance, thought, want, make, doing, real, values, work
+
+Cluster 1200:
+use, hours, functions, want, based, basic, day, light, files, file
+
+Cluster 1201:
+functions, used, actually, trying, 3d, convert, write, view, like, problems
+
+Cluster 1202:
+non, program, happy, looking, results, write, try, wrote, pretty, figure
+
+Cluster 1203:
+reference, information, algorithm, point, looking, appreciated, mail, feel, fax, fbi
+
+Cluster 1204:
+points, form, radius, non, need, complete, given, center, final, fbi
+
+Cluster 1205:
+like, package, reasonable, looking, know, set, form, objects, takes, thing
+
+Cluster 1206:
+better, paper, including, energy, 3d, related, looking, following, inside, given
+
+Cluster 1207:
+fairly, used, request, polygon, 3d, looking, works, fast, point, right
+
+Cluster 1208:
+edge, problem, surface, draw, color, points, work, net, object, problems
+
+Cluster 1209:
+algorithm, individual, siggraph, 92, thanks, think, mac, know, nice, source
+
+Cluster 1210:
+email, author, information, address, looking, mr, appreciated, send, polygon, want
+
+Cluster 1211:
+line, 10, center, cross, second, does, total, means, trying, ok
+
+Cluster 1212:
+points, lines, point, plane, case, center, algorithm, surface, looks, use
+
+Cluster 1213:
+computer, graphics, lines, generation, run, algorithm, think, known, yes, help
+
+Cluster 1214:
+polygon, point, 100, method, inside, ray, 50, outside, lines, number
+
+Cluster 1215:
+change, algorithm, seriously, sorry, correct, obvious, files, file, father, field
+
+Cluster 1216:
+need, line, class, code, able, algorithm, program, public, nice, views
+
+Cluster 1217:
+edge, face, surface, mark, algorithm, ok, source, using, point, volume
+
+Cluster 1218:
+course, siggraph, points, article, graphics, ibm, don, issues, 24, sorry
+
+Cluster 1219:
+program, points, order, convert, polygon, used, format, know, way, ve
+
+Cluster 1220:
+paper, algorithm, cut, object, anybody, does, able, surface, like, finally
+
+Cluster 1221:
+post, need, ve, tried, polygon, mail, conversion, good, couple, file
+
+Cluster 1222:
+arc, computer, help, science, states, project, draw, group, able, thanks
+
+Cluster 1223:
+ve, figure, images, need, help, way, exactly, screen, tried, trying
+
+Cluster 1224:
+type, line, graphics, faq, appreciated, tool, thanks, box, comp, cross
+
+Cluster 1225:
+screen, image, source, know, distance, right, ray, object, assume, radius
+
+Cluster 1226:
+polygon, second, article, want, 12, graphics, code, does, book, ray
+
+Cluster 1227:
+problem, line, polygon, postscript, program, paper, answer, original, question, language
+
+Cluster 1228:
+post, thanks, object, willing, address, advance, mail, looking, newsgroup, working
+
+Cluster 1229:
+line, gives, similar, look, works, test, close, won, work, result
+
+Cluster 1230:
+plane, line, 1992, form, press, analysis, common, set, data, display
+
+Cluster 1231:
+problem, source, easy, does, anybody, maybe, understand, algorithm, figure, fax
+
+Cluster 1232:
+polygon, problem, simply, matter, necessarily, using, algorithm, way, new, idea
+
+Cluster 1233:
+return, reference, polygon, code, 1993, looking, van, algorithm, point, book
+
+Cluster 1234:
+reference, like, algorithm, number, thanks, completely, field, fax, fbi, features
+
+Cluster 1235:
+problem, area, inside, help, set, know, thanks, 3d, hope, doing
+
+Cluster 1236:
+points, reference, values, known, true, surface, process, program, kind, case
+
+Cluster 1237:
+good, bad, area, provide, details, face, fax, fit, fine, finally
+
+Cluster 1238:
+space, points, unless, quite, correct, necessarily, point, happen, prove, far
+
+Cluster 1239:
+points, way, order, point, face, appreciated, making, say, programs, algorithm
+
+Cluster 1240:
+simple, lines, way, stuff, box, test, cause, special, experience, inside
+
+Cluster 1241:
+report, research, reference, original, good, paper, free, center, needed, interesting
+
+Cluster 1242:
+net, list, order, ll, need, option, complete, zip, file, features
+
+Cluster 1243:
+natural, computer, structure, 1992, thanks, new, know, data, advance, objects
+
+Cluster 1244:
+program, files, different, mail, ve, lot, features, programs, look, interested
+
+Cluster 1245:
+surface, plane, book, cut, information, able, way, currently, technical, note
+
+Cluster 1246:
+point, reference, points, edge, current, consider, computer, david, year, author
+
+Cluster 1247:
+code, data, using, lines, basic, help, need, dos, machine, net
+
+Cluster 1248:
+lines, long, advance, actually, quite, known, make, thanks, does, earth
+
+Cluster 1249:
+lines, look, does, data, tells, source, needs, help, need, hi
+
+Cluster 1250:
+cross, area, away, compression, high, areas, force, speed, near, vehicle
+
+Cluster 1251:
+using, use, looks, interesting, type, pictures, create, created, thanks, probably
+
+Cluster 1252:
+gif, white, scale, example, object, black, using, currently, way, result
+
+Cluster 1253:
+line, using, routines, lines, 27, 30, 32, 40, 50, 60
+
+Cluster 1254:
+ll, bit, 20, say, stop, pay, does, doesn, speed, don
+
+Cluster 1255:
+michael, using, mac, help, sure, computer, screen, make, set, zip
+
+Cluster 1256:
+software, good, graphics, support, specific, interested, use, allow, unix, hardware
+
+Cluster 1257:
+driver, video, work, know, card, technology, right, windows, need, looking
+
+Cluster 1258:
+net, driver, vesa, available, program, card, hi, copy, thought, useful
+
+Cluster 1259:
+3d, mac, graphics, library, lot, think, code, low, functions, better
+
+Cluster 1260:
+00, 3d, use, understand, 30, lot, 200, speed, runs, interface
+
+Cluster 1261:
+pub, use, dos, version, directory, pc, file, sun, package, edu
+
+Cluster 1262:
+problem, different, machine, running, run, software, files, use, unix, explain
+
+Cluster 1263:
+graphics, 3d, library, need, thanks, run, contact, cost, email, say
+
+Cluster 1264:
+think, just, written, work, figure, thing, create, source, easy, view
+
+Cluster 1265:
+imagine, 00, version, thanks, questions, want, mail, info, received, pc
+
+Cluster 1266:
+lot, start, post, just, resources, developed, office, good, ve, computer
+
+Cluster 1267:
+type, station, mac, machine, pc, thanks, 3d, currently, mail, run
+
+Cluster 1268:
+anti, using, knows, appreciated, mac, machine, public, post, currently, figure
+
+Cluster 1269:
+package, creation, guy, think, email, tools, need, author, nice, number
+
+Cluster 1270:
+doing, problems, ve, works, exactly, think, features, zip, fax, fbi
+
+Cluster 1271:
+love, graphics, hear, heard, figure, fbi, features, feel, field, file
+
+Cluster 1272:
+software, commercial, 300, release, company, business, week, date, number, runs
+
+Cluster 1273:
+graphics, user, application, control, event, interactive, products, key, large, types
+
+Cluster 1274:
+things, shareware, programs, use, program, help, experience, email, heard, currently
+
+Cluster 1275:
+mac, post, costs, package, windows, original, course, version, sorry, runs
+
+Cluster 1276:
+available, ibm, good, able, know, looking, graphics, work, package, does
+
+Cluster 1277:
+won, problem, program, heard, real, run, tell, ve, stuff, facility
+
+Cluster 1278:
+don, yes, software, know, world, far, problems, problem, answer, interested
+
+Cluster 1279:
+dos, version, zip, father, fit, fine, finally, final, files, file
+
+Cluster 1280:
+thing, quite, version, author, hope, program, working, works, important, software
+
+Cluster 1281:
+ibm, imagine, maps, video, product, animation, live, standard, 3d, objects
+
+Cluster 1282:
+members, event, graphics, technical, siggraph, animation, non, package, new, technology
+
+Cluster 1283:
+ms, help, anybody, sources, need, thanks, don, ibm, pc, graphics
+
+Cluster 1284:
+mean, card, driver, hi, looking, appreciated, zip, feel, field, figure
+
+Cluster 1285:
+article, pictures, great, read, issue, long, understand, ve, output, fairly
+
+Cluster 1286:
+3d, bbs, bad, comes, available, does, file, author, format, thanks
+
+Cluster 1287:
+amiga, imagine, 3d, graphics, pc, ve, real, look, programs, version
+
+Cluster 1288:
+package, user, models, allow, using, program, graphics, going, lines, performance
+
+Cluster 1289:
+stuff, looking, com, useful, sites, software, new, thanks, run, know
+
+Cluster 1290:
+mail, file, come, format, nice, need, fax, multi, based, formats
+
+Cluster 1291:
+does, mac, heard, windows, version, interested, lot, people, products, special
+
+Cluster 1292:
+good, related, graphics, files, nature, church, use, products, email, quality
+
+Cluster 1293:
+original, edu, started, cheers, site, sites, wrote, file, files, father
+
+Cluster 1294:
+gif, edu, space, ftp, server, files, nasa, works, program, considered
+
+Cluster 1295:
+try, ftp, package, million, address, pub, free, valid, cd, looking
+
+Cluster 1296:
+package, image, gif, file, write, nice, viewer, formats, think, don
+
+Cluster 1297:
+program, don, code, know, looking, version, source, visualization, way, far
+
+Cluster 1298:
+windows, viewer, advance, thanks, dos, ac, tell, mail, uk, know
+
+Cluster 1299:
+cview, post, gif, mention, asked, quite, comes, thanks, need, kind
+
+Cluster 1300:
+wanted, ll, thanks, ibm, advance, try, looking, using, apparently, programs
+
+Cluster 1301:
+file, files, know, 256, stuff, happen, colors, color, sci, viewer
+
+Cluster 1302:
+question, good, library, heard, advance, free, education, mentioned, program, looking
+
+Cluster 1303:
+commercial, ll, lots, images, pay, looking, sources, tell, program, cost
+
+Cluster 1304:
+contact, request, graphics, gif, know, thanks, appreciated, looking, zip, feel
+
+Cluster 1305:
+software, nice, ve, thanks, know, don, machine, does, net, good
+
+Cluster 1306:
+graphics, ll, help, comp, package, news, fax, hope, common, interested
+
+Cluster 1307:
+sun, display, question, ve, files, like, answer, images, tiff, ask
+
+Cluster 1308:
+zip, graphics, version, programs, article, choice, latest, vga, advance, anonymous
+
+Cluster 1309:
+windows, 24, willing, problem, seen, return, quite, nice, current, want
+
+Cluster 1310:
+windows, want, view, graphics, use, takes, gif, image, like, anybody
+
+Cluster 1311:
+details, doing, know, jpeg, public, various, advance, compression, project, info
+
+Cluster 1312:
+program, advance, conference, plus, good, work, including, computer, sorry, copy
+
+Cluster 1313:
+need, viewer, windows, reading, run, did, running, driver, request, files
+
+Cluster 1314:
+graphics, news, group, don, programming, interested, programs, kind, doing, way
+
+Cluster 1315:
+ftp, latest, cd, graphics, software, pub, email, hi, access, getting
+
+Cluster 1316:
+knowledge, library, media, file, graphics, field, fax, fbi, features, feel
+
+Cluster 1317:
+article, newsgroup, code, source, 1992, 30, read, language, according, specifically
+
+Cluster 1318:
+windows, lot, follow, screen, thanks, writing, program, include, don, group
+
+Cluster 1319:
+server, ms, dos, use, running, probably, need, features, fax, fbi
+
+Cluster 1320:
+says, viewer, hi, subject, files, thanks, fbi, features, feel, field
+
+Cluster 1321:
+zip, file, look, directory, shareware, free, hope, try, sure, leave
+
+Cluster 1322:
+pc, ftp, like, stars, anonymous, programs, try, solar, choose, job
+
+Cluster 1323:
+sure, interface, ftp, works, ok, tried, archie, sites, figure, father
+
+Cluster 1324:
+xv, use, possible, works, edu, hope, ways, number, display, 21
+
+Cluster 1325:
+navy, reality, virtual, visualization, scientific, 1993, center, robert, materials, author
+
+Cluster 1326:
+requires, uses, guess, don, programs, certainly, running, files, final, file
+
+Cluster 1327:
+use, using, help, 32, thanks, pc, hand, anybody, trying, fall
+
+Cluster 1328:
+program, add, ibm, available, does, try, actually, looking, ok, know
+
+Cluster 1329:
+program, values, help, use, formats, image, figure, convert, need, thanks
+
+Cluster 1330:
+version, did, does, just, like, gif, way, make, allow, included
+
+Cluster 1331:
+graphics, 3d, package, haven, following, thread, april, info, product, mentioned
+
+Cluster 1332:
+format, stuff, like, use, problem, convert, maps, file, look, package
+
+Cluster 1333:
+image, package, analysis, processing, satellite, images, using, functions, graphics, data
+
+Cluster 1334:
+tiff, convert, 18, format, yes, email, way, archie, apr, xv
+
+Cluster 1335:
+know, picture, program, mail, thanks, 3d, cross, au, hi, writing
+
+Cluster 1336:
+image, formats, cs, does, database, guess, send, major, point, advance
+
+Cluster 1337:
+format, package, good, later, response, program, files, getting, got, group
+
+Cluster 1338:
+packages, 3d, thought, edu, does, wrong, fairly, graphics, ll, sound
+
+Cluster 1339:
+seen, color, objects, image, ray, rayshade, possible, thanks, zip, fbi
+
+Cluster 1340:
+comp, graphics, stuff, hardware, like, programming, best, fast, help, 3d
+
+Cluster 1341:
+support, book, buy, want, programming, like, input, network, university, using
+
+Cluster 1342:
+file, description, specifically, image, number, know, peter, format, need, colors
+
+Cluster 1343:
+visualization, hi, exactly, help, things, does, comp, network, response, graphics
+
+Cluster 1344:
+conversion, program, like, pretty, picture, stuff, probably, lines, format, draw
+
+Cluster 1345:
+processing, image, published, book, zip, feel, fax, fbi, features, field
+
+Cluster 1346:
+public, know, does, mail, file, function, thanks, feel, fbi, features
+
+Cluster 1347:
+request, does, good, free, thanks, thing, files, sorry, program, advance
+
+Cluster 1348:
+point, files, pc, zip, fax, fit, fine, finally, final, file
+
+Cluster 1349:
+files, format, convert, does, involved, pc, group, anybody, conversion, possible
+
+Cluster 1350:
+3d, don, know, program, point, object, numbers, hope, points, make
+
+Cluster 1351:
+animation, graphics, help, hope, don, file, available, use, frame, ve
+
+Cluster 1352:
+library, unix, press, files, provide, text, section, screen, interface, amiga
+
+Cluster 1353:
+unix, versions, know, available, sgi, don, sun, sure, getting, faq
+
+Cluster 1354:
+format, using, problem, points, hand, taking, ve, use, included, mind
+
+Cluster 1355:
+rayshade, 3d, mail, able, mac, use, thanks, available, user, users
+
+Cluster 1356:
+postscript, files, file, program, format, include, able, know, way, draw
+
+Cluster 1357:
+use, graphics, shows, example, program, small, trying, send, haven, man
+
+Cluster 1358:
+good, graphics, thanks, vga, book, email, advance, know, programming, respond
+
+Cluster 1359:
+bit, ray, pictures, big, shows, cs, created, version, interested, example
+
+Cluster 1360:
+image, data, processing, software, analysis, edu, images, tools, tool, user
+
+Cluster 1361:
+software, command, add, hardware, means, advance, size, text, looking, picture
+
+Cluster 1362:
+use, think, really, mind, similar, programs, series, advance, features, able
+
+Cluster 1363:
+animation, object, just, interested, like, material, kind, able, files, hi
+
+Cluster 1364:
+files, convert, used, usually, need, don, called, right, sites, file
+
+Cluster 1365:
+screen, ms, thanks, windows, built, net, couple, draw, various, people
+
+Cluster 1366:
+subject, image, database, computer, edu, 93, hi, engineering, thanks, contact
+
+Cluster 1367:
+project, end, hope, faq, like, jpeg, group, lines, animation, application
+
+Cluster 1368:
+search, graphics, data, software, information, faq, ftp, sites, comp, pictures
+
+Cluster 1369:
+use, image, considered, fast, finally, final, files, file, figure, field
+
+Cluster 1370:
+know, convert, shareware, use, currently, pc, formats, don, programs, couple
+
+Cluster 1371:
+appreciated, start, image, hi, reference, compression, book, anybody, features, fbi
+
+Cluster 1372:
+imaging, unix, ones, new, needs, provide, address, mail, hard, happy
+
+Cluster 1373:
+ftp, require, know, vga, does, sites, zip, features, fax, fbi
+
+Cluster 1374:
+program, called, zip, directory, ftp, need, file, graphics, final, files
+
+Cluster 1375:
+simple, want, viewer, features, does, public, looking, display, 3d, nice
+
+Cluster 1376:
+text, 3d, pub, images, directory, look, quality, 17, tell, lines
+
+Cluster 1377:
+using, know, 3d, thanks, advance, available, create, newsgroup, new, version
+
+Cluster 1378:
+file, 1993, graphics, 23, pub, apr, ftp, dec, 32, sites
+
+Cluster 1379:
+bit, package, pixel, map, sources, plus, run, ftp, site, hi
+
+Cluster 1380:
+3d, graphics, directory, routines, edu, version, don, package, source, use
+
+Cluster 1381:
+ray, animation, mark, book, books, disk, come, second, source, hope
+
+Cluster 1382:
+want, mark, ve, hi, just, interested, ray, heard, useful, speed
+
+Cluster 1383:
+directory, pub, graphics, ftp, zip, instead, site, sites, program, version
+
+Cluster 1384:
+book, models, source, computer, graphics, want, high, elements, check, net
+
+Cluster 1385:
+using, site, package, thanks, project, hardware, method, ftp, need, field
+
+Cluster 1386:
+routines, library, called, used, tell, polygon, program, version, make, uses
+
+Cluster 1387:
+type, vision, available, archie, graphics, fine, finally, final, fax, files
+
+Cluster 1388:
+files, know, interesting, 3d, looking, knowledge, world, doesn, type, program
+
+Cluster 1389:
+rayshade, anybody, ideas, unfortunately, command, unix, make, email, address, using
+
+Cluster 1390:
+file, save, information, format, does, available, hi, ve, position, know
+
+Cluster 1391:
+like, people, institute, new, hi, au, technology, box, format, know
+
+Cluster 1392:
+tiff, files, library, good, read, using, reading, use, don, writing
+
+Cluster 1393:
+software, mac, like, large, unix, use, user, ve, email, come
+
+Cluster 1394:
+files, bit, convert, file, 24, thanks, advance, format, know, values
+
+Cluster 1395:
+people, info, gif, files, haven, know, tried, images, read, reading
+
+Cluster 1396:
+resolution, access, let, hold, high, got, pc, programming, recently, card
+
+Cluster 1397:
+included, data, earth, author, images, david, created, taken, sorry, com
+
+Cluster 1398:
+program, files, ftp, does, gif, know, help, read, appreciated, anybody
+
+Cluster 1399:
+file, format, windows, info, use, need, sources, version, 32, formats
+
+Cluster 1400:
+got, files, look, just, like, finally, final, file, fast, figure
+
+Cluster 1401:
+create, files, environment, applications, check, standard, dos, actually, pretty, windows
+
+Cluster 1402:
+format, going, standard, quicktime, choice, different, files, support, kind, guess
+
+Cluster 1403:
+tiff, think, don, images, read, image, programs, ve, does, use
+
+Cluster 1404:
+algorithm, like, reading, format, thanks, check, file, programs, formats, dos
+
+Cluster 1405:
+convert, files, formats, format, draw, applications, easily, useful, writing, power
+
+Cluster 1406:
+file, image, code, looking, want, algorithm, format, advance, internet, apply
+
+Cluster 1407:
+24, files, program, future, version, copy, view, viewer, finally, thanks
+
+Cluster 1408:
+try, tar, lots, zip, field, fax, fbi, features, feel, figure
+
+Cluster 1409:
+formats, information, does, currently, thanks, especially, know, looking, different, site
+
+Cluster 1410:
+like, looking, similar, appreciated, image, software, files, tiff, able, hi
+
+Cluster 1411:
+tiff, programs, thanks, ibm, read, works, email, post, basic, view
+
+Cluster 1412:
+file, tiff, need, don, change, knows, know, heard, just, newsgroup
+
+Cluster 1413:
+program, image, file, display, bits, read, 24, change, want, driver
+
+Cluster 1414:
+screen, files, resolution, problem, using, couple, cut, mention, run, running
+
+Cluster 1415:
+does, message, earlier, new, exactly, posted, explain, simply, finally, final
+
+Cluster 1416:
+dos, thanks, advance, site, ftp, zip, lost, help, new, file
+
+Cluster 1417:
+cview, file, directory, files, places, use, just, launch, point, cd
+
+Cluster 1418:
+jpeg, image, gif, file, color, images, format, quality, version, free
+
+Cluster 1419:
+format, thanks, anybody, zip, father, fine, finally, final, files, file
+
+Cluster 1420:
+code, jpeg, pretty, site, thanks, send, read, does, language, ftp
+
+Cluster 1421:
+color, space, display, points, use, standard, instead, changes, small, file
+
+Cluster 1422:
+directly, files, look, main, file, write, final, finally, figure, fast
+
+Cluster 1423:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 1424:
+just, group, graphics, groups, like, week, newsgroup, reading, learn, posts
+
+Cluster 1425:
+software, multi, media, product, write, reasons, group, digital, buy, products
+
+Cluster 1426:
+graphics, sgi, 1993, file, postscript, display, release, systems, support, color
+
+Cluster 1427:
+think, wouldn, zip, father, fit, fine, finally, final, files, file
+
+Cluster 1428:
+actually, pc, posts, just, held, making, version, reading, software, people
+
+Cluster 1429:
+information, computer, 00, 1993, center, free, 30, available, send, society
+
+Cluster 1430:
+computer, future, send, happy, development, probably, including, free, run, left
+
+Cluster 1431:
+ac, ftp, information, message, received, recent, paul, mac, basically, used
+
+Cluster 1432:
+comp, graphics, file, fax, fbi, features, feel, field, figure, zip
+
+Cluster 1433:
+interested, processing, information, hardware, image, sgi, appreciated, need, know, imaging
+
+Cluster 1434:
+graphics, computer, articles, use, siggraph, anonymous, 22, image, approach, hardware
+
+Cluster 1435:
+given, post, time, need, thanks, run, pc, ve, software, based
+
+Cluster 1436:
+polygon, use, outside, need, 3d, non, number, question, problem, best
+
+Cluster 1437:
+got, ms, files, screen, white, windows, ideas, looks, image, fine
+
+Cluster 1438:
+screen, images, time, took, 10, bit, level, different, display, 16
+
+Cluster 1439:
+color, used, buy, scale, need, theory, thanks, conversion, software, true
+
+Cluster 1440:
+color, true, 256, colors, display, facility, help, 16, function, using
+
+Cluster 1441:
+frame, output, computer, animation, amiga, bit, quite, hard, format, program
+
+Cluster 1442:
+postscript, image, use, quality, scale, fit, files, paper, interface, does
+
+Cluster 1443:
+files, values, having, washington, edu, check, ve, post, ideas, rayshade
+
+Cluster 1444:
+pc, display, non, response, correct, does, 256, known, said, follow
+
+Cluster 1445:
+bit, looks, amiga, send, need, 32, don, mail, 24, earth
+
+Cluster 1446:
+black, color, worth, need, best, hardware, rest, don, 300, function
+
+Cluster 1447:
+color, result, effect, don, bad, course, picture, mean, ve, term
+
+Cluster 1448:
+talking, version, assuming, versions, don, dos, know, later, entirely, current
+
+Cluster 1449:
+conference, 1993, information, 93, vision, university, provide, technology, computer, image
+
+Cluster 1450:
+problem, application, use, given, looking, colors, algorithm, size, section, human
+
+Cluster 1451:
+bit, color, just, image, ones, possible, make, access, products, processing
+
+Cluster 1452:
+mode, vga, view, sources, program, use, graphics, bit, routines, board
+
+Cluster 1453:
+vga, does, animation, tried, necessarily, able, help, screen, second, note
+
+Cluster 1454:
+image, input, signal, tv, 256, video, include, pc, images, change
+
+Cluster 1455:
+screen, bit, 24, problem, format, data, bits, trying, memory, advance
+
+Cluster 1456:
+know, lot, let, looking, thanks, source, file, files, figure, fast
+
+Cluster 1457:
+files, com, think, ok, 256, according, article, color, try, finally
+
+Cluster 1458:
+edu, use, 15, colors, fine, think, reading, works, course, university
+
+Cluster 1459:
+pixel, images, bit, thing, video, level, memory, data, signal, information
+
+Cluster 1460:
+ve, anybody, correct, help, driver, card, tried, true, try, isn
+
+Cluster 1461:
+256, set, values, range, able, result, probably, bit, use, try
+
+Cluster 1462:
+image, need, windows, color, program, mac, small, environment, advance, programs
+
+Cluster 1463:
+value, file, output, include, define, doesn, input, image, 300, code
+
+Cluster 1464:
+does, sure, simply, exactly, message, ve, posted, new, explain, given
+
+Cluster 1465:
+need, mode, address, color, vga, doesn, information, colors, memory, advance
+
+Cluster 1466:
+driver, color, colors, anybody, does, card, question, mode, windows, work
+
+Cluster 1467:
+color, space, info, effect, video, thanks, mail, turn, interested, simple
+
+Cluster 1468:
+images, good, products, interested, market, particular, anybody, feel, father, fax
+
+Cluster 1469:
+amiga, bbs, mac, know, pc, version, software, color, does, group
+
+Cluster 1470:
+24, bit, define, important, image, matter, finally, tiff, help, format
+
+Cluster 1471:
+screen, just, problem, want, way, using, program, draw, simple, wrote
+
+Cluster 1472:
+card, bbs, net, know, 20, 16, information, com, internet, hold
+
+Cluster 1473:
+support, vesa, 256, mode, card, colors, vga, able, supports, requires
+
+Cluster 1474:
+mode, 256, end, ve, code, 200, help, program, got, thanks
+
+Cluster 1475:
+xv, image, program, images, jpeg, design, used, error, case, just
+
+Cluster 1476:
+cview, bit, data, file, disk, does, files, screen, directory, space
+
+Cluster 1477:
+maps, thanks, jpeg, better, color, 24, data, peter, nice, far
+
+Cluster 1478:
+kill, looking, information, pretty, image, post, hope, add, public, end
+
+Cluster 1479:
+mode, bit, work, board, display, pixel, 24, text, help, say
+
+Cluster 1480:
+color, view, windows, using, things, 24, love, cview, way, non
+
+Cluster 1481:
+think, object, screen, course, earlier, spent, area, case, feel, main
+
+Cluster 1482:
+video, info, format, reply, doing, mail, tell, thanks, pictures, file
+
+Cluster 1483:
+mode, fast, book, vga, good, memory, routines, know, graphics, thanks
+
+Cluster 1484:
+quicktime, version, size, using, bit, software, don, think, little, like
+
+Cluster 1485:
+works, based, picture, use, file, cd, cview, current, 24, windows
+
+Cluster 1486:
+quality, systems, real, compression, image, images, using, 40, taking, board
+
+Cluster 1487:
+vesa, standard, graphics, video, write, access, windows, local, vga, info
+
+Cluster 1488:
+second, saw, 11, said, seen, formats, bad, guy, don, consider
+
+Cluster 1489:
+running, dos, like, using, time, john, major, week, lot, memory
+
+Cluster 1490:
+000, yes, intended, wrong, just, did, 256, late, vesa, numbers
+
+Cluster 1491:
+vga, suggest, difficult, useful, programming, change, want, hi, available, look
+
+Cluster 1492:
+video, like, 200, software, pictures, easy, assuming, machine, doing, 25
+
+Cluster 1493:
+support, know, looking, bits, pc, com, info, unix, email, vesa
+
+Cluster 1494:
+instead, year, half, great, went, zip, field, fax, fbi, features
+
+Cluster 1495:
+tell, difference, posting, 24, john, wanted, just, file, figure, field
+
+Cluster 1496:
+maybe, amiga, graphics, point, comp, talking, zip, fbi, features, feel
+
+Cluster 1497:
+vesa, command, included, 24, dos, type, using, need, used, mode
+
+Cluster 1498:
+24, card, great, graphics, speed, thing, vesa, 256, pc, special
+
+Cluster 1499:
+video, board, frame, windows, local, 32, claims, 30, single, media
+
+Cluster 1500:
+running, read, just, ago, need, mean, understand, making, cd, said
+
+Cluster 1501:
+hi, university, info, edu, thanks, city, zip, figure, features, feel
+
+Cluster 1502:
+used, say, 50, know, ve, don, figure, fbi, features, feel
+
+Cluster 1503:
+number, rate, understand, seriously, includes, making, make, doubt, running, know
+
+Cluster 1504:
+plus, sorry, card, costs, price, does, street, fbi, features, feel
+
+Cluster 1505:
+need, quicktime, format, stuff, technical, com, ms, advance, interpretation, articles
+
+Cluster 1506:
+card, vesa, hi, help, 40, program, need, don, anybody, mail
+
+Cluster 1507:
+driver, card, windows, send, runs, hi, mode, need, thanks, features
+
+Cluster 1508:
+work, vga, card, know, like, called, vesa, types, ftp, ca
+
+Cluster 1509:
+significant, claim, test, files, file, went, david, 27, fbi, features
+
+Cluster 1510:
+mode, driver, windows, 24, card, vesa, does, know, need, vga
+
+Cluster 1511:
+fast, graphics, 16, help, non, looking, speed, simple, code, lines
+
+Cluster 1512:
+book, good, help, code, vga, graphics, got, question, read, access
+
+Cluster 1513:
+card, video, run, ways, question, come, acceptable, high, better, pc
+
+Cluster 1514:
+systems, graphics, ca, virtual, time, real, software, frame, computer, support
+
+Cluster 1515:
+video, software, need, use, like, mail, visualization, end, hardware, frame
+
+Cluster 1516:
+does, card, know, performance, windows, based, come, cost, like, video
+
+Cluster 1517:
+does, course, date, hard, future, look, cd, hand, shall, video
+
+Cluster 1518:
+version, windows, far, fast, got, level, number, just, ve, memory
+
+Cluster 1519:
+00, significant, actually, know, home, ll, let, isn, set, look
+
+Cluster 1520:
+run, pc, bob, cost, needs, hardware, time, plan, level, features
+
+Cluster 1521:
+years, new, systems, sgi, graphics, series, machine, performance, buy, computer
+
+Cluster 1522:
+windows, mac, week, version, info, david, useful, said, pc, versions
+
+Cluster 1523:
+video, information, dos, code, hope, card, company, computer, getting, called
+
+Cluster 1524:
+software, server, provide, objects, function, object, world, want, support, new
+
+Cluster 1525:
+video, class, ways, know, told, people, seen, using, windows, display
+
+Cluster 1526:
+card, new, performance, true, decide, costs, ch, heard, just, peter
+
+Cluster 1527:
+windows, used, unix, internet, network, dos, support, know, programs, article
+
+Cluster 1528:
+edu, best, pub, au, situation, 92, unix, tar, works, use
+
+Cluster 1529:
+ch, graphics, group, lot, software, groups, amiga, know, don, just
+
+Cluster 1530:
+dec, sgi, line, computer, doing, history, based, point, better, statement
+
+Cluster 1531:
+quality, use, card, digital, video, does, image, based, ll, work
+
+Cluster 1532:
+help, like, class, make, physical, possible, ibm, computer, project, trying
+
+Cluster 1533:
+imagine, amiga, terms, features, don, speed, true, think, book, stated
+
+Cluster 1534:
+support, graphics, 200, using, 16, routines, map, programming, soon, pixel
+
+Cluster 1535:
+cd, uk, don, work, media, available, international, using, having, ve
+
+Cluster 1536:
+mode, 3d, source, ca, fax, fit, fine, finally, final, files
+
+Cluster 1537:
+info, start, comes, nice, kind, know, need, vga, fast, just
+
+Cluster 1538:
+routines, image, ve, mode, like, areas, simple, virtual, don, screen
+
+Cluster 1539:
+windows, need, looking, card, doesn, thanks, buy, graphics, getting, little

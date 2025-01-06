@@ -1,0 +1,35 @@
+Experiment: tfidf_hdbscan
+
+Clustering Metrics:
+nmi: 0.027
+ari: 0.003
+silhouette: -0.238
+calinski: 4.767
+
+Cluster Sizes:
+Cluster -1: 1938 documents
+Cluster 0: 6 documents
+Cluster 1: 5 documents
+Cluster 2: 13 documents
+Cluster 3: 66 documents
+Cluster 4: 6 documents
+
+Top Terms per Cluster:
+
+Cluster -1:
+space, people, god, don, like, just, does, know, think, time
+
+Cluster 0:
+vision, ibm, mac, radius, edu, billion, good, space, ve, mark
+
+Cluster 1:
+god, satan, tells, recent, practice, months, agree, position, sorry, energy
+
+Cluster 2:
+said, bob, com, stay, away, god, believe, really, don, little
+
+Cluster 3:
+zip, father, flight, fit, fine, finally, final, files, file, figure
+
+Cluster 4:
+edu, wrong, mac, class, pay, programs, won, michael, university, sun

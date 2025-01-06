@@ -16,11 +16,11 @@ import pickle
 import os
 
 class DocumentClusteringPipeline:
-    def __init__(self, vectorizer_name, clusterer_name, dim_reduction='svd', n_clusters=None, n_components=None, variance_threshold=0.95):
+    def __init__(self, vectorizer_name, clusterer_name, dim_reduction='pca', n_clusters=None, n_components=None, variance_threshold=0.95):
             """
             Initialize the document clustering pipeline
             
-            参数:
+            arguments:
                 vectorizer_name (str): vectorization method ('tfidf', 'fasttext', 或 'minilm')
                 clusterer_name (str): clustering method ('kmeans', 'dbscan', 或 'hdbscan')
                 dim_reduction (str): dimensionality reduction method ('pca' or 'svd')
@@ -56,8 +56,8 @@ class DocumentClusteringPipeline:
             self.vectorizer = CustomTfidfVectorizer()
         elif self.vectorizer_name == 'fasttext':
             self.vectorizer = CustomFastTextVectorizer(
-                # model_path='/Users/yue/Documents/code/expKnowledgeProcessing/models/cc.en.300.bin'
-                model_path='D:/mypython/KP/expKnowledgeProcessing/models/cc.en.300.bin'
+                model_path='/Users/yue/Documents/code/expKnowledgeProcessing/models/cc.en.300.bin'
+                #model_path='D:/mypython/KP/expKnowledgeProcessing/models/cc.en.300.bin'
             )
         elif self.vectorizer_name == 'minilm':
             self.vectorizer = CustomMiniLMVectorizer()
@@ -72,7 +72,6 @@ class DocumentClusteringPipeline:
         elif self.clusterer_name == 'hdbscan':
             self.clusterer = DocumentHDBSCAN()
         elif self.clusterer_name == 'birch':  
-    # from src.clustering.birch import DocumentBirch
             self.clusterer = DocumentBirch(n_clusters=self.n_clusters)
         else:
             raise ValueError(f"Unsupported clusterer: {self.clusterer_name}")
