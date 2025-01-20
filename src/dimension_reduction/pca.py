@@ -1,4 +1,3 @@
-# src/dimension_reduction/pca.py
 from sklearn.decomposition import PCA
 import numpy as np
 
