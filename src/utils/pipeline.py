@@ -17,17 +17,6 @@ import os
 
 class DocumentClusteringPipeline:
     def __init__(self, vectorizer_name, clusterer_name, dim_reduction='pca', n_clusters=None, n_components=None, variance_threshold=0.95):
-            """
-            Initialize the document clustering pipeline
-            
-            arguments:
-                vectorizer_name (str): vectorization method ('tfidf', 'fasttext', 或 'minilm')
-                clusterer_name (str): clustering method ('kmeans', 'dbscan', 或 'hdbscan')
-                dim_reduction (str): dimensionality reduction method ('pca' or 'svd')
-                n_clusters (int, optional): Number of clusters for K-means clustering
-                n_components (int, optional): The number of dimensions for reduction
-                variance_threshold (float, optional): The variance threshold for automatic dimension selection
-            """
             self.vectorizer_name = vectorizer_name
             self.clusterer_name = clusterer_name
             self.dim_reduction = dim_reduction
@@ -77,9 +66,6 @@ class DocumentClusteringPipeline:
             raise ValueError(f"Unsupported clusterer: {self.clusterer_name}")
     
     def select_n_components(self, vectors):
-        """
-        Automatically select the number of dimensions
-        """
         # Convert to dense if needed
         if hasattr(vectors, 'toarray'):
             vectors = vectors.toarray()
@@ -166,7 +152,7 @@ class DocumentClusteringPipeline:
 
     def evaluate(self, clusters):
         true_labels = self.results['original_dataset'].target
-        vectors = self.results['reduced_vectors']  # Use reduced vectors for evaluation
+        vectors = self.results['reduced_vectors'] 
         
 
         metrics = {
@@ -192,9 +178,6 @@ class DocumentClusteringPipeline:
         return metrics
 
     def get_cluster_terms_embeddings(self, texts, clusters, top_n=10, max_features=1000):
-        """
-        Extract the main words of each cluster
-        """
         count_vec = CountVectorizer(max_features=max_features, stop_words='english')
         X_count = count_vec.fit_transform(texts)
         feature_names = count_vec.get_feature_names_out()
@@ -211,9 +194,6 @@ class DocumentClusteringPipeline:
         return cluster_terms
 
     def find_representative_documents(self, X, clusters, documents, n_docs=5):
-        """
-        Find the most representative documents in each cluster
-        """
         unique_clusters = np.unique(clusters)
         representatives = {}
         

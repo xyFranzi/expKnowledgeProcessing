@@ -76,7 +76,6 @@ class ExperimentManager:
         self.save_execution_times(pipeline_times)
 
     def save_execution_times(self, pipeline_times):
-        """Save execution time to file"""
         time_file_path = os.path.join(self.result_folder, "execution_times.txt")
         with open(time_file_path, "w", encoding="utf-8") as file:
             file.write("Method Execution Times:\n\n")
@@ -93,7 +92,6 @@ class ExperimentManager:
 
     @timer_decorator
     def save_text_results(self, experiment_name, result):
-        """Save experimental results as text file"""
         text_file_path = os.path.join(self.result_folder, f"{experiment_name}_results.txt")
         with open(text_file_path, "w", encoding="utf-8") as file:
             file.write(f"Experiment: {experiment_name}\n\n")
@@ -113,7 +111,6 @@ class ExperimentManager:
 
     @timer_decorator
     def visualize_results(self):
-        """Visualize all experimental results in one large image"""
         n_experiments = len(self.results)
         n_cols = 3  
         n_rows = (n_experiments + n_cols - 1) // n_cols
@@ -185,7 +182,6 @@ class ExperimentManager:
 
     @timer_decorator
     def compare_metrics(self):
-        """Compare evaluation metrics of different methods and save the comparison plot."""
         metrics_df = pd.DataFrame({
             name: result['metrics']
             for name, result in self.results.items()
@@ -240,7 +236,6 @@ class ExperimentManager:
 
     @timer_decorator
     def summarize_results(self):
-        """Print and save a summary of experimental results, including a combined summary file."""
         combined_summary = []  # save all content of exp
         summary_file_path = None
         if self.result_folder:

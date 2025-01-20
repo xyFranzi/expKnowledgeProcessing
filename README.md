@@ -1,15 +1,5 @@
-# expKnowledgeProcessing
 
+# Document Clustering: From Traditional to Contemporary Approaches
 
-## Todolist
-
-- [x] 4.11.2024	"Completing paper outline,Setting up the environment"
-- [x] 11.11.2024	Text vectorization: implement TF-IDF
-- [x] 18.11.2024	Text vectorization: implement FastText
-- [x] 25.11.2024(18.11.2024)	Text vectorization: implement MiniLM
-- [x] 2.12.2024(11.11.2024)	Use the k-means algrithoms to compelte the document clustering
-- [ ] 9.12.2024	Analysing results of different methods
-- [ ] 16.12.2024	Organizing experimental data and graphs
-- [ ] 6.1.2025	Completing paper draft
-- [ ] 13.1.2025	"Revising the paper based on feedback,Prepare presentation materials"
-- [ ] 20.1.2025	Presentations 
+## Abstract
+Document clustering is an important unsupervised learning technique. It is widely used in optimizing information retrieval, improving knowledge management efficiency, and automatically mining document topics. The document clustering process is divided into three parts: text vectorization, high-dimensional data reduction and clustering algorithm application. In this paper, we focus on presenting, evaluating and comparing document clustering pipelines from traditional statistical methods to modern deep-learning approaches. Representative models of different development stages are chosen and combined. The results showed that, the combination of MiniLM and K-means balanced accuracy and efficiency and achieved the best overall performance.
