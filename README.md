@@ -1,9 +1,8 @@
-```markdown
 # Document Clustering: From Traditional to Contemporary Approaches
 
 ## Abstract
 
-Document clustering is an important unsupervised learning technique widely used in optimizing information retrieval, improving knowledge management efficiency, and automatically mining document topics. This project focuses on presenting, evaluating and comparing document clustering pipelines from traditional statistical methods to modern deep-learning approaches.
+Document clustering is an important unsupervised learning technique. It is widely used in optimizing information retrieval, improving knowledge management efficiency, and automatically mining document topics. The document clustering process is divided into three parts: text vectorization, high-dimensional data reduction and clustering algorithm application. In this paper, we focus on presenting, evaluating and comparing document clustering pipelines from traditional statistical methods to modern deep-learning approaches. Representative models of different development stages are chosen and combined. The results showed that, the combination of MiniLM and K-means balanced accuracy and efficiency and achieved the best overall performance.
 
 ## Key Features
 
