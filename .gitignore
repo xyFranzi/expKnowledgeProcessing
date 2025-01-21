@@ -1,5 +1,5 @@
 __pycache__/
 *.bin  
 *.gz
-*.pkl
+*.DS_Store
 .VSCodeCounter/

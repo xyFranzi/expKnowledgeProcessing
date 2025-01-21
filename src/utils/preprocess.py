@@ -12,7 +12,7 @@ def load_dataset(categories=None, subset='train'):
         dataset object containing the texts and their labels
     """
     if categories is None:
-       
+        # choose 4 categories
         categories = [
             'alt.atheism',
             'talk.religion.misc',
